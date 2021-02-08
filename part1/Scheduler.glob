@@ -1,0 +1,665 @@
+DIGEST e6a5cb7ebb88bb6b5c0fc7b1022cd97b
+FScheduler
+R92:96 Coq.Reals.Reals <> <> lib
+R98:102 Coq.Sets.Image <> <> lib
+R104:112 Coq.Logic.Decidable <> <> lib
+R114:121 RbarComp <> <> lib
+R123:142 Coq.Logic.ClassicalDescription <> <> lib
+R176:179 Coquelicot.Rbar <> <> lib
+R181:183 Coquelicot.Lub <> <> lib
+R201:211 Definitions <> <> lib
+R213:221 SetTheory <> <> lib
+R223:232 Packetizer <> <> lib
+R234:236 Seq <> <> lib
+def 374:384 <> monot_inter
+R393:396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R397:400 Coquelicot.Rbar <> Rbar ind
+R392:392 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 387:387 <> a:1286
+binder 389:389 <> d:1287
+R411:411 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 404:404 <> t:1288
+binder 406:408 <> eps:1289
+R424:428 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R561:561 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R420:422 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R417:419 Scheduler <> eps:1289 var
+R429:429 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R492:497 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R560:560 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+binder 437:441 <> delta:1290
+R459:462 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R476:479 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R463:463 Scheduler <> a:1286 var
+R467:469 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R466:466 Scheduler <> t:1288 var
+R470:474 Scheduler <> delta:1290 var
+R480:480 Scheduler <> d:1287 var
+R483:485 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R482:482 Scheduler <> t:1288 var
+R486:490 Scheduler <> delta:1290 var
+R445:447 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R453:455 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R448:452 Scheduler <> delta:1290 var
+R448:452 Scheduler <> delta:1290 var
+R456:458 Scheduler <> eps:1289 var
+binder 505:509 <> delta:1291
+R527:530 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R544:546 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R531:531 Scheduler <> a:1286 var
+R535:537 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R534:534 Scheduler <> t:1288 var
+R538:542 Scheduler <> delta:1291 var
+R547:547 Scheduler <> d:1287 var
+R551:553 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R550:550 Scheduler <> t:1288 var
+R554:558 Scheduler <> delta:1291 var
+R513:515 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R521:523 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R516:520 Scheduler <> delta:1291 var
+R516:520 Scheduler <> delta:1291 var
+R524:526 Scheduler <> eps:1289 var
+def 721:734 <> ex_monot_inter
+R743:746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R747:750 Coquelicot.Rbar <> Rbar ind
+R742:742 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 737:737 <> a:1292
+binder 739:739 <> d:1293
+R757:757 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 754:754 <> t:1294
+R763:769 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R773:774 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 770:772 <> eps:1295
+R775:785 Scheduler <> monot_inter def
+R793:795 Scheduler <> eps:1295 var
+R791:791 Scheduler <> t:1294 var
+R789:789 Scheduler <> d:1293 var
+R787:787 Scheduler <> a:1292 var
+prf 957:977 <> ex_monot_inter_packet
+R985:998 Packetizer <> LengthSequence class
+binder 1000:1000 <> l:1296
+binder 981:982 <> ls:1297
+R1010:1013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1014:1017 Coquelicot.Rbar <> Rbar ind
+R1009:1009 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1004:1004 <> a:1298
+binder 1006:1006 <> d:1299
+R1024:1024 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1021:1021 <> t:1300
+R1044:1047 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1060:1063 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1064:1077 Scheduler <> ex_monot_inter def
+R1083:1083 Scheduler <> t:1300 var
+R1081:1081 Scheduler <> d:1299 var
+R1079:1079 Scheduler <> a:1298 var
+R1048:1057 Definitions <> Cumulative class
+R1059:1059 Scheduler <> d:1299 var
+R1029:1038 Packetizer <> packetized def
+R1043:1043 Scheduler <> a:1298 var
+R1040:1041 Scheduler <> ls:1297 var
+prf 1227:1241 <> sig_monot_inter
+R1250:1253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1254:1257 Coquelicot.Rbar <> Rbar ind
+R1249:1249 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1244:1244 <> a:1301
+binder 1246:1246 <> d:1302
+R1264:1264 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1261:1261 <> t:1303
+R1272:1285 Scheduler <> ex_monot_inter def
+R1291:1291 Scheduler <> t:1303 var
+R1289:1289 Scheduler <> d:1302 var
+R1287:1287 Scheduler <> a:1301 var
+binder 1268:1268 <> p:1304
+R1296:1296 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1300:1302 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1304:1306 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1328:1328 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1303:1303 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1297:1299 <> eps:1305
+R1307:1317 Scheduler <> monot_inter def
+R1325:1327 Scheduler <> eps:1305 var
+R1323:1323 Scheduler <> t:1303 var
+R1321:1321 Scheduler <> d:1302 var
+R1319:1319 Scheduler <> a:1301 var
+prf 1472:1486 <> dec_monot_inter
+R1495:1498 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1499:1502 Coquelicot.Rbar <> Rbar ind
+R1494:1494 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1489:1489 <> a:1306
+binder 1491:1491 <> d:1307
+R1509:1509 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1506:1506 <> t:1308
+R1516:1529 Scheduler <> ex_monot_inter def
+R1535:1535 Scheduler <> t:1308 var
+R1533:1533 Scheduler <> d:1307 var
+R1531:1531 Scheduler <> a:1306 var
+binder 1513:1513 <> p:1309
+R1539:1539 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1634:1638 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1733:1733 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+binder 1547:1551 <> delta:1310
+R1601:1604 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1618:1621 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1605:1605 Scheduler <> a:1306 var
+R1609:1611 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1608:1608 Scheduler <> t:1308 var
+R1612:1616 Scheduler <> delta:1310 var
+R1622:1622 Scheduler <> d:1307 var
+R1625:1627 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1624:1624 Scheduler <> t:1308 var
+R1628:1632 Scheduler <> delta:1310 var
+R1555:1557 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R1563:1565 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R1558:1562 Scheduler <> delta:1310 var
+R1558:1562 Scheduler <> delta:1310 var
+R1566:1574 Coq.Init.Specif <> proj1_sig def
+R1577:1591 Scheduler <> sig_monot_inter prfax
+R1599:1599 Scheduler <> p:1309 var
+R1597:1597 Scheduler <> t:1308 var
+R1595:1595 Scheduler <> d:1307 var
+R1593:1593 Scheduler <> a:1306 var
+binder 1646:1650 <> delta:1311
+R1700:1703 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1717:1719 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R1704:1704 Scheduler <> a:1306 var
+R1708:1710 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1707:1707 Scheduler <> t:1308 var
+R1711:1715 Scheduler <> delta:1311 var
+R1720:1720 Scheduler <> d:1307 var
+R1724:1726 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1723:1723 Scheduler <> t:1308 var
+R1727:1731 Scheduler <> delta:1311 var
+R1654:1656 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R1662:1664 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<'_x not
+R1657:1661 Scheduler <> delta:1311 var
+R1657:1661 Scheduler <> delta:1311 var
+R1665:1673 Coq.Init.Specif <> proj1_sig def
+R1676:1690 Scheduler <> sig_monot_inter prfax
+R1698:1698 Scheduler <> p:1309 var
+R1696:1696 Scheduler <> t:1308 var
+R1694:1694 Scheduler <> d:1307 var
+R1692:1692 Scheduler <> a:1306 var
+def 1810:1820 <> equal_up_to
+R1829:1832 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1833:1836 Coquelicot.Rbar <> Rbar ind
+R1828:1828 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1823:1823 <> a:1312
+binder 1825:1825 <> d:1313
+R1843:1843 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1840:1840 <> t:1314
+R1852:1855 Coquelicot.Rbar <> Rbar ind
+binder 1847:1849 <> eps:1315
+R1868:1870 Scheduler <> eps:1315 var
+R1878:1883 Coquelicot.Rbar <> Finite constr
+binder 1897:1901 <> delta:1317
+R1923:1926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1934:1936 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1927:1927 Scheduler <> d:1313 var
+R1929:1933 Scheduler <> delta:1317 var
+R1937:1937 Scheduler <> a:1312 var
+R1939:1943 Scheduler <> delta:1317 var
+R1905:1908 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R1914:1917 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R1904:1904 Scheduler <> t:1314 var
+R1909:1913 Scheduler <> delta:1317 var
+R1909:1913 Scheduler <> delta:1317 var
+R1919:1921 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R1918:1918 Scheduler <> t:1314 var
+R1946:1952 Coquelicot.Rbar <> p_infty constr
+binder 1964:1968 <> delta:1318
+R1981:1984 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1992:1994 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1985:1985 Scheduler <> d:1313 var
+R1987:1991 Scheduler <> delta:1318 var
+R1995:1995 Scheduler <> a:1312 var
+R1997:2001 Scheduler <> delta:1318 var
+R1972:1975 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R1971:1971 Scheduler <> t:1314 var
+R1976:1980 Scheduler <> delta:1318 var
+R2004:2010 Coquelicot.Rbar <> m_infty constr
+R2015:2019 Coq.Init.Logic <> False ind
+def 2102:2111 <> incr_up_to
+R2120:2123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2124:2127 Coquelicot.Rbar <> Rbar ind
+R2119:2119 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2114:2114 <> a:1319
+binder 2116:2116 <> d:1320
+R2136:2136 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2131:2131 <> t:1321
+binder 2133:2133 <> c:1322
+R2146:2149 Coquelicot.Rbar <> Rbar ind
+binder 2141:2143 <> eps:1323
+R2162:2164 Scheduler <> eps:1323 var
+R2172:2177 Coquelicot.Rbar <> Finite constr
+binder 2191:2195 <> delta:1325
+R2217:2220 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2228:2230 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2221:2221 Scheduler <> d:1320 var
+R2223:2227 Scheduler <> delta:1325 var
+R2231:2239 Coquelicot.Rbar <> Rbar_plus def
+R2249:2252 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2262:2262 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2248:2248 Scheduler <> c:1322 var
+R2258:2260 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2253:2257 Scheduler <> delta:1325 var
+R2261:2261 Scheduler <> t:1321 var
+R2242:2242 Scheduler <> a:1319 var
+R2244:2244 Scheduler <> t:1321 var
+R2199:2202 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R2208:2211 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R2198:2198 Scheduler <> t:1321 var
+R2203:2207 Scheduler <> delta:1325 var
+R2203:2207 Scheduler <> delta:1325 var
+R2213:2215 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R2212:2212 Scheduler <> t:1321 var
+R2266:2272 Coquelicot.Rbar <> p_infty constr
+binder 2284:2288 <> delta:1326
+R2301:2304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2312:2314 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2305:2305 Scheduler <> d:1320 var
+R2307:2311 Scheduler <> delta:1326 var
+R2315:2323 Coquelicot.Rbar <> Rbar_plus def
+R2333:2336 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2346:2346 Coq.Reals.Rdefinitions <> ::R_scope:x_'*'_x not
+R2332:2332 Scheduler <> c:1322 var
+R2342:2344 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2337:2341 Scheduler <> delta:1326 var
+R2345:2345 Scheduler <> t:1321 var
+R2326:2326 Scheduler <> a:1319 var
+R2328:2328 Scheduler <> t:1321 var
+R2292:2295 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R2291:2291 Scheduler <> t:1321 var
+R2296:2300 Scheduler <> delta:1326 var
+R2350:2356 Coquelicot.Rbar <> m_infty constr
+R2361:2365 Coq.Init.Logic <> False ind
+def 2443:2457 <> set_monot_inter
+R2467:2470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2471:2474 Coquelicot.Rbar <> Rbar ind
+R2466:2466 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2460:2460 <> a:1327
+binder 2462:2462 <> d:1328
+R2481:2481 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2478:2478 <> t:1329
+R2485:2492 Coq.Sets.Ensembles <> Ensemble def
+R2494:2494 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2504:2506 <> eps:1330
+R2511:2521 Scheduler <> monot_inter def
+R2529:2531 Scheduler <> eps:1330 var
+R2527:2527 Scheduler <> t:1329 var
+R2525:2525 Scheduler <> d:1328 var
+R2523:2523 Scheduler <> a:1327 var
+def 2571:2585 <> max_monot_inter
+R2595:2598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2599:2602 Coquelicot.Rbar <> Rbar ind
+R2594:2594 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2588:2588 <> a:1331
+binder 2590:2590 <> d:1332
+R2609:2609 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2606:2606 <> t:1333
+R2613:2616 Coquelicot.Rbar <> Rbar ind
+R2621:2628 Coquelicot.Lub <> Lub_Rbar def
+R2631:2645 Scheduler <> set_monot_inter def
+R2651:2651 Scheduler <> t:1333 var
+R2649:2649 Scheduler <> d:1332 var
+R2647:2647 Scheduler <> a:1331 var
+def 2727:2734 <> find_eps
+R2751:2754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2755:2758 Coquelicot.Rbar <> Rbar ind
+R2750:2750 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2737:2738 <> ah:1334
+binder 2740:2741 <> al:1335
+binder 2743:2744 <> dh:1336
+binder 2746:2747 <> dl:1337
+R2765:2765 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2762:2762 <> t:1338
+R2771:2778 Coquelicot.Rbar <> Rbar_min def
+R2807:2821 Scheduler <> max_monot_inter def
+R2829:2829 Scheduler <> t:1338 var
+R2826:2827 Scheduler <> dl:1337 var
+R2823:2824 Scheduler <> al:1335 var
+R2781:2795 Scheduler <> max_monot_inter def
+R2803:2803 Scheduler <> t:1338 var
+R2800:2801 Scheduler <> dh:1336 var
+R2797:2798 Scheduler <> ah:1334 var
+def 2891:2900 <> rem_length
+R2908:2921 Packetizer <> LengthSequence class
+binder 2923:2923 <> l:1339
+binder 2904:2905 <> ls:1340
+R2930:2930 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 2927:2927 <> v:1341
+R2976:2978 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R2935:2937 Coq.Reals.Raxioms <> INR def
+R2939:2945 Seq <> nat_sum def
+R2950:2950 Coq.Init.Datatypes <> S constr
+R2953:2963 Packetizer <> last_packet def
+R2972:2972 Scheduler <> v:1341 var
+R2967:2970 Packetizer <> im_0 meth
+R2965:2965 Scheduler <> l:1339 var
+R2947:2947 Scheduler <> l:1339 var
+R2979:2979 Scheduler <> v:1341 var
+def 3091:3104 <> is_not_serving
+R3112:3125 Packetizer <> LengthSequence class
+binder 3127:3127 <> l:1342
+binder 3108:3109 <> ls:1343
+R3134:3134 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3131:3131 <> v:1344
+R3177:3179 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3140:3142 Coq.Reals.Raxioms <> INR def
+R3144:3150 Seq <> nat_sum def
+R3155:3165 Packetizer <> last_packet def
+R3174:3174 Scheduler <> v:1344 var
+R3169:3172 Packetizer <> im_0 meth
+R3167:3167 Scheduler <> l:1342 var
+R3152:3152 Scheduler <> l:1342 var
+R3180:3180 Scheduler <> v:1344 var
+def 3237:3245 <> proc_time
+R3253:3266 Packetizer <> LengthSequence class
+binder 3268:3268 <> l:1345
+binder 3249:3250 <> ls:1346
+R3275:3278 Coquelicot.Rbar <> Rbar ind
+binder 3272:3272 <> v:1347
+R3285:3285 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3282:3282 <> c:1348
+R3289:3289 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3294:3297 Coquelicot.Rbar <> real def
+R3300:3300 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R3316:3319 Coq.Reals.Rdefinitions <> ::R_scope:x_'/'_x not
+R3301:3310 Scheduler <> rem_length def
+R3315:3315 Scheduler <> v:1347 var
+R3312:3313 Scheduler <> ls:1346 var
+R3320:3320 Scheduler <> c:1348 var
+rec 3363:3371 <> Scheduler
+proj 3482:3494 <> packet_inputs
+proj 3574:3586 <> cumul_outputs
+proj 3660:3669 <> output_def
+R3378:3378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3388:3392 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3393:3393 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3403:3407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3408:3408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3418:3422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3423:3423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3433:3437 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3425:3428 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3429:3432 Coquelicot.Rbar <> Rbar ind
+R3424:3424 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3410:3413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3414:3417 Coquelicot.Rbar <> Rbar ind
+R3409:3409 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3395:3398 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3399:3402 Coquelicot.Rbar <> Rbar ind
+R3394:3394 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R3380:3383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3384:3387 Coquelicot.Rbar <> Rbar ind
+R3379:3379 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3374:3374 <> S:1349
+R3450:3463 Packetizer <> LengthSequence class
+binder 3465:3465 <> l:1350
+binder 3446:3447 <> ls:1351
+R3472:3472 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 3469:3469 <> c:1352
+binder 3504:3505 <> ah:1354
+binder 3507:3508 <> al:1355
+binder 3510:3511 <> dh:1356
+binder 3513:3514 <> dl:1357
+R3530:3533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3550:3553 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3534:3543 Packetizer <> packetized def
+R3548:3549 Scheduler <> ah:1354 var
+R3545:3546 Scheduler <> ls:1351 var
+R3554:3563 Packetizer <> packetized def
+R3568:3569 Scheduler <> al:1355 var
+R3565:3566 Scheduler <> ls:1351 var
+R3517:3517 Scheduler <> S:1349 var
+R3528:3529 Scheduler <> dl:1357 var
+R3525:3526 Scheduler <> dh:1356 var
+R3522:3523 Scheduler <> al:1355 var
+R3519:3520 Scheduler <> ah:1354 var
+binder 3596:3597 <> ah:1359
+binder 3599:3600 <> al:1360
+binder 3602:3603 <> dh:1361
+binder 3605:3606 <> dl:1362
+R3622:3625 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3639:3642 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3626:3635 Definitions <> Cumulative class
+R3637:3638 Scheduler <> dh:1361 var
+R3643:3652 Definitions <> Cumulative class
+R3654:3655 Scheduler <> dl:1362 var
+R3609:3609 Scheduler <> S:1349 var
+R3620:3621 Scheduler <> dl:1362 var
+R3617:3618 Scheduler <> dh:1361 var
+R3614:3615 Scheduler <> al:1360 var
+R3611:3612 Scheduler <> ah:1359 var
+binder 3679:3680 <> ah:1364
+binder 3682:3683 <> al:1365
+binder 3685:3686 <> dh:1366
+binder 3688:3689 <> dl:1367
+R3695:3695 Scheduler <> S:1349 var
+R3706:3707 Scheduler <> dl:1367 var
+R3703:3704 Scheduler <> dh:1366 var
+R3700:3701 Scheduler <> al:1365 var
+R3697:3698 Scheduler <> ah:1364 var
+binder 3692:3692 <> p:1368
+binder 3718:3718 <> t:1369
+R3727:3732 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3739:3753 Scheduler <> dec_monot_inter prfax
+R3764:3784 Scheduler <> ex_monot_inter_packet prfax
+R3836:3840 Coq.Init.Logic <> proj1 thm
+R3843:3855 Scheduler <> cumul_outputs:1363 meth
+R3869:3869 Scheduler <> p:1368 var
+R3866:3867 Scheduler <> dl:1367 var
+R3863:3864 Scheduler <> dh:1366 var
+R3860:3861 Scheduler <> al:1365 var
+R3857:3858 Scheduler <> ah:1364 var
+R3798:3802 Coq.Init.Logic <> proj1 thm
+R3805:3817 Scheduler <> packet_inputs:1358 meth
+R3831:3831 Scheduler <> p:1368 var
+R3828:3829 Scheduler <> dl:1367 var
+R3825:3826 Scheduler <> dh:1366 var
+R3822:3823 Scheduler <> al:1365 var
+R3819:3820 Scheduler <> ah:1364 var
+R3795:3795 Scheduler <> t:1369 var
+R3792:3793 Scheduler <> dh:1366 var
+R3789:3790 Scheduler <> ah:1364 var
+R3786:3787 Scheduler <> ls:1351 var
+R3761:3761 Scheduler <> t:1369 var
+R3758:3759 Scheduler <> dh:1366 var
+R3755:3756 Scheduler <> ah:1364 var
+R3883:3886 Coq.Init.Specif <> left constr
+R3903:3917 Scheduler <> dec_monot_inter prfax
+R3928:3948 Scheduler <> ex_monot_inter_packet prfax
+R4000:4004 Coq.Init.Logic <> proj2 thm
+R4007:4019 Scheduler <> cumul_outputs:1363 meth
+R4033:4033 Scheduler <> p:1368 var
+R4030:4031 Scheduler <> dl:1367 var
+R4027:4028 Scheduler <> dh:1366 var
+R4024:4025 Scheduler <> al:1365 var
+R4021:4022 Scheduler <> ah:1364 var
+R3962:3966 Coq.Init.Logic <> proj2 thm
+R3969:3981 Scheduler <> packet_inputs:1358 meth
+R3995:3995 Scheduler <> p:1368 var
+R3992:3993 Scheduler <> dl:1367 var
+R3989:3990 Scheduler <> dh:1366 var
+R3986:3987 Scheduler <> al:1365 var
+R3983:3984 Scheduler <> ah:1364 var
+R3959:3959 Scheduler <> t:1369 var
+R3956:3957 Scheduler <> dl:1367 var
+R3953:3954 Scheduler <> al:1365 var
+R3950:3951 Scheduler <> ls:1351 var
+R3925:3925 Scheduler <> t:1369 var
+R3922:3923 Scheduler <> dl:1367 var
+R3919:3920 Scheduler <> al:1365 var
+R4049:4052 Coq.Init.Specif <> left constr
+R4107:4110 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4059:4069 Scheduler <> equal_up_to def
+R4081:4083 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4080:4080 Scheduler <> t:1369 var
+R4084:4091 Scheduler <> find_eps def
+R4105:4105 Scheduler <> t:1369 var
+R4102:4103 Scheduler <> dl:1367 var
+R4099:4100 Scheduler <> dh:1366 var
+R4096:4097 Scheduler <> al:1365 var
+R4093:4094 Scheduler <> ah:1364 var
+R4077:4077 Scheduler <> t:1369 var
+R4074:4075 Scheduler <> dh:1366 var
+R4071:4072 Scheduler <> ah:1364 var
+R4111:4121 Scheduler <> equal_up_to def
+R4133:4135 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4132:4132 Scheduler <> t:1369 var
+R4136:4143 Scheduler <> find_eps def
+R4157:4157 Scheduler <> t:1369 var
+R4154:4155 Scheduler <> dl:1367 var
+R4151:4152 Scheduler <> dh:1366 var
+R4148:4149 Scheduler <> al:1365 var
+R4145:4146 Scheduler <> ah:1364 var
+R4129:4129 Scheduler <> t:1369 var
+R4126:4127 Scheduler <> dl:1367 var
+R4123:4124 Scheduler <> al:1365 var
+R4166:4170 Coq.Init.Specif <> right constr
+R4225:4228 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4177:4187 Scheduler <> equal_up_to def
+R4199:4201 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4198:4198 Scheduler <> t:1369 var
+R4202:4209 Scheduler <> find_eps def
+R4223:4223 Scheduler <> t:1369 var
+R4220:4221 Scheduler <> dl:1367 var
+R4217:4218 Scheduler <> dh:1366 var
+R4214:4215 Scheduler <> al:1365 var
+R4211:4212 Scheduler <> ah:1364 var
+R4195:4195 Scheduler <> t:1369 var
+R4192:4193 Scheduler <> dh:1366 var
+R4189:4190 Scheduler <> ah:1364 var
+R4229:4238 Scheduler <> incr_up_to def
+R4277:4277 Scheduler <> c:1352 var
+R4250:4252 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4249:4249 Scheduler <> t:1369 var
+R4253:4260 Scheduler <> find_eps def
+R4274:4274 Scheduler <> t:1369 var
+R4271:4272 Scheduler <> dl:1367 var
+R4268:4269 Scheduler <> dh:1366 var
+R4265:4266 Scheduler <> al:1365 var
+R4262:4263 Scheduler <> ah:1364 var
+R4246:4246 Scheduler <> t:1369 var
+R4243:4244 Scheduler <> dl:1367 var
+R4240:4241 Scheduler <> al:1365 var
+R4291:4295 Coq.Init.Specif <> right constr
+R4312:4326 Scheduler <> dec_monot_inter prfax
+R4337:4357 Scheduler <> ex_monot_inter_packet prfax
+R4409:4413 Coq.Init.Logic <> proj2 thm
+R4416:4428 Scheduler <> cumul_outputs:1363 meth
+R4442:4442 Scheduler <> p:1368 var
+R4439:4440 Scheduler <> dl:1367 var
+R4436:4437 Scheduler <> dh:1366 var
+R4433:4434 Scheduler <> al:1365 var
+R4430:4431 Scheduler <> ah:1364 var
+R4371:4375 Coq.Init.Logic <> proj2 thm
+R4378:4390 Scheduler <> packet_inputs:1358 meth
+R4404:4404 Scheduler <> p:1368 var
+R4401:4402 Scheduler <> dl:1367 var
+R4398:4399 Scheduler <> dh:1366 var
+R4395:4396 Scheduler <> al:1365 var
+R4392:4393 Scheduler <> ah:1364 var
+R4368:4368 Scheduler <> t:1369 var
+R4365:4366 Scheduler <> dl:1367 var
+R4362:4363 Scheduler <> al:1365 var
+R4359:4360 Scheduler <> ls:1351 var
+R4334:4334 Scheduler <> t:1369 var
+R4331:4332 Scheduler <> dl:1367 var
+R4328:4329 Scheduler <> al:1365 var
+R4458:4461 Coq.Init.Specif <> left constr
+R4517:4520 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4468:4477 Scheduler <> incr_up_to def
+R4516:4516 Scheduler <> c:1352 var
+R4489:4491 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4488:4488 Scheduler <> t:1369 var
+R4492:4499 Scheduler <> find_eps def
+R4513:4513 Scheduler <> t:1369 var
+R4510:4511 Scheduler <> dl:1367 var
+R4507:4508 Scheduler <> dh:1366 var
+R4504:4505 Scheduler <> al:1365 var
+R4501:4502 Scheduler <> ah:1364 var
+R4485:4485 Scheduler <> t:1369 var
+R4482:4483 Scheduler <> dh:1366 var
+R4479:4480 Scheduler <> ah:1364 var
+R4521:4531 Scheduler <> equal_up_to def
+R4543:4545 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4542:4542 Scheduler <> t:1369 var
+R4546:4553 Scheduler <> find_eps def
+R4567:4567 Scheduler <> t:1369 var
+R4564:4565 Scheduler <> dl:1367 var
+R4561:4562 Scheduler <> dh:1366 var
+R4558:4559 Scheduler <> al:1365 var
+R4555:4556 Scheduler <> ah:1364 var
+R4539:4539 Scheduler <> t:1369 var
+R4536:4537 Scheduler <> dl:1367 var
+R4533:4534 Scheduler <> al:1365 var
+R4576:4580 Coq.Init.Specif <> right constr
+R4636:4640 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4587:4597 Scheduler <> equal_up_to def
+R4609:4612 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4634:4634 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4608:4608 Scheduler <> t:1369 var
+R4613:4621 Scheduler <> proc_time def
+R4633:4633 Scheduler <> c:1352 var
+R4627:4628 Scheduler <> dh:1366 var
+R4630:4630 Scheduler <> t:1369 var
+R4623:4624 Scheduler <> ls:1351 var
+R4605:4605 Scheduler <> t:1369 var
+R4602:4603 Scheduler <> dh:1366 var
+R4599:4600 Scheduler <> ah:1364 var
+R4718:4725 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4641:4650 Scheduler <> incr_up_to def
+R4717:4717 Scheduler <> c:1352 var
+R4690:4692 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4689:4689 Scheduler <> t:1369 var
+R4693:4700 Scheduler <> find_eps def
+R4714:4714 Scheduler <> t:1369 var
+R4711:4712 Scheduler <> dl:1367 var
+R4708:4709 Scheduler <> dh:1366 var
+R4705:4706 Scheduler <> al:1365 var
+R4702:4703 Scheduler <> ah:1364 var
+R4660:4663 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4685:4685 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4659:4659 Scheduler <> t:1369 var
+R4664:4672 Scheduler <> proc_time def
+R4684:4684 Scheduler <> c:1352 var
+R4678:4679 Scheduler <> dh:1366 var
+R4681:4681 Scheduler <> t:1369 var
+R4674:4675 Scheduler <> ls:1351 var
+R4655:4656 Scheduler <> dh:1366 var
+R4652:4653 Scheduler <> ah:1364 var
+R4776:4779 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4726:4735 Scheduler <> incr_up_to def
+R4775:4775 Scheduler <> c:1352 var
+R4747:4750 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4772:4772 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4746:4746 Scheduler <> t:1369 var
+R4751:4759 Scheduler <> proc_time def
+R4771:4771 Scheduler <> c:1352 var
+R4765:4766 Scheduler <> dl:1367 var
+R4768:4768 Scheduler <> t:1369 var
+R4761:4762 Scheduler <> ls:1351 var
+R4743:4743 Scheduler <> t:1369 var
+R4740:4741 Scheduler <> dl:1367 var
+R4737:4738 Scheduler <> al:1365 var
+R4780:4790 Scheduler <> equal_up_to def
+R4830:4832 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4829:4829 Scheduler <> t:1369 var
+R4833:4840 Scheduler <> find_eps def
+R4854:4854 Scheduler <> t:1369 var
+R4851:4852 Scheduler <> dl:1367 var
+R4848:4849 Scheduler <> dh:1366 var
+R4845:4846 Scheduler <> al:1365 var
+R4842:4843 Scheduler <> ah:1364 var
+R4800:4803 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4825:4825 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R4799:4799 Scheduler <> t:1369 var
+R4804:4812 Scheduler <> proc_time def
+R4824:4824 Scheduler <> c:1352 var
+R4818:4819 Scheduler <> dl:1367 var
+R4821:4821 Scheduler <> t:1369 var
+R4814:4815 Scheduler <> ls:1351 var
+R4795:4796 Scheduler <> dl:1367 var
+R4792:4793 Scheduler <> al:1365 var
+R3722:3725 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R3721:3721 Scheduler <> t:1369 var

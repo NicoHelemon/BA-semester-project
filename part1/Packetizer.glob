@@ -1,0 +1,1960 @@
+DIGEST b7eceae57cdac468edb780d82ce2b6d8
+FPacketizer
+R181:185 Coq.Reals.Reals <> <> lib
+R187:192 Coq.Setoids.Setoid <> <> lib
+R194:198 Coq.Sets.Image <> <> lib
+R200:208 Coq.Logic.Decidable <> <> lib
+R210:217 Coq.Arith.PeanoNat <> <> lib
+R219:222 Coq.Arith.Plus <> <> lib
+R224:243 Coq.Logic.ClassicalDescription <> <> lib
+R245:268 Coq.Logic.FunctionalExtensionality <> <> lib
+R286:293 FunImage <> <> lib
+R295:305 Definitions <> <> lib
+R307:314 RbarComp <> <> lib
+R316:324 SetTheory <> <> lib
+R326:328 Seq <> <> lib
+R330:333 Main <> <> lib
+R335:340 InfSup <> <> lib
+R374:377 Coquelicot.Rbar <> <> lib
+R379:381 Coquelicot.Lub <> <> lib
+def 505:516 <> packet_below
+R525:528 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R529:531 Coq.Init.Datatypes <> nat ind
+R522:524 Coq.Init.Datatypes <> nat ind
+binder 519:519 <> l:1092
+R538:538 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 535:535 <> b:1093
+R542:549 Coq.Sets.Ensembles <> Ensemble def
+R551:553 Coq.Init.Datatypes <> nat ind
+R564:570 Coq.Reals.RIneq <> Rle_dec thm
+R574:574 Packetizer <> b:1093 var
+R582:585 Coq.Init.Specif <> left constr
+R600:602 Coq.Init.Datatypes <> nat ind
+binder 597:597 <> n:1094
+R607:609 Coq.Reals.Rdefinitions <> Rle def
+R631:631 Packetizer <> b:1093 var
+R612:614 Coq.Reals.Raxioms <> INR def
+R617:623 Seq <> nat_sum def
+R627:627 Packetizer <> n:1094 var
+R625:625 Packetizer <> l:1092 var
+R635:639 Coq.Init.Specif <> right constr
+R646:654 Coq.Sets.Ensembles <> Singleton ind
+R660:660 Coq.Init.Datatypes <> O constr
+R656:658 Coq.Init.Datatypes <> nat ind
+prf 741:757 <> packet_below_incl
+R774:777 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R778:780 Coq.Init.Datatypes <> nat ind
+R771:773 Coq.Init.Datatypes <> nat ind
+binder 768:768 <> l:1095
+R790:792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R787:787 Packetizer <> l:1095 var
+R789:789 Coq.Init.Datatypes <> O constr
+R793:793 Coq.Init.Datatypes <> O constr
+binder 784:784 <> c:1096
+R805:805 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 797:798 <> b1:1097
+binder 800:801 <> b2:1098
+R817:820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R821:828 Coq.Sets.Ensembles <> Included def
+R855:866 Packetizer <> packet_below def
+R870:871 Packetizer <> b2:1098 var
+R868:868 Packetizer <> l:1095 var
+R835:846 Packetizer <> packet_below def
+R850:851 Packetizer <> b1:1097 var
+R848:848 Packetizer <> l:1095 var
+R830:832 Coq.Init.Datatypes <> nat ind
+R811:814 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R809:810 Packetizer <> b1:1097 var
+R815:816 Packetizer <> b2:1098 var
+R889:896 Coq.Sets.Ensembles <> Included def
+R906:917 Packetizer <> packet_below def
+R927:933 Seq <> nat_sum def
+R943:944 Coq.Sets.Ensembles <> In def
+R966:972 Coq.Reals.RIneq <> Rle_dec thm
+R966:972 Coq.Reals.RIneq <> Rle_dec thm
+R998:1004 Coq.Reals.RIneq <> Rle_dec thm
+R998:1004 Coq.Reals.RIneq <> Rle_dec thm
+R1020:1028 Coq.Reals.RIneq <> Rle_trans thm
+R1020:1028 Coq.Reals.RIneq <> Rle_trans thm
+R1049:1058 Coq.Reals.RIneq <> Rnot_le_lt thm
+R1049:1058 Coq.Reals.RIneq <> Rnot_le_lt thm
+R1072:1083 Coq.Reals.RIneq <> Rle_lt_trans thm
+R1072:1083 Coq.Reals.RIneq <> Rle_lt_trans thm
+R1103:1114 Coq.Reals.RIneq <> Rle_lt_trans thm
+R1103:1114 Coq.Reals.RIneq <> Rle_lt_trans thm
+R1135:1144 Coq.Reals.RIneq <> Rlt_not_le thm
+R1135:1144 Coq.Reals.RIneq <> Rlt_not_le thm
+R1164:1171 Coq.Reals.RIneq <> Rle_refl thm
+R1164:1171 Coq.Reals.RIneq <> Rle_refl thm
+R1189:1195 Coq.Reals.RIneq <> Rle_dec thm
+R1189:1195 Coq.Reals.RIneq <> Rle_dec thm
+R1210:1222 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R1210:1222 Coq.Sets.Constructive_sets <> Singleton_inv thm
+prf 1327:1346 <> packet_below_bounded
+binder 1357:1357 <> l:1099
+binder 1359:1359 <> b:1100
+R1362:1372 SetTheory <> nat_bounded def
+R1375:1386 Packetizer <> packet_below def
+R1390:1390 Packetizer <> b:1100 var
+R1388:1388 Packetizer <> l:1099 var
+prf 1445:1466 <> packet_below_non_empty
+binder 1476:1476 <> l:1101
+binder 1478:1478 <> b:1102
+R1488:1491 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1508:1511 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1492:1503 Packetizer <> packet_below def
+R1507:1507 Packetizer <> b:1102 var
+R1505:1505 Packetizer <> l:1101 var
+R1512:1520 Coq.Sets.Ensembles <> Empty_set ind
+R1522:1524 Coq.Init.Datatypes <> nat ind
+R1484:1486 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1481:1481 Packetizer <> l:1101 var
+R1483:1483 Coq.Init.Datatypes <> O constr
+R1487:1487 Coq.Init.Datatypes <> O constr
+R1548:1556 SetTheory <> non_empty thm
+R1548:1556 SetTheory <> non_empty thm
+R1566:1566 Coq.Init.Datatypes <> O constr
+R1566:1566 Coq.Init.Datatypes <> O constr
+R1576:1587 Packetizer <> packet_below def
+R1597:1603 Seq <> nat_sum def
+R1617:1623 Coq.Reals.RIneq <> Rle_dec thm
+R1617:1623 Coq.Reals.RIneq <> Rle_dec thm
+R1662:1676 Coq.Sets.Constructive_sets <> Singleton_intro thm
+R1662:1676 Coq.Sets.Constructive_sets <> Singleton_intro thm
+def 1749:1759 <> last_packet
+R1768:1771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1772:1774 Coq.Init.Datatypes <> nat ind
+R1765:1767 Coq.Init.Datatypes <> nat ind
+binder 1762:1762 <> l:1103
+R1784:1786 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1781:1781 Packetizer <> l:1103 var
+R1783:1783 Coq.Init.Datatypes <> O constr
+R1787:1787 Coq.Init.Datatypes <> O constr
+binder 1778:1778 <> z:1104
+R1794:1794 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 1791:1791 <> b:1105
+R1799:1805 SetTheory <> nat_max def
+R1854:1875 Packetizer <> packet_below_non_empty thm
+R1881:1881 Packetizer <> z:1104 var
+R1879:1879 Packetizer <> b:1105 var
+R1877:1877 Packetizer <> l:1103 var
+R1827:1846 Packetizer <> packet_below_bounded prfax
+R1850:1850 Packetizer <> b:1105 var
+R1848:1848 Packetizer <> l:1103 var
+R1808:1819 Packetizer <> packet_below def
+R1823:1823 Packetizer <> b:1105 var
+R1821:1821 Packetizer <> l:1103 var
+prf 1935:1947 <> last_packet_0
+binder 1958:1958 <> l:1106
+binder 1960:1960 <> z:1107
+R1967:1976 Seq <> strict_pos def
+R1978:1978 Packetizer <> l:1106 var
+binder 1963:1964 <> sp:1108
+R1999:2001 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1982:1992 Packetizer <> last_packet def
+R1996:1996 Packetizer <> z:1107 var
+R1994:1994 Packetizer <> l:1106 var
+R2002:2002 Coq.Init.Datatypes <> O constr
+R2020:2030 Packetizer <> last_packet def
+R2040:2046 SetTheory <> nat_max def
+R2055:2064 SetTheory <> ex_nat_max prfax
+R2113:2134 Packetizer <> packet_below_non_empty thm
+R2086:2105 Packetizer <> packet_below_bounded prfax
+R2067:2078 Packetizer <> packet_below def
+R2055:2064 SetTheory <> ex_nat_max prfax
+R2113:2134 Packetizer <> packet_below_non_empty thm
+R2086:2105 Packetizer <> packet_below_bounded prfax
+R2067:2078 Packetizer <> packet_below def
+R2153:2166 SetTheory <> set_is_maximum def
+R2199:2199 Coq.Init.Datatypes <> O constr
+R2190:2197 SetTheory <> le_order thm
+R2187:2188 Coq.Init.Peano <> le ind
+R2169:2180 Packetizer <> packet_below def
+R2153:2166 SetTheory <> set_is_maximum def
+R2199:2199 Coq.Init.Datatypes <> O constr
+R2190:2197 SetTheory <> le_order thm
+R2187:2188 Coq.Init.Peano <> le ind
+R2169:2180 Packetizer <> packet_below def
+R2210:2223 SetTheory <> set_is_maximum def
+R2240:2251 Packetizer <> packet_below def
+R2264:2270 Coq.Reals.RIneq <> Rle_dec thm
+R2280:2286 Seq <> nat_sum def
+R2314:2321 Coq.Reals.RIneq <> Rle_refl thm
+R2314:2321 Coq.Reals.RIneq <> Rle_refl thm
+R2333:2347 Coq.Sets.Constructive_sets <> Singleton_intro thm
+R2333:2347 Coq.Sets.Constructive_sets <> Singleton_intro thm
+R2364:2375 Packetizer <> packet_below def
+R2397:2403 Coq.Reals.RIneq <> Rle_dec thm
+R2397:2403 Coq.Reals.RIneq <> Rle_dec thm
+R2422:2428 Coq.Reals.RIneq <> pos_INR thm
+R2431:2437 Seq <> nat_sum def
+R2422:2428 Coq.Reals.RIneq <> pos_INR thm
+R2431:2437 Seq <> nat_sum def
+R2453:2463 Coq.Reals.RIneq <> Rle_antisym thm
+R2453:2463 Coq.Reals.RIneq <> Rle_antisym thm
+R2481:2483 Coq.Reals.Raxioms <> INR def
+R2485:2485 Coq.Init.Datatypes <> O constr
+R2481:2483 Coq.Reals.Raxioms <> INR def
+R2485:2485 Coq.Init.Datatypes <> O constr
+R2500:2505 Coq.Reals.RIneq <> INR_eq thm
+R2500:2505 Coq.Reals.RIneq <> INR_eq thm
+R2519:2534 Seq <> nat_sum_length_0 thm
+R2519:2534 Seq <> nat_sum_length_0 thm
+R2578:2590 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R2578:2590 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R2615:2632 SetTheory <> set_maximum_unique thm
+R2615:2632 SetTheory <> set_maximum_unique thm
+prf 2757:2770 <> last_packet_le
+binder 2781:2781 <> l:1109
+binder 2783:2784 <> b1:1110
+binder 2786:2787 <> b2:1111
+R2796:2798 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2793:2793 Packetizer <> l:1109 var
+R2795:2795 Coq.Init.Datatypes <> O constr
+R2799:2799 Coq.Init.Datatypes <> O constr
+binder 2790:2790 <> z:1112
+R2811:2814 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2815:2816 Coq.Init.Peano <> le ind
+R2840:2850 Packetizer <> last_packet def
+R2856:2857 Packetizer <> b2:1111 var
+R2854:2854 Packetizer <> z:1112 var
+R2852:2852 Packetizer <> l:1109 var
+R2819:2829 Packetizer <> last_packet def
+R2835:2836 Packetizer <> b1:1110 var
+R2833:2833 Packetizer <> z:1112 var
+R2831:2831 Packetizer <> l:1109 var
+R2805:2808 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R2803:2804 Packetizer <> b1:1110 var
+R2809:2810 Packetizer <> b2:1111 var
+R2882:2898 Packetizer <> packet_below_incl thm
+R2882:2898 Packetizer <> packet_below_incl thm
+R2921:2940 SetTheory <> set_maximum_included thm
+R3034:3043 SetTheory <> ex_nat_max prfax
+R3076:3097 Packetizer <> packet_below_non_empty thm
+R3048:3067 Packetizer <> packet_below_bounded prfax
+R2959:2968 SetTheory <> ex_nat_max prfax
+R3001:3022 Packetizer <> packet_below_non_empty thm
+R2973:2992 Packetizer <> packet_below_bounded prfax
+R2949:2956 SetTheory <> le_order thm
+R2946:2947 Coq.Init.Peano <> le ind
+R2921:2940 SetTheory <> set_maximum_included thm
+R3034:3043 SetTheory <> ex_nat_max prfax
+R3076:3097 Packetizer <> packet_below_non_empty thm
+R3048:3067 Packetizer <> packet_below_bounded prfax
+R2959:2968 SetTheory <> ex_nat_max prfax
+R3001:3022 Packetizer <> packet_below_non_empty thm
+R2973:2992 Packetizer <> packet_below_bounded prfax
+R2949:2956 SetTheory <> le_order thm
+R2946:2947 Coq.Init.Peano <> le ind
+prf 3223:3240 <> last_packet_bounds
+binder 3251:3251 <> l:1113
+binder 3253:3253 <> z:1114
+binder 3255:3255 <> b:1115
+binder 3257:3257 <> n:1116
+R3264:3267 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R3263:3263 Packetizer <> b:1115 var
+binder 3260:3260 <> p:1117
+R3316:3320 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3288:3291 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R3293:3295 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R3272:3274 Coq.Reals.Raxioms <> INR def
+R3276:3282 Seq <> nat_sum def
+R3286:3286 Packetizer <> n:1116 var
+R3284:3284 Packetizer <> l:1113 var
+R3292:3292 Packetizer <> b:1115 var
+R3292:3292 Packetizer <> b:1115 var
+R3296:3298 Coq.Reals.Raxioms <> INR def
+R3300:3306 Seq <> nat_sum def
+R3311:3311 Coq.Init.Datatypes <> S constr
+R3313:3313 Packetizer <> n:1116 var
+R3308:3308 Packetizer <> l:1113 var
+R3338:3340 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3321:3331 Packetizer <> last_packet def
+R3337:3337 Packetizer <> b:1115 var
+R3335:3335 Packetizer <> z:1114 var
+R3333:3333 Packetizer <> l:1113 var
+R3341:3341 Packetizer <> n:1116 var
+R3374:3384 Packetizer <> last_packet def
+R3394:3400 SetTheory <> nat_max def
+R3409:3426 SetTheory <> set_maximum_unique thm
+R3409:3426 SetTheory <> set_maximum_unique thm
+R3436:3449 SetTheory <> set_is_maximum def
+R3466:3477 Packetizer <> packet_below def
+R3491:3497 Coq.Reals.RIneq <> Rle_dec thm
+R3491:3497 Coq.Reals.RIneq <> Rle_dec thm
+R3518:3523 Coq.Reals.RIneq <> Rge_le thm
+R3518:3523 Coq.Reals.RIneq <> Rge_le thm
+R3553:3564 Packetizer <> packet_below def
+R3584:3590 Coq.Reals.RIneq <> Rle_dec thm
+R3584:3590 Coq.Reals.RIneq <> Rle_dec thm
+R3616:3627 Coq.Reals.RIneq <> Rle_lt_trans thm
+R3616:3627 Coq.Reals.RIneq <> Rle_lt_trans thm
+R3649:3654 Coq.Reals.RIneq <> INR_lt thm
+R3649:3654 Coq.Reals.RIneq <> INR_lt thm
+R3668:3679 Seq <> nat_sum_incr thm
+R3668:3679 Seq <> nat_sum_incr thm
+R3691:3707 Seq <> seq_increasing_eq thm
+R3691:3707 Seq <> seq_increasing_eq thm
+R3721:3738 Seq <> seq_increasing_imp thm
+R3770:3770 Coq.Init.Datatypes <> S constr
+R3753:3759 Seq <> nat_sum def
+R3743:3750 SetTheory <> le_order thm
+R3740:3741 Coq.Init.Peano <> le ind
+R3721:3738 Seq <> seq_increasing_imp thm
+R3770:3770 Coq.Init.Datatypes <> S constr
+R3753:3759 Seq <> nat_sum def
+R3743:3750 SetTheory <> le_order thm
+R3740:3741 Coq.Init.Peano <> le ind
+R3783:3796 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R3783:3796 Coq.Arith.PeanoNat Nat lt_le_incl thm
+R3812:3821 Coq.Arith.PeanoNat Nat lt_neq thm
+R3812:3821 Coq.Arith.PeanoNat Nat lt_neq thm
+R3854:3866 Coq.Arith.PeanoNat Nat lt_succ_r thm
+R3854:3866 Coq.Arith.PeanoNat Nat lt_succ_r thm
+R3882:3894 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R3882:3894 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R3924:3929 Coq.Arith.Le <> le_0_n syndef
+R3924:3929 Coq.Arith.Le <> le_0_n syndef
+R3947:3957 Packetizer <> last_packet def
+R3972:3978 SetTheory <> nat_max def
+R3992:4013 SetTheory <> set_maximum_is_maximum thm
+R4047:4056 SetTheory <> ex_nat_max prfax
+R4105:4126 Packetizer <> packet_below_non_empty thm
+R4078:4097 Packetizer <> packet_below_bounded prfax
+R4059:4070 Packetizer <> packet_below def
+R4037:4044 SetTheory <> le_order thm
+R4034:4035 Coq.Init.Peano <> le ind
+R4016:4027 Packetizer <> packet_below def
+R3992:4013 SetTheory <> set_maximum_is_maximum thm
+R4047:4056 SetTheory <> ex_nat_max prfax
+R4105:4126 Packetizer <> packet_below_non_empty thm
+R4078:4097 Packetizer <> packet_below_bounded prfax
+R4059:4070 Packetizer <> packet_below def
+R4037:4044 SetTheory <> le_order thm
+R4034:4035 Coq.Init.Peano <> le ind
+R4016:4027 Packetizer <> packet_below def
+R4161:4174 SetTheory <> set_is_maximum def
+R4189:4200 Packetizer <> packet_below def
+R4231:4237 Coq.Reals.RIneq <> Rle_dec thm
+R4231:4237 Coq.Reals.RIneq <> Rle_dec thm
+R4265:4271 Coq.Logic.Decidable <> not_not thm
+R4265:4271 Coq.Logic.Decidable <> not_not thm
+R4281:4289 Coq.Logic.Decidable <> decidable def
+R4315:4324 Coq.Reals.RIneq <> Rnot_lt_le thm
+R4315:4324 Coq.Reals.RIneq <> Rnot_lt_le thm
+R4343:4343 Coq.Init.Datatypes <> S constr
+R4343:4343 Coq.Init.Datatypes <> S constr
+R4360:4372 Coq.Arith.PeanoNat Nat le_succ_l thm
+R4360:4372 Coq.Arith.PeanoNat Nat le_succ_l thm
+R4423:4428 Coq.Reals.RIneq <> Rge_le thm
+R4423:4428 Coq.Reals.RIneq <> Rge_le thm
+def 4566:4576 <> cumul_below
+R4585:4588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4589:4591 Coq.Init.Datatypes <> nat ind
+R4582:4584 Coq.Init.Datatypes <> nat ind
+binder 4579:4579 <> l:1118
+R4598:4598 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4595:4595 <> b:1119
+binder 4608:4608 <> r:1120
+R4613:4619 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R4621:4622 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 4620:4620 <> n:1121
+R4641:4644 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4623:4634 Packetizer <> packet_below def
+R4640:4640 Packetizer <> n:1121 var
+R4638:4638 Packetizer <> b:1119 var
+R4636:4636 Packetizer <> l:1118 var
+R4646:4648 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4645:4645 Packetizer <> r:1120 var
+R4649:4651 Coq.Reals.Raxioms <> INR def
+R4654:4660 Seq <> nat_sum def
+R4664:4664 Packetizer <> n:1121 var
+R4662:4662 Packetizer <> l:1118 var
+prf 4708:4728 <> cumul_below_non_empty
+binder 4738:4738 <> l:1122
+binder 4740:4740 <> b:1123
+R4750:4753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4769:4772 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R4754:4764 Packetizer <> cumul_below def
+R4768:4768 Packetizer <> b:1123 var
+R4766:4766 Packetizer <> l:1122 var
+R4773:4781 Coq.Sets.Ensembles <> Empty_set ind
+R4783:4783 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4746:4748 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4743:4743 Packetizer <> l:1122 var
+R4745:4745 Coq.Init.Datatypes <> O constr
+R4749:4749 Coq.Init.Datatypes <> O constr
+R4801:4811 Packetizer <> cumul_below def
+R4820:4841 Packetizer <> packet_below_non_empty thm
+R4820:4841 Packetizer <> packet_below_non_empty thm
+R4857:4865 SetTheory <> non_empty thm
+R4857:4865 SetTheory <> non_empty thm
+R4891:4899 SetTheory <> non_empty thm
+R4891:4899 SetTheory <> non_empty thm
+R4910:4912 Coq.Reals.Raxioms <> INR def
+R4915:4921 Seq <> nat_sum def
+R4910:4912 Coq.Reals.Raxioms <> INR def
+R4915:4921 Seq <> nat_sum def
+prf 5009:5027 <> cumul_below_bounded
+binder 5038:5038 <> l:1124
+binder 5040:5040 <> b:1125
+R5043:5059 SetTheory <> set_bounded_above def
+R5083:5091 SetTheory <> Rle_order thm
+R5079:5081 Coq.Reals.Rdefinitions <> Rle def
+R5062:5072 Packetizer <> cumul_below def
+R5076:5076 Packetizer <> b:1125 var
+R5074:5074 Packetizer <> l:1124 var
+R5108:5127 Packetizer <> packet_below_bounded prfax
+R5108:5127 Packetizer <> packet_below_bounded prfax
+R5142:5152 SetTheory <> nat_bounded def
+R5167:5177 Packetizer <> cumul_below def
+R5187:5203 SetTheory <> set_bounded_above def
+R5213:5230 SetTheory <> set_is_bound_above def
+R5240:5256 SetTheory <> set_bounded_above def
+R5271:5288 SetTheory <> set_is_bound_above def
+R5316:5318 Coq.Reals.Raxioms <> INR def
+R5321:5327 Seq <> nat_sum def
+R5316:5318 Coq.Reals.Raxioms <> INR def
+R5321:5327 Seq <> nat_sum def
+R5392:5403 Seq <> nat_sum_incr thm
+R5392:5403 Seq <> nat_sum_incr thm
+R5415:5431 Seq <> seq_increasing_eq thm
+R5415:5431 Seq <> seq_increasing_eq thm
+R5447:5460 Seq <> seq_increasing def
+R5494:5499 Coq.Reals.RIneq <> le_INR thm
+R5494:5499 Coq.Reals.RIneq <> le_INR thm
+def 5598:5607 <> last_cumul
+R5616:5619 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5620:5622 Coq.Init.Datatypes <> nat ind
+R5613:5615 Coq.Init.Datatypes <> nat ind
+binder 5610:5610 <> l:1126
+R5632:5634 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5629:5629 Packetizer <> l:1126 var
+R5631:5631 Coq.Init.Datatypes <> O constr
+R5635:5635 Coq.Init.Datatypes <> O constr
+binder 5626:5626 <> z:1127
+R5642:5642 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5639:5639 <> b:1128
+R5647:5647 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R5651:5655 SetTheory <> R_max def
+R5702:5722 Packetizer <> cumul_below_non_empty thm
+R5728:5728 Packetizer <> z:1127 var
+R5726:5726 Packetizer <> b:1128 var
+R5724:5724 Packetizer <> l:1126 var
+R5676:5694 Packetizer <> cumul_below_bounded thm
+R5698:5698 Packetizer <> b:1128 var
+R5696:5696 Packetizer <> l:1126 var
+R5658:5668 Packetizer <> cumul_below def
+R5672:5672 Packetizer <> b:1128 var
+R5670:5670 Packetizer <> l:1126 var
+prf 5804:5819 <> cumul_below_incl
+R5836:5839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5840:5842 Coq.Init.Datatypes <> nat ind
+R5833:5835 Coq.Init.Datatypes <> nat ind
+binder 5830:5830 <> l:1129
+R5852:5854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5849:5849 Packetizer <> l:1129 var
+R5851:5851 Coq.Init.Datatypes <> O constr
+R5855:5855 Coq.Init.Datatypes <> O constr
+binder 5846:5846 <> c:1130
+R5867:5867 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5859:5860 <> b1:1131
+binder 5862:5863 <> b2:1132
+R5879:5882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5883:5890 Coq.Sets.Ensembles <> Included def
+R5914:5924 Packetizer <> cumul_below def
+R5928:5929 Packetizer <> b2:1132 var
+R5926:5926 Packetizer <> l:1129 var
+R5895:5905 Packetizer <> cumul_below def
+R5909:5910 Packetizer <> b1:1131 var
+R5907:5907 Packetizer <> l:1129 var
+R5892:5892 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R5873:5876 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R5871:5872 Packetizer <> b1:1131 var
+R5877:5878 Packetizer <> b2:1132 var
+R5966:5982 Packetizer <> packet_below_incl thm
+R5966:5982 Packetizer <> packet_below_incl thm
+R6005:6012 Coq.Sets.Ensembles <> Included def
+R6022:6032 Packetizer <> cumul_below def
+R6042:6048 Seq <> nat_sum def
+R6058:6059 Coq.Sets.Ensembles <> In def
+R6077:6084 Coq.Sets.Ensembles <> Included def
+R6099:6100 Coq.Sets.Ensembles <> In def
+prf 6284:6296 <> last_cumul_le
+binder 6307:6307 <> l:1133
+binder 6309:6310 <> b1:1134
+binder 6312:6313 <> b2:1135
+R6322:6324 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6319:6319 Packetizer <> l:1133 var
+R6321:6321 Coq.Init.Datatypes <> O constr
+R6325:6325 Coq.Init.Datatypes <> O constr
+binder 6316:6316 <> z:1136
+R6337:6340 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6341:6343 Coq.Reals.Rdefinitions <> Rle def
+R6366:6375 Packetizer <> last_cumul def
+R6381:6382 Packetizer <> b2:1135 var
+R6379:6379 Packetizer <> z:1136 var
+R6377:6377 Packetizer <> l:1133 var
+R6346:6355 Packetizer <> last_cumul def
+R6361:6362 Packetizer <> b1:1134 var
+R6359:6359 Packetizer <> z:1136 var
+R6357:6357 Packetizer <> l:1133 var
+R6331:6334 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R6329:6330 Packetizer <> b1:1134 var
+R6335:6336 Packetizer <> b2:1135 var
+R6407:6422 Packetizer <> cumul_below_incl thm
+R6407:6422 Packetizer <> cumul_below_incl thm
+R6445:6464 SetTheory <> set_maximum_included thm
+R6556:6563 SetTheory <> ex_R_max prfax
+R6595:6615 Packetizer <> cumul_below_non_empty thm
+R6568:6586 Packetizer <> cumul_below_bounded thm
+R6485:6492 SetTheory <> ex_R_max prfax
+R6524:6544 Packetizer <> cumul_below_non_empty thm
+R6497:6515 Packetizer <> cumul_below_bounded thm
+R6474:6482 SetTheory <> Rle_order thm
+R6470:6472 Coq.Reals.Rdefinitions <> Rle def
+R6445:6464 SetTheory <> set_maximum_included thm
+R6556:6563 SetTheory <> ex_R_max prfax
+R6595:6615 Packetizer <> cumul_below_non_empty thm
+R6568:6586 Packetizer <> cumul_below_bounded thm
+R6485:6492 SetTheory <> ex_R_max prfax
+R6524:6544 Packetizer <> cumul_below_non_empty thm
+R6497:6515 Packetizer <> cumul_below_bounded thm
+R6474:6482 SetTheory <> Rle_order thm
+R6470:6472 Coq.Reals.Rdefinitions <> Rle def
+prf 6779:6798 <> last_packet_in_cumul
+R6807:6810 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6811:6813 Coq.Init.Datatypes <> nat ind
+R6804:6806 Coq.Init.Datatypes <> nat ind
+binder 6801:6801 <> l:1137
+R6823:6825 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6820:6820 Packetizer <> l:1137 var
+R6822:6822 Coq.Init.Datatypes <> O constr
+R6826:6826 Coq.Init.Datatypes <> O constr
+binder 6817:6817 <> z:1138
+R6833:6833 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6830:6830 <> b:1139
+R6838:6848 Packetizer <> cumul_below def
+R6855:6857 Coq.Reals.Raxioms <> INR def
+R6860:6866 Seq <> nat_sum def
+R6871:6881 Packetizer <> last_packet def
+R6887:6887 Packetizer <> b:1139 var
+R6885:6885 Packetizer <> z:1138 var
+R6883:6883 Packetizer <> l:1137 var
+R6868:6868 Packetizer <> l:1137 var
+R6852:6852 Packetizer <> b:1139 var
+R6850:6850 Packetizer <> l:1137 var
+R6900:6910 Packetizer <> cumul_below def
+R6921:6931 Packetizer <> last_packet def
+R6921:6931 Packetizer <> last_packet def
+R6955:6965 Packetizer <> last_packet def
+R6975:6981 SetTheory <> nat_max def
+R6990:7003 SetTheory <> set_maximum_in thm
+R6990:7003 SetTheory <> set_maximum_in thm
+prf 7116:7132 <> last_cumul_packet
+R7141:7144 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7145:7147 Coq.Init.Datatypes <> nat ind
+R7138:7140 Coq.Init.Datatypes <> nat ind
+binder 7135:7135 <> l:1140
+R7157:7159 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7154:7154 Packetizer <> l:1140 var
+R7156:7156 Coq.Init.Datatypes <> O constr
+R7160:7160 Coq.Init.Datatypes <> O constr
+binder 7151:7151 <> z:1141
+R7167:7167 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7164:7164 <> b:1142
+R7188:7190 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7172:7181 Packetizer <> last_cumul def
+R7187:7187 Packetizer <> b:1142 var
+R7185:7185 Packetizer <> z:1141 var
+R7183:7183 Packetizer <> l:1140 var
+R7191:7193 Coq.Reals.Raxioms <> INR def
+R7195:7201 Seq <> nat_sum def
+R7206:7216 Packetizer <> last_packet def
+R7222:7222 Packetizer <> b:1142 var
+R7220:7220 Packetizer <> z:1141 var
+R7218:7218 Packetizer <> l:1140 var
+R7203:7203 Packetizer <> l:1140 var
+R7234:7243 Packetizer <> last_cumul def
+R7253:7257 SetTheory <> R_max def
+R7267:7280 SetTheory <> set_is_maximum def
+R7315:7317 Coq.Reals.Raxioms <> INR def
+R7320:7326 Seq <> nat_sum def
+R7331:7341 Packetizer <> last_packet def
+R7304:7312 SetTheory <> Rle_order thm
+R7300:7302 Coq.Reals.Rdefinitions <> Rle def
+R7283:7293 Packetizer <> cumul_below def
+R7267:7280 SetTheory <> set_is_maximum def
+R7315:7317 Coq.Reals.Raxioms <> INR def
+R7320:7326 Seq <> nat_sum def
+R7331:7341 Packetizer <> last_packet def
+R7304:7312 SetTheory <> Rle_order thm
+R7300:7302 Coq.Reals.Rdefinitions <> Rle def
+R7283:7293 Packetizer <> cumul_below def
+R7367:7386 Packetizer <> last_packet_in_cumul thm
+R7367:7386 Packetizer <> last_packet_in_cumul thm
+R7404:7414 Packetizer <> cumul_below def
+R7464:7485 SetTheory <> set_maximum_is_maximum thm
+R7509:7516 SetTheory <> le_order thm
+R7506:7507 Coq.Init.Peano <> le ind
+R7488:7499 Packetizer <> packet_below def
+R7464:7485 SetTheory <> set_maximum_is_maximum thm
+R7509:7516 SetTheory <> le_order thm
+R7506:7507 Coq.Init.Peano <> le ind
+R7488:7499 Packetizer <> packet_below def
+R7526:7535 SetTheory <> ex_nat_max prfax
+R7568:7589 Packetizer <> packet_below_non_empty thm
+R7541:7560 Packetizer <> packet_below_bounded prfax
+R7526:7535 SetTheory <> ex_nat_max prfax
+R7568:7589 Packetizer <> packet_below_non_empty thm
+R7541:7560 Packetizer <> packet_below_bounded prfax
+R7620:7633 SetTheory <> set_is_maximum def
+R7678:7679 Coq.Init.Peano <> le ind
+R7684:7694 Packetizer <> last_packet def
+R7678:7679 Coq.Init.Peano <> le ind
+R7684:7694 Packetizer <> last_packet def
+R7712:7722 Packetizer <> last_packet def
+R7732:7738 SetTheory <> nat_max def
+R7757:7768 Seq <> nat_sum_incr thm
+R7757:7768 Seq <> nat_sum_incr thm
+R7780:7796 Seq <> seq_increasing_eq thm
+R7780:7796 Seq <> seq_increasing_eq thm
+R7812:7825 Seq <> seq_increasing def
+R7846:7856 Packetizer <> last_packet def
+R7846:7856 Packetizer <> last_packet def
+R7876:7881 Coq.Reals.RIneq <> le_INR thm
+R7876:7881 Coq.Reals.RIneq <> le_INR thm
+R7903:7920 SetTheory <> set_maximum_unique thm
+R7903:7920 SetTheory <> set_maximum_unique thm
+rec 8029:8042 <> LengthSequence
+proj 8067:8073 <> str_pos
+proj 8093:8096 <> im_0
+proj 8110:8115 <> ex_max
+R8051:8054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8055:8057 Coq.Init.Datatypes <> nat ind
+R8048:8050 Coq.Init.Datatypes <> nat ind
+binder 8045:8045 <> l:1143
+R8077:8086 Seq <> strict_pos def
+R8088:8088 Packetizer <> l:1143 var
+R8102:8104 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8099:8099 Packetizer <> l:1143 var
+R8101:8101 Coq.Init.Datatypes <> O constr
+R8105:8105 Coq.Init.Datatypes <> O constr
+R8118:8131 Seq <> nat_seq_ex_max def
+R8133:8133 Packetizer <> l:1143 var
+def 8179:8182 <> lmax
+R8190:8203 Packetizer <> LengthSequence class
+binder 8205:8205 <> l:1148
+binder 8186:8187 <> ls:1149
+R8211:8221 Seq <> nat_seq_max def
+R8225:8230 Packetizer <> ex_max meth
+R8223:8223 Packetizer <> l:1148 var
+def 8293:8305 <> packetization
+R8314:8317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8318:8320 Coq.Init.Datatypes <> nat ind
+R8311:8313 Coq.Init.Datatypes <> nat ind
+binder 8308:8308 <> l:1150
+R8328:8341 Packetizer <> LengthSequence class
+R8343:8343 Packetizer <> l:1150 var
+binder 8324:8325 <> ls:1151
+R8350:8353 Coquelicot.Rbar <> Rbar ind
+binder 8347:8347 <> v:1152
+R8357:8360 Coquelicot.Rbar <> Rbar ind
+R8374:8374 Packetizer <> v:1152 var
+R8384:8389 Coquelicot.Rbar <> Finite constr
+R8396:8405 Packetizer <> last_cumul def
+R8409:8412 Packetizer <> im_0 meth
+R8407:8407 Packetizer <> l:1150 var
+R8419:8425 Coquelicot.Rbar <> p_infty constr
+R8430:8436 Coquelicot.Rbar <> p_infty constr
+R8441:8447 Coquelicot.Rbar <> m_infty constr
+prf 8520:8534 <> packetization_0
+R8543:8546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8547:8549 Coq.Init.Datatypes <> nat ind
+R8540:8542 Coq.Init.Datatypes <> nat ind
+binder 8537:8537 <> l:1154
+R8557:8570 Packetizer <> LengthSequence class
+R8572:8572 Packetizer <> l:1154 var
+binder 8553:8554 <> ls:1155
+R8596:8598 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8576:8588 Packetizer <> packetization def
+R8592:8593 Packetizer <> ls:1155 var
+R8590:8590 Packetizer <> l:1154 var
+R8617:8629 Packetizer <> packetization def
+R8640:8656 Packetizer <> last_cumul_packet thm
+R8640:8656 Packetizer <> last_cumul_packet thm
+R8640:8656 Packetizer <> last_cumul_packet thm
+R8667:8679 Packetizer <> last_packet_0 thm
+R8667:8679 Packetizer <> last_packet_0 thm
+R8667:8679 Packetizer <> last_packet_0 thm
+R8667:8679 Packetizer <> last_packet_0 thm
+R8689:8695 Seq <> nat_sum def
+prf 8821:8836 <> packetization_eq
+binder 8847:8847 <> l:1156
+binder 8849:8850 <> ls:1157
+R8856:8856 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8853:8853 <> v:1158
+R8864:8867 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8863:8863 Packetizer <> v:1158 var
+binder 8860:8860 <> p:1159
+binder 8871:8871 <> n:1160
+R8913:8917 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R8894:8896 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8874:8886 Packetizer <> packetization def
+R8893:8893 Packetizer <> v:1158 var
+R8890:8891 Packetizer <> ls:1157 var
+R8888:8888 Packetizer <> l:1156 var
+R8897:8899 Coq.Reals.Raxioms <> INR def
+R8901:8907 Seq <> nat_sum def
+R8911:8911 Packetizer <> n:1160 var
+R8909:8909 Packetizer <> l:1156 var
+R8934:8937 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R8939:8941 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<'_x not
+R8918:8920 Coq.Reals.Raxioms <> INR def
+R8922:8928 Seq <> nat_sum def
+R8932:8932 Packetizer <> n:1160 var
+R8930:8930 Packetizer <> l:1156 var
+R8938:8938 Packetizer <> v:1158 var
+R8938:8938 Packetizer <> v:1158 var
+R8942:8944 Coq.Reals.Raxioms <> INR def
+R8946:8952 Seq <> nat_sum def
+R8957:8957 Coq.Init.Datatypes <> S constr
+R8959:8959 Packetizer <> n:1160 var
+R8954:8954 Packetizer <> l:1156 var
+R8992:9000 Coquelicot.Rbar <> is_finite def
+R8992:9000 Coquelicot.Rbar <> is_finite def
+R9013:9021 Coquelicot.Rbar <> is_finite def
+R9045:9053 Coquelicot.Rbar <> is_finite def
+R9082:9094 Packetizer <> packetization def
+R9121:9138 Packetizer <> last_packet_bounds thm
+R9121:9138 Packetizer <> last_packet_bounds thm
+R9201:9209 RbarComp <> finite_eq thm
+R9201:9209 RbarComp <> finite_eq thm
+R9219:9235 Packetizer <> last_cumul_packet thm
+R9219:9235 Packetizer <> last_cumul_packet thm
+R9264:9281 Packetizer <> last_packet_bounds thm
+R9264:9281 Packetizer <> last_packet_bounds thm
+R9327:9336 Packetizer <> last_cumul def
+R9352:9356 SetTheory <> R_max def
+R9371:9392 SetTheory <> set_maximum_is_maximum thm
+R9427:9434 SetTheory <> ex_R_max prfax
+R9481:9501 Packetizer <> cumul_below_non_empty thm
+R9455:9473 Packetizer <> cumul_below_bounded thm
+R9437:9447 Packetizer <> cumul_below def
+R9416:9424 SetTheory <> Rle_order thm
+R9412:9414 Coq.Reals.Rdefinitions <> Rle def
+R9395:9405 Packetizer <> cumul_below def
+R9371:9392 SetTheory <> set_maximum_is_maximum thm
+R9427:9434 SetTheory <> ex_R_max prfax
+R9481:9501 Packetizer <> cumul_below_non_empty thm
+R9455:9473 Packetizer <> cumul_below_bounded thm
+R9437:9447 Packetizer <> cumul_below def
+R9416:9424 SetTheory <> Rle_order thm
+R9412:9414 Coq.Reals.Rdefinitions <> Rle def
+R9395:9405 Packetizer <> cumul_below def
+R9522:9530 RbarComp <> finite_eq thm
+R9522:9530 RbarComp <> finite_eq thm
+R9570:9583 SetTheory <> set_is_maximum def
+R9598:9608 Packetizer <> cumul_below def
+R9634:9651 SetTheory <> set_maximum_unique thm
+R9634:9651 SetTheory <> set_maximum_unique thm
+R9687:9700 SetTheory <> set_is_maximum def
+R9717:9728 Packetizer <> packet_below def
+R9744:9755 Packetizer <> packet_below def
+R9769:9775 Coq.Reals.RIneq <> Rle_dec thm
+R9769:9775 Coq.Reals.RIneq <> Rle_dec thm
+R9808:9813 Coq.Reals.RIneq <> Rge_le thm
+R9808:9813 Coq.Reals.RIneq <> Rge_le thm
+R9842:9867 Seq <> nat_sum_length_strict_incr thm
+R9842:9867 Seq <> nat_sum_length_strict_incr thm
+R9893:9914 Seq <> nat_seq_strict_incr_eq thm
+R9893:9914 Seq <> nat_seq_strict_incr_eq thm
+R9929:9951 Seq <> nat_seq_strict_incr_imp thm
+R9929:9951 Seq <> nat_seq_strict_incr_imp thm
+R9970:9972 Coq.Reals.Raxioms <> INR def
+R9975:9981 Seq <> nat_sum def
+R9970:9972 Coq.Reals.Raxioms <> INR def
+R9975:9981 Seq <> nat_sum def
+R10008:10013 Coq.Reals.RIneq <> INR_le thm
+R10008:10013 Coq.Reals.RIneq <> INR_le thm
+prf 10162:10181 <> packetization_is_sum
+binder 10191:10191 <> l:1161
+binder 10193:10194 <> ls:1162
+R10200:10200 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10197:10197 <> v:1163
+R10204:10210 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10212:10213 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 10211:10211 <> n:1164
+R10234:10236 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10214:10226 Packetizer <> packetization def
+R10233:10233 Packetizer <> v:1163 var
+R10230:10231 Packetizer <> ls:1162 var
+R10228:10228 Packetizer <> l:1161 var
+R10237:10239 Coq.Reals.Raxioms <> INR def
+R10241:10247 Seq <> nat_sum def
+R10251:10251 Packetizer <> n:1164 var
+R10249:10249 Packetizer <> l:1161 var
+R10270:10282 Packetizer <> packetization def
+R10306:10316 Packetizer <> last_packet def
+R10306:10316 Packetizer <> last_packet def
+R10337:10353 Packetizer <> last_cumul_packet thm
+R10337:10353 Packetizer <> last_cumul_packet thm
+R10337:10353 Packetizer <> last_cumul_packet thm
+prf 10439:10458 <> packetization_bounds
+binder 10468:10468 <> l:1165
+binder 10470:10471 <> ls:1166
+R10477:10477 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 10474:10474 <> v:1167
+R10485:10488 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R10484:10484 Packetizer <> v:1167 var
+binder 10481:10481 <> p:1168
+R10511:10513 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<='_x not
+R10534:10537 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x_'<='_x not
+R10494:10497 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10510:10510 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R10493:10493 Packetizer <> v:1167 var
+R10498:10500 Coq.Reals.Raxioms <> INR def
+R10502:10505 Packetizer <> lmax def
+R10507:10508 Packetizer <> ls:1166 var
+R10514:10526 Packetizer <> packetization def
+R10533:10533 Packetizer <> v:1167 var
+R10530:10531 Packetizer <> ls:1166 var
+R10528:10528 Packetizer <> l:1165 var
+R10514:10526 Packetizer <> packetization def
+R10533:10533 Packetizer <> v:1167 var
+R10530:10531 Packetizer <> ls:1166 var
+R10528:10528 Packetizer <> l:1165 var
+R10538:10538 Packetizer <> v:1167 var
+R10556:10559 Packetizer <> lmax def
+R10568:10587 Packetizer <> packetization_is_sum thm
+R10568:10587 Packetizer <> packetization_is_sum thm
+R10616:10631 Packetizer <> packetization_eq thm
+R10616:10631 Packetizer <> packetization_eq thm
+R10720:10726 Seq <> nat_sum def
+R10756:10763 Coq.Reals.RIneq <> plus_INR thm
+R10756:10763 Coq.Reals.RIneq <> plus_INR thm
+R10756:10763 Coq.Reals.RIneq <> plus_INR thm
+R10780:10780 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10792:10797 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10823:10823 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10781:10783 Coq.Reals.Raxioms <> INR def
+R10787:10787 Coq.Init.Datatypes <> S constr
+R10798:10800 Coq.Reals.Raxioms <> INR def
+R10802:10812 Seq <> nat_seq_max def
+R10816:10821 Packetizer <> ex_max meth
+R10780:10780 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10792:10797 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10823:10823 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10781:10783 Coq.Reals.Raxioms <> INR def
+R10787:10787 Coq.Init.Datatypes <> S constr
+R10798:10800 Coq.Reals.Raxioms <> INR def
+R10802:10812 Seq <> nat_seq_max def
+R10816:10821 Packetizer <> ex_max meth
+R10833:10838 Coq.Reals.RIneq <> le_INR thm
+R10833:10838 Coq.Reals.RIneq <> le_INR thm
+R10848:10858 Seq <> nat_seq_max def
+R10868:10874 Seq <> seq_max def
+binder 10892:10892 <> m:1169
+R10934:10937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10938:10939 Coq.Init.Peano <> le ind
+R10952:10952 Packetizer <> m:1169 var
+R10945:10945 Coq.Init.Datatypes <> S constr
+R10895:10908 SetTheory <> set_is_maximum def
+R10933:10933 Packetizer <> m:1169 var
+R10924:10931 SetTheory <> le_order thm
+R10921:10922 Coq.Init.Peano <> le ind
+R10911:10916 Seq <> im_seq def
+binder 10892:10892 <> m:1170
+R10934:10937 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10938:10939 Coq.Init.Peano <> le ind
+R10952:10952 Packetizer <> m:1170 var
+R10945:10945 Coq.Init.Datatypes <> S constr
+R10895:10908 SetTheory <> set_is_maximum def
+R10933:10933 Packetizer <> m:1170 var
+R10924:10931 SetTheory <> le_order thm
+R10921:10922 Coq.Init.Peano <> le ind
+R10911:10916 Seq <> im_seq def
+R10971:10984 SetTheory <> set_is_maximum def
+R11023:11028 Seq <> im_seq def
+R11037:11044 Coq.Sets.Image <> Im_intro constr
+R11066:11066 Coq.Init.Datatypes <> S constr
+R11054:11061 SetTheory <> universe def
+R11050:11052 Coq.Init.Datatypes <> nat ind
+R11046:11048 Coq.Init.Datatypes <> nat ind
+R11037:11044 Coq.Sets.Image <> Im_intro constr
+R11066:11066 Coq.Init.Datatypes <> S constr
+R11054:11061 SetTheory <> universe def
+R11050:11052 Coq.Init.Datatypes <> nat ind
+R11046:11048 Coq.Init.Datatypes <> nat ind
+R11089:11090 Coq.Sets.Ensembles <> In def
+R11100:11107 SetTheory <> universe def
+R11140:11161 SetTheory <> set_maximum_is_maximum thm
+R11140:11161 SetTheory <> set_maximum_is_maximum thm
+R11171:11187 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R11190:11192 Coq.Reals.Raxioms <> INR def
+R11195:11205 Seq <> partial_sum def
+R11207:11218 Coq.Init.Nat <> add def
+R11171:11187 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R11190:11192 Coq.Reals.Raxioms <> INR def
+R11195:11205 Seq <> partial_sum def
+R11207:11218 Coq.Init.Nat <> add def
+R11255:11266 Coq.Reals.RIneq <> Rlt_le_trans thm
+R11255:11266 Coq.Reals.RIneq <> Rlt_le_trans thm
+R11289:11305 Coq.Reals.RIneq <> Rplus_lt_compat_r thm
+R11308:11309 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R11310:11312 Coq.Reals.Raxioms <> INR def
+R11315:11325 Seq <> nat_seq_max def
+R11329:11334 Packetizer <> ex_max meth
+R11289:11305 Coq.Reals.RIneq <> Rplus_lt_compat_r thm
+R11308:11309 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R11310:11312 Coq.Reals.Raxioms <> INR def
+R11315:11325 Seq <> nat_seq_max def
+R11329:11334 Packetizer <> ex_max meth
+R11357:11367 Coq.Reals.Raxioms <> Rplus_assoc thm
+R11357:11367 Coq.Reals.Raxioms <> Rplus_assoc thm
+R11357:11367 Coq.Reals.Raxioms <> Rplus_assoc thm
+R11383:11393 Coq.Reals.Raxioms <> Rplus_opp_r thm
+R11383:11393 Coq.Reals.Raxioms <> Rplus_opp_r thm
+R11383:11393 Coq.Reals.Raxioms <> Rplus_opp_r thm
+R11409:11417 Coq.Reals.RIneq <> Rplus_0_r thm
+R11409:11417 Coq.Reals.RIneq <> Rplus_0_r thm
+R11409:11417 Coq.Reals.RIneq <> Rplus_0_r thm
+prf 11491:11514 <> packetization_idempotent
+R11521:11524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11525:11528 Coquelicot.Rbar <> Rbar ind
+R11520:11520 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 11517:11517 <> a:1171
+R11538:11541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11542:11544 Coq.Init.Datatypes <> nat ind
+R11535:11537 Coq.Init.Datatypes <> nat ind
+binder 11532:11532 <> l:1172
+binder 11547:11548 <> ls:1173
+binder 11550:11550 <> v:1174
+R11595:11597 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11554:11566 Packetizer <> packetization def
+R11574:11586 Packetizer <> packetization def
+R11593:11593 Packetizer <> v:1174 var
+R11590:11591 Packetizer <> ls:1173 var
+R11588:11588 Packetizer <> l:1172 var
+R11570:11571 Packetizer <> ls:1173 var
+R11568:11568 Packetizer <> l:1172 var
+R11598:11610 Packetizer <> packetization def
+R11617:11617 Packetizer <> v:1174 var
+R11614:11615 Packetizer <> ls:1173 var
+R11612:11612 Packetizer <> l:1172 var
+R11626:11645 Packetizer <> packetization_is_sum thm
+R11626:11645 Packetizer <> packetization_is_sum thm
+R11675:11687 Packetizer <> packetization def
+R11702:11714 Packetizer <> packetization def
+R11736:11744 RbarComp <> finite_eq thm
+R11769:11771 Coq.Reals.Raxioms <> INR def
+R11773:11779 Seq <> nat_sum def
+R11747:11756 Packetizer <> last_cumul def
+R11760:11763 Packetizer <> im_0 meth
+R11736:11744 RbarComp <> finite_eq thm
+R11769:11771 Coq.Reals.Raxioms <> INR def
+R11773:11779 Seq <> nat_sum def
+R11747:11756 Packetizer <> last_cumul def
+R11760:11763 Packetizer <> im_0 meth
+R11835:11851 Packetizer <> last_cumul_packet thm
+R11835:11851 Packetizer <> last_cumul_packet thm
+R11835:11851 Packetizer <> last_cumul_packet thm
+R11900:11902 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11862:11872 Packetizer <> last_packet def
+R11882:11884 Coq.Reals.Raxioms <> INR def
+R11887:11893 Seq <> nat_sum def
+R11876:11879 Packetizer <> im_0 meth
+R11900:11902 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11862:11872 Packetizer <> last_packet def
+R11882:11884 Coq.Reals.Raxioms <> INR def
+R11887:11893 Seq <> nat_sum def
+R11876:11879 Packetizer <> im_0 meth
+R11914:11924 Packetizer <> last_packet def
+R11934:11940 SetTheory <> nat_max def
+R11949:11966 SetTheory <> set_maximum_unique thm
+R11949:11966 SetTheory <> set_maximum_unique thm
+R11976:11989 SetTheory <> set_is_maximum def
+R12006:12017 Packetizer <> packet_below def
+R12031:12037 Coq.Reals.RIneq <> Rle_dec thm
+R12042:12044 Coq.Reals.Raxioms <> INR def
+R12047:12053 Seq <> nat_sum def
+R12031:12037 Coq.Reals.RIneq <> Rle_dec thm
+R12042:12044 Coq.Reals.Raxioms <> INR def
+R12047:12053 Seq <> nat_sum def
+R12080:12086 Coq.Reals.RIneq <> pos_INR thm
+R12089:12095 Seq <> nat_sum def
+R12080:12086 Coq.Reals.RIneq <> pos_INR thm
+R12089:12095 Seq <> nat_sum def
+R12139:12150 Packetizer <> packet_below def
+R12170:12176 Coq.Reals.RIneq <> Rle_dec thm
+R12186:12211 Seq <> nat_sum_length_strict_incr thm
+R12186:12211 Seq <> nat_sum_length_strict_incr thm
+R12223:12244 Seq <> nat_seq_strict_incr_eq thm
+R12223:12244 Seq <> nat_seq_strict_incr_eq thm
+R12258:12280 Seq <> nat_seq_strict_incr_imp thm
+R12283:12289 Seq <> nat_sum def
+R12258:12280 Seq <> nat_seq_strict_incr_imp thm
+R12283:12289 Seq <> nat_sum def
+R12304:12309 Coq.Reals.RIneq <> INR_le thm
+R12304:12309 Coq.Reals.RIneq <> INR_le thm
+R12361:12373 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R12361:12373 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R12403:12408 Coq.Arith.Le <> le_0_n syndef
+R12403:12408 Coq.Arith.Le <> le_0_n syndef
+R12445:12461 Packetizer <> last_cumul_packet thm
+R12445:12461 Packetizer <> last_cumul_packet thm
+R12445:12461 Packetizer <> last_cumul_packet thm
+R12472:12484 Packetizer <> last_packet_0 thm
+R12472:12484 Packetizer <> last_packet_0 thm
+R12472:12484 Packetizer <> last_packet_0 thm
+R12472:12484 Packetizer <> last_packet_0 thm
+R12494:12500 Seq <> nat_sum def
+def 12623:12645 <> packetization_isotone_2
+R12661:12664 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12665:12668 Coquelicot.Rbar <> Rbar ind
+R12660:12660 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12657:12657 <> a:1175
+R12678:12681 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12682:12684 Coq.Init.Datatypes <> nat ind
+R12675:12677 Coq.Init.Datatypes <> nat ind
+binder 12672:12672 <> l:1176
+binder 12687:12688 <> ls:1177
+R12694:12697 Coquelicot.Rbar <> Rbar ind
+binder 12691:12691 <> x:1178
+R12704:12707 Coquelicot.Rbar <> Rbar ind
+binder 12701:12701 <> y:1179
+R12722:12725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12726:12732 Coquelicot.Rbar <> Rbar_le def
+R12758:12770 Packetizer <> packetization def
+R12777:12777 Packetizer <> y:1179 var
+R12774:12775 Packetizer <> ls:1177 var
+R12772:12772 Packetizer <> l:1176 var
+R12735:12747 Packetizer <> packetization def
+R12754:12754 Packetizer <> x:1178 var
+R12751:12752 Packetizer <> ls:1177 var
+R12749:12749 Packetizer <> l:1176 var
+R12711:12717 Coquelicot.Rbar <> Rbar_le def
+R12721:12721 Packetizer <> y:1179 var
+R12719:12719 Packetizer <> x:1178 var
+R12928:12944 Packetizer <> last_cumul_packet thm
+R12928:12944 Packetizer <> last_cumul_packet thm
+R12928:12944 Packetizer <> last_cumul_packet thm
+R12953:12959 Coq.Reals.RIneq <> pos_INR thm
+R12953:12959 Coq.Reals.RIneq <> pos_INR thm
+R12989:12996 Coq.Reals.RIneq <> Rle_refl thm
+R12989:12996 Coq.Reals.RIneq <> Rle_refl thm
+R13040:13052 Packetizer <> last_cumul_le thm
+R13061:13064 Packetizer <> im_0 meth
+R13040:13052 Packetizer <> last_cumul_le thm
+R13061:13064 Packetizer <> im_0 meth
+def 13177:13186 <> packetizer
+R13193:13196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13197:13200 Coquelicot.Rbar <> Rbar ind
+R13192:13192 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13189:13189 <> a:1180
+R13210:13213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13214:13216 Coq.Init.Datatypes <> nat ind
+R13207:13209 Coq.Init.Datatypes <> nat ind
+binder 13204:13204 <> l:1181
+binder 13219:13220 <> ls:1182
+R13225:13228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13229:13232 Coquelicot.Rbar <> Rbar ind
+R13224:13224 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13241:13241 <> t:1183
+R13246:13258 Packetizer <> packetization def
+R13266:13266 Packetizer <> a:1180 var
+R13268:13268 Packetizer <> t:1183 var
+R13262:13263 Packetizer <> ls:1182 var
+R13260:13260 Packetizer <> l:1181 var
+def 13311:13320 <> packetized
+R13329:13342 Packetizer <> LengthSequence class
+binder 13344:13344 <> l:1184
+binder 13324:13325 <> ls:1185
+R13352:13355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13356:13359 Coquelicot.Rbar <> Rbar ind
+R13351:13351 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13348:13348 <> a:1186
+R13389:13391 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13372:13381 Packetizer <> packetizer def
+R13387:13388 Packetizer <> ls:1185 var
+R13385:13385 Packetizer <> l:1184 var
+R13383:13383 Packetizer <> a:1186 var
+R13392:13392 Packetizer <> a:1186 var
+prf 13500:13515 <> packetizer_cumul
+R13522:13531 Definitions <> Cumulative class
+binder 13533:13533 <> a:1187
+binder 13519:13519 <> A:1188
+binder 13545:13545 <> l:1189
+binder 13547:13548 <> ls:1190
+R13551:13560 Definitions <> Cumulative class
+R13563:13572 Packetizer <> packetizer def
+R13578:13579 Packetizer <> ls:1190 var
+R13576:13576 Packetizer <> l:1189 var
+R13574:13574 Packetizer <> a:1187 var
+R13611:13620 Packetizer <> packetizer def
+R13630:13642 Packetizer <> packetization def
+R13686:13695 Definitions <> PosNotMInf inst
+R13686:13695 Definitions <> PosNotMInf inst
+R13800:13816 Packetizer <> last_cumul_packet thm
+R13800:13816 Packetizer <> last_cumul_packet thm
+R13800:13816 Packetizer <> last_cumul_packet thm
+R13825:13831 Coq.Reals.RIneq <> pos_INR thm
+R13825:13831 Coq.Reals.RIneq <> pos_INR thm
+R13854:13861 Coq.Reals.RIneq <> Rle_refl thm
+R13854:13861 Coq.Reals.RIneq <> Rle_refl thm
+R13874:13887 Definitions <> non_decreasing def
+R13916:13923 RbarComp <> Rbar_dec thm
+R13916:13923 RbarComp <> Rbar_dec thm
+R13939:13946 RbarComp <> Rbar_dec thm
+R13939:13946 RbarComp <> Rbar_dec thm
+R14019:14030 Coquelicot.Rbar <> Rbar_le_refl thm
+R14019:14030 Coquelicot.Rbar <> Rbar_le_refl thm
+R14086:14091 Coq.Init.Logic <> eq_sym thm
+R14086:14091 Coq.Init.Logic <> eq_sym thm
+R14129:14137 Coquelicot.Rbar <> is_finite def
+R14153:14166 Definitions <> non_decreasing def
+R14201:14204 Coq.Init.Logic <> conj constr
+R14201:14204 Coq.Init.Logic <> conj constr
+R14326:14331 Coq.Init.Logic <> eq_sym thm
+R14326:14331 Coq.Init.Logic <> eq_sym thm
+R14369:14377 Coquelicot.Rbar <> is_finite def
+R14497:14502 Coq.Init.Logic <> eq_sym thm
+R14497:14502 Coq.Init.Logic <> eq_sym thm
+R14540:14548 Coquelicot.Rbar <> is_finite def
+R14580:14596 Packetizer <> last_cumul_packet thm
+R14580:14596 Packetizer <> last_cumul_packet thm
+R14580:14596 Packetizer <> last_cumul_packet thm
+R14607:14623 Packetizer <> last_cumul_packet thm
+R14607:14623 Packetizer <> last_cumul_packet thm
+R14607:14623 Packetizer <> last_cumul_packet thm
+R14632:14637 Coq.Reals.RIneq <> le_INR thm
+R14632:14637 Coq.Reals.RIneq <> le_INR thm
+R14646:14659 Packetizer <> last_packet_le thm
+R14646:14659 Packetizer <> last_packet_le thm
+R14670:14683 Definitions <> non_decreasing def
+R14718:14721 Coq.Init.Logic <> conj constr
+R14718:14721 Coq.Init.Logic <> conj constr
+R14822:14833 Seq <> nat_sum_incr thm
+R14822:14833 Seq <> nat_sum_incr thm
+R14846:14862 Seq <> seq_increasing_eq thm
+R14846:14862 Seq <> seq_increasing_eq thm
+R14879:14894 Seq <> seq_increasing_2 def
+R14964:14980 Packetizer <> last_cumul_packet thm
+R14964:14980 Packetizer <> last_cumul_packet thm
+R14964:14980 Packetizer <> last_cumul_packet thm
+R14991:15003 Packetizer <> last_packet_0 thm
+R14991:15003 Packetizer <> last_packet_0 thm
+R14991:15003 Packetizer <> last_packet_0 thm
+R14991:15003 Packetizer <> last_packet_0 thm
+R15013:15019 Seq <> nat_sum def
+def 15124:15138 <> packetizer_serv
+R15146:15159 Packetizer <> LengthSequence class
+binder 15161:15161 <> l:1191
+binder 15142:15143 <> ls:1192
+binder 15171:15171 <> a:1193
+binder 15173:15173 <> d:1194
+R15190:15193 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15178:15187 Definitions <> Cumulative class
+R15189:15189 Packetizer <> a:1193 var
+R15195:15197 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15194:15194 Packetizer <> d:1194 var
+R15198:15207 Packetizer <> packetizer def
+R15213:15214 Packetizer <> ls:1192 var
+R15211:15211 Packetizer <> l:1191 var
+R15209:15209 Packetizer <> a:1193 var
+inst 15265:15274 <> Packetizer
+R15282:15295 Packetizer <> LengthSequence class
+binder 15297:15297 <> l:1195
+binder 15278:15279 <> ls:1196
+R15302:15307 Definitions <> Server class
+R15310:15324 Packetizer <> packetizer_serv def
+R15326:15327 Packetizer <> ls:1196 var
+R15338:15352 Packetizer <> packetizer_serv def
+R15414:15429 Packetizer <> packetizer_cumul prfax
+R15414:15429 Packetizer <> packetizer_cumul prfax
+R15455:15464 Packetizer <> packetizer def
+R15455:15464 Packetizer <> packetizer def
+R15521:15530 Packetizer <> packetizer def
+R15540:15552 Packetizer <> packetization def
+R15639:15646 RbarComp <> Rbar_dec thm
+R15639:15646 RbarComp <> Rbar_dec thm
+R15773:15781 Coquelicot.Rbar <> is_finite def
+R15850:15869 Packetizer <> packetization_bounds thm
+R15850:15869 Packetizer <> packetization_bounds thm
+R15890:15896 Coq.Reals.RIneq <> Rlt_dec thm
+R15890:15896 Coq.Reals.RIneq <> Rlt_dec thm
+R15943:15948 Coq.Reals.RIneq <> Rlt_gt thm
+R15943:15948 Coq.Reals.RIneq <> Rlt_gt thm
+R15963:15968 Coq.Reals.RIneq <> Rgt_ge thm
+R15963:15968 Coq.Reals.RIneq <> Rgt_ge thm
+R16000:16012 Packetizer <> packetization def
+R16059:16068 Coq.Reals.RIneq <> Rnot_lt_le thm
+R16059:16068 Coq.Reals.RIneq <> Rnot_lt_le thm
+R16082:16092 Coq.Reals.RIneq <> Rle_antisym thm
+R16082:16092 Coq.Reals.RIneq <> Rle_antisym thm
+R16130:16146 Packetizer <> last_cumul_packet thm
+R16130:16146 Packetizer <> last_cumul_packet thm
+R16130:16146 Packetizer <> last_cumul_packet thm
+R16157:16169 Packetizer <> last_packet_0 thm
+R16157:16169 Packetizer <> last_packet_0 thm
+R16157:16169 Packetizer <> last_packet_0 thm
+R16157:16169 Packetizer <> last_packet_0 thm
+R16179:16185 Seq <> nat_sum def
+R16230:16237 Coq.Reals.RIneq <> Rle_refl thm
+R16230:16237 Coq.Reals.RIneq <> Rle_refl thm
+prf 16359:16376 <> backlog_packetizer
+R16392:16401 Definitions <> Cumulative class
+binder 16403:16403 <> a:1197
+binder 16389:16389 <> A:1198
+R16413:16416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16417:16419 Coq.Init.Datatypes <> nat ind
+R16410:16412 Coq.Init.Datatypes <> nat ind
+binder 16407:16407 <> l:1199
+R16427:16440 Packetizer <> LengthSequence class
+R16442:16442 Packetizer <> l:1199 var
+binder 16423:16424 <> ls:1200
+R16447:16453 Coquelicot.Rbar <> Rbar_le def
+R16488:16490 Coq.Reals.Raxioms <> INR def
+R16493:16496 Packetizer <> lmax def
+R16498:16499 Packetizer <> ls:1200 var
+R16456:16462 Main <> backlog def
+R16467:16476 Packetizer <> packetizer def
+R16482:16483 Packetizer <> ls:1200 var
+R16480:16480 Packetizer <> l:1199 var
+R16478:16478 Packetizer <> a:1197 var
+R16464:16464 Packetizer <> a:1197 var
+R16519:16522 Packetizer <> lmax def
+binder 16540:16540 <> t:1201
+R16549:16552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16553:16559 Coquelicot.Rbar <> Rbar_le def
+R16598:16600 Coq.Reals.Raxioms <> INR def
+R16603:16613 Seq <> nat_seq_max def
+R16617:16622 Packetizer <> ex_max meth
+R16562:16570 Main <> backlog_t def
+R16594:16594 Packetizer <> t:1201 var
+R16575:16584 Packetizer <> packetizer def
+R16544:16547 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R16543:16543 Packetizer <> t:1201 var
+binder 16540:16540 <> t:1202
+R16549:16552 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16553:16559 Coquelicot.Rbar <> Rbar_le def
+R16598:16600 Coq.Reals.Raxioms <> INR def
+R16603:16613 Seq <> nat_seq_max def
+R16617:16622 Packetizer <> ex_max meth
+R16562:16570 Main <> backlog_t def
+R16594:16594 Packetizer <> t:1202 var
+R16575:16584 Packetizer <> packetizer def
+R16544:16547 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R16543:16543 Packetizer <> t:1202 var
+R16643:16651 Main <> backlog_t def
+R16661:16670 Packetizer <> packetizer def
+R16756:16763 RbarComp <> Rbar_dec thm
+R16756:16763 RbarComp <> Rbar_dec thm
+R16806:16812 Coq.Reals.RIneq <> pos_INR thm
+R16806:16812 Coq.Reals.RIneq <> pos_INR thm
+R16865:16865 Coq.Init.Logic <> I constr
+R16865:16865 Coq.Init.Logic <> I constr
+R16883:16891 Coquelicot.Rbar <> is_finite def
+R16960:16965 Coq.Reals.RIneq <> Rle_ge thm
+R16960:16965 Coq.Reals.RIneq <> Rle_ge thm
+R16979:16998 Packetizer <> packetization_bounds thm
+R16979:16998 Packetizer <> packetization_bounds thm
+R17068:17084 Coq.Reals.RIneq <> Rplus_lt_compat_r thm
+R17087:17089 Coq.Reals.Raxioms <> INR def
+R17092:17102 Seq <> nat_seq_max def
+R17106:17111 Packetizer <> ex_max meth
+R17068:17084 Coq.Reals.RIneq <> Rplus_lt_compat_r thm
+R17087:17089 Coq.Reals.Raxioms <> INR def
+R17092:17102 Seq <> nat_seq_max def
+R17106:17111 Packetizer <> ex_max meth
+R17131:17136 Coq.Reals.Rdefinitions <> Rminus def
+R17153:17163 Coq.Reals.Raxioms <> Rplus_assoc thm
+R17153:17163 Coq.Reals.Raxioms <> Rplus_assoc thm
+R17153:17163 Coq.Reals.Raxioms <> Rplus_assoc thm
+R17180:17190 Coq.Reals.RIneq <> Rplus_opp_l thm
+R17180:17190 Coq.Reals.RIneq <> Rplus_opp_l thm
+R17180:17190 Coq.Reals.RIneq <> Rplus_opp_l thm
+R17207:17215 Coq.Reals.RIneq <> Rplus_0_r thm
+R17207:17215 Coq.Reals.RIneq <> Rplus_0_r thm
+R17207:17215 Coq.Reals.RIneq <> Rplus_0_r thm
+R17230:17246 Coq.Reals.Raxioms <> Rplus_lt_compat_l thm
+R17249:17250 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R17251:17260 Packetizer <> last_cumul def
+R17264:17267 Packetizer <> im_0 meth
+R17230:17246 Coq.Reals.Raxioms <> Rplus_lt_compat_l thm
+R17249:17250 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R17251:17260 Packetizer <> last_cumul def
+R17264:17267 Packetizer <> im_0 meth
+R17296:17306 Coq.Reals.Raxioms <> Rplus_assoc thm
+R17296:17306 Coq.Reals.Raxioms <> Rplus_assoc thm
+R17296:17306 Coq.Reals.Raxioms <> Rplus_assoc thm
+R17323:17333 Coq.Reals.RIneq <> Rplus_opp_l thm
+R17323:17333 Coq.Reals.RIneq <> Rplus_opp_l thm
+R17323:17333 Coq.Reals.RIneq <> Rplus_opp_l thm
+R17350:17358 Coq.Reals.Raxioms <> Rplus_0_l thm
+R17350:17358 Coq.Reals.Raxioms <> Rplus_0_l thm
+R17350:17358 Coq.Reals.Raxioms <> Rplus_0_l thm
+R17375:17384 Coq.Reals.Raxioms <> Rplus_comm thm
+R17375:17384 Coq.Reals.Raxioms <> Rplus_comm thm
+R17375:17384 Coq.Reals.Raxioms <> Rplus_comm thm
+R17399:17404 Coq.Reals.RIneq <> Rlt_le thm
+R17399:17404 Coq.Reals.RIneq <> Rlt_le thm
+R17427:17433 Main <> backlog def
+R17442:17447 InfSup <> ge_sup thm
+R17442:17447 InfSup <> ge_sup thm
+R17464:17469 Coq.Sets.Image <> Im_inv thm
+R17464:17469 Coq.Sets.Image <> Im_inv thm
+R17511:17512 Coq.Sets.Ensembles <> In def
+prf 17654:17672 <> packetizer_finite_t
+R17679:17688 Definitions <> Cumulative class
+binder 17690:17690 <> a:1203
+binder 17676:17676 <> A:1204
+binder 17701:17701 <> l:1205
+binder 17703:17704 <> ls:1206
+binder 17706:17706 <> t:1207
+R17715:17718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17734:17738 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R17719:17727 Coquelicot.Rbar <> is_finite def
+R17730:17730 Packetizer <> a:1203 var
+R17732:17732 Packetizer <> t:1207 var
+R17739:17747 Coquelicot.Rbar <> is_finite def
+R17750:17759 Packetizer <> packetizer def
+R17768:17768 Packetizer <> t:1207 var
+R17765:17766 Packetizer <> ls:1206 var
+R17763:17763 Packetizer <> l:1205 var
+R17761:17761 Packetizer <> a:1203 var
+R17710:17713 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R17709:17709 Packetizer <> t:1207 var
+R17786:17794 Coquelicot.Rbar <> is_finite def
+R17812:17821 Packetizer <> packetizer def
+R17860:17873 Coq.Logic.Decidable <> contrapositive thm
+R17860:17873 Coq.Logic.Decidable <> contrapositive thm
+R17883:17891 Coq.Logic.Decidable <> decidable def
+R17915:17929 RbarComp <> Rbar_not_finite thm
+R17915:17929 RbarComp <> Rbar_not_finite thm
+R17962:17971 Packetizer <> packetizer def
+R18005:18013 Coquelicot.Rbar <> is_finite def
+R18041:18052 Coquelicot.Rbar <> Rbar_le_refl thm
+R18054:18060 Coquelicot.Rbar <> p_infty constr
+R18041:18052 Coquelicot.Rbar <> Rbar_le_refl thm
+R18054:18060 Coquelicot.Rbar <> p_infty constr
+prf 18299:18315 <> packetizer_finite
+R18322:18331 Definitions <> Cumulative class
+binder 18333:18333 <> a:1208
+binder 18319:18319 <> A:1209
+binder 18344:18344 <> l:1210
+binder 18346:18347 <> ls:1211
+R18363:18367 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R18350:18360 Definitions <> is_finite_f def
+R18362:18362 Packetizer <> a:1208 var
+R18368:18378 Definitions <> is_finite_f def
+R18381:18390 Packetizer <> packetizer def
+R18396:18397 Packetizer <> ls:1211 var
+R18394:18394 Packetizer <> l:1210 var
+R18392:18392 Packetizer <> a:1208 var
+R18416:18426 Definitions <> is_finite_f def
+R18459:18467 Coquelicot.Rbar <> is_finite def
+R18477:18485 Coquelicot.Rbar <> is_finite def
+R18500:18509 Packetizer <> packetizer def
+R18547:18560 Coq.Logic.Decidable <> contrapositive thm
+R18547:18560 Coq.Logic.Decidable <> contrapositive thm
+R18570:18578 Coq.Logic.Decidable <> decidable def
+R18603:18613 Definitions <> is_finite_f def
+R18627:18640 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R18627:18640 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R18667:18677 Definitions <> is_finite_f def
+R18692:18698 Coq.Logic.Decidable <> not_imp thm
+R18692:18698 Coq.Logic.Decidable <> not_imp thm
+R18724:18738 RbarComp <> Rbar_not_finite thm
+R18724:18738 RbarComp <> Rbar_not_finite thm
+R18786:18795 Packetizer <> packetizer def
+R18839:18847 Coquelicot.Rbar <> is_finite def
+R18873:18884 Coquelicot.Rbar <> Rbar_le_refl thm
+R18886:18892 Coquelicot.Rbar <> p_infty constr
+R18873:18884 Coquelicot.Rbar <> Rbar_le_refl thm
+R18886:18892 Coquelicot.Rbar <> p_infty constr
+R19045:19053 Coq.Logic.Decidable <> decidable def
+inst 19171:19185 <> NonDecrPlusLmax
+R19192:19212 Definitions <> NonDecreasingPositive class
+binder 19214:19214 <> p:1212
+binder 19189:19189 <> P:1213
+R19223:19236 Packetizer <> LengthSequence class
+binder 19238:19238 <> l:1214
+binder 19219:19220 <> ls:1215
+R19242:19262 Definitions <> NonDecreasingPositive class
+binder 19269:19269 <> t:1216
+R19274:19282 Coquelicot.Rbar <> Rbar_plus def
+R19291:19293 Coq.Reals.Raxioms <> INR def
+R19295:19298 Packetizer <> lmax def
+R19300:19301 Packetizer <> ls:1215 var
+R19285:19285 Packetizer <> p:1212 var
+R19287:19287 Packetizer <> t:1216 var
+R19313:19323 Definitions <> NonDecrPlus inst
+R19313:19323 Definitions <> NonDecrPlus inst
+R19346:19352 Coq.Reals.RIneq <> pos_INR thm
+R19346:19352 Coq.Reals.RIneq <> pos_INR thm
+prf 19419:19442 <> packetizer_arrival_curve
+R19449:19458 Definitions <> Cumulative class
+binder 19460:19460 <> a:1217
+binder 19446:19446 <> A:1218
+R19472:19492 Definitions <> NonDecreasingPositive class
+binder 19494:19495 <> al:1219
+binder 19465:19469 <> alpha:1220
+R19504:19517 Packetizer <> LengthSequence class
+binder 19519:19519 <> l:1221
+binder 19500:19501 <> ls:1222
+R19537:19540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19565:19568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19569:19584 Main <> is_arrival_curve def
+R19607:19621 Packetizer <> NonDecrPlusLmax inst
+R19629:19630 Packetizer <> ls:1222 var
+R19623:19627 Packetizer <> alpha:1220 var
+R19587:19596 Packetizer <> packetizer def
+R19602:19603 Packetizer <> ls:1222 var
+R19600:19600 Packetizer <> l:1221 var
+R19598:19598 Packetizer <> a:1217 var
+R19541:19556 Main <> is_arrival_curve def
+R19560:19564 Packetizer <> alpha:1220 var
+R19558:19558 Packetizer <> a:1217 var
+R19524:19534 Definitions <> is_finite_f def
+R19536:19536 Packetizer <> a:1217 var
+R19648:19652 Coq.Init.Logic <> proj1 thm
+R19654:19670 Packetizer <> packetizer_finite thm
+R19648:19652 Coq.Init.Logic <> proj1 thm
+R19654:19670 Packetizer <> packetizer_finite thm
+R19690:19699 Main <> arr_cur_eq thm
+R19690:19699 Main <> arr_cur_eq thm
+R19716:19733 Main <> is_arrival_curve_2 def
+R19751:19761 Definitions <> is_finite_f def
+R19806:19814 Coquelicot.Rbar <> is_finite def
+R19863:19872 Main <> arr_cur_eq thm
+R19863:19872 Main <> arr_cur_eq thm
+R19888:19905 Main <> is_arrival_curve_2 def
+R19946:19953 RbarComp <> Rbar_dec thm
+R19961:19963 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R19946:19953 RbarComp <> Rbar_dec thm
+R19961:19963 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20003:20003 Coq.Init.Logic <> I constr
+R20003:20003 Coq.Init.Logic <> I constr
+R20096:20098 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20096:20098 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R20121:20137 Coq.Reals.RIneq <> Rplus_le_compat_r thm
+R20140:20140 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R20121:20137 Coq.Reals.RIneq <> Rplus_le_compat_r thm
+R20140:20140 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R20164:20174 Coq.Reals.Raxioms <> Rplus_opp_r thm
+R20164:20174 Coq.Reals.Raxioms <> Rplus_opp_r thm
+R20164:20174 Coq.Reals.Raxioms <> Rplus_opp_r thm
+R20189:20194 Coq.Reals.RIneq <> Rle_ge thm
+R20189:20194 Coq.Reals.RIneq <> Rle_ge thm
+R20274:20282 Coquelicot.Rbar <> is_finite def
+R20313:20323 Definitions <> is_finite_f def
+R20368:20376 Coquelicot.Rbar <> is_finite def
+R20396:20405 Packetizer <> packetizer def
+R20414:20433 Packetizer <> packetization_bounds thm
+R20414:20433 Packetizer <> packetization_bounds thm
+R20652:20657 Coq.Reals.RIneq <> Rle_ge thm
+R20652:20657 Coq.Reals.RIneq <> Rle_ge thm
+R20672:20677 Coq.Reals.RIneq <> Rle_ge thm
+R20672:20677 Coq.Reals.RIneq <> Rle_ge thm
+R20771:20787 Coq.Reals.RIneq <> Ropp_lt_contravar thm
+R20771:20787 Coq.Reals.RIneq <> Ropp_lt_contravar thm
+R20803:20808 Coq.Reals.RIneq <> Rlt_le thm
+R20803:20808 Coq.Reals.RIneq <> Rlt_le thm
+R20823:20837 Coq.Reals.RIneq <> Rplus_le_compat thm
+R20823:20837 Coq.Reals.RIneq <> Rplus_le_compat thm
+R20863:20868 Coq.Reals.Rdefinitions <> Rminus def
+R20885:20899 Coq.Reals.RIneq <> Ropp_plus_distr thm
+R20885:20899 Coq.Reals.RIneq <> Ropp_plus_distr thm
+R20885:20899 Coq.Reals.RIneq <> Ropp_plus_distr thm
+R20916:20930 Coq.Reals.RIneq <> Ropp_involutive thm
+R20916:20930 Coq.Reals.RIneq <> Ropp_involutive thm
+R20916:20930 Coq.Reals.RIneq <> Ropp_involutive thm
+R20950:20960 Coq.Reals.Raxioms <> Rplus_assoc thm
+R20950:20960 Coq.Reals.Raxioms <> Rplus_assoc thm
+R20950:20960 Coq.Reals.Raxioms <> Rplus_assoc thm
+R20975:20991 Coq.Reals.RIneq <> Rplus_le_compat_r thm
+R20994:20996 Coq.Reals.Raxioms <> INR def
+R20998:21001 Packetizer <> lmax def
+R20975:20991 Coq.Reals.RIneq <> Rplus_le_compat_r thm
+R20994:20996 Coq.Reals.Raxioms <> INR def
+R20998:21001 Packetizer <> lmax def
+R21022:21030 Coq.Reals.RIneq <> Rle_trans thm
+R21022:21030 Coq.Reals.RIneq <> Rle_trans thm
+def 21194:21205 <> arrival_time
+R21213:21226 Packetizer <> LengthSequence class
+binder 21228:21228 <> l:1223
+binder 21209:21210 <> ls:1224
+R21236:21239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21240:21243 Coquelicot.Rbar <> Rbar ind
+R21235:21235 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 21232:21232 <> a:1225
+binder 21254:21254 <> n:1226
+R21259:21266 Coquelicot.Lub <> Glb_Rbar def
+binder 21273:21273 <> t:1227
+R21284:21287 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R21279:21282 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R21278:21278 Packetizer <> t:1227 var
+R21309:21311 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21289:21298 Packetizer <> packetizer def
+R21304:21305 Packetizer <> ls:1224 var
+R21302:21302 Packetizer <> l:1223 var
+R21300:21300 Packetizer <> a:1225 var
+R21308:21308 Packetizer <> t:1227 var
+R21312:21314 Coq.Reals.Raxioms <> INR def
+R21316:21322 Seq <> nat_sum def
+R21326:21326 Packetizer <> n:1226 var
+R21324:21324 Packetizer <> l:1223 var
+prf 21386:21399 <> arrival_time_0
+R21408:21421 Packetizer <> LengthSequence class
+binder 21423:21423 <> l:1228
+binder 21403:21404 <> ls:1229
+binder 21435:21435 <> a:1230
+R21441:21450 Definitions <> Cumulative class
+R21452:21452 Packetizer <> a:1230 var
+binder 21438:21438 <> A:1231
+R21475:21477 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21456:21467 Packetizer <> arrival_time def
+R21472:21472 Packetizer <> a:1230 var
+R21469:21470 Packetizer <> ls:1229 var
+R21495:21512 Coquelicot.Lub <> is_glb_Rbar_unique thm
+R21495:21512 Coquelicot.Lub <> is_glb_Rbar_unique thm
+R21522:21532 Coquelicot.Lub <> is_glb_Rbar def
+R21542:21551 Coquelicot.Lub <> is_lb_Rbar def
+R21575:21580 Coq.Reals.RIneq <> Rge_le thm
+R21575:21580 Coq.Reals.RIneq <> Rge_le thm
+R21605:21611 Seq <> nat_sum def
+R21639:21642 Packetizer <> im_0 meth
+R21639:21642 Packetizer <> im_0 meth
+R21639:21642 Packetizer <> im_0 meth
+R21670:21679 Packetizer <> packetizer def
+R21694:21706 Packetizer <> packetization def
+R21802:21818 Packetizer <> last_cumul_packet thm
+R21802:21818 Packetizer <> last_cumul_packet thm
+R21802:21818 Packetizer <> last_cumul_packet thm
+R21829:21841 Packetizer <> last_packet_0 thm
+R21829:21841 Packetizer <> last_packet_0 thm
+R21829:21841 Packetizer <> last_packet_0 thm
+R21829:21841 Packetizer <> last_packet_0 thm
+R21851:21857 Seq <> nat_sum def
+prf 22024:22043 <> arrival_time_bounded
+R22052:22065 Packetizer <> LengthSequence class
+binder 22067:22067 <> l:1232
+binder 22047:22048 <> ls:1233
+binder 22079:22079 <> a:1234
+R22085:22094 Definitions <> Cumulative class
+R22096:22096 Packetizer <> a:1234 var
+binder 22082:22082 <> A:1235
+R22103:22103 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 22100:22100 <> t:1236
+binder 22106:22106 <> n:1237
+R22218:22221 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22222:22222 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22246:22249 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22223:22234 Packetizer <> arrival_time def
+R22242:22242 Coq.Init.Datatypes <> S constr
+R22244:22244 Packetizer <> n:1237 var
+R22239:22239 Packetizer <> a:1234 var
+R22236:22237 Packetizer <> ls:1233 var
+R22250:22256 Coquelicot.Rbar <> p_infty constr
+R22109:22126 SetTheory <> set_is_bound_above def
+R22201:22203 Coq.Reals.Raxioms <> INR def
+R22205:22211 Seq <> nat_sum def
+R22215:22215 Packetizer <> n:1237 var
+R22213:22213 Packetizer <> l:1232 var
+R22186:22198 SetTheory <> Rbar_le_order thm
+R22178:22184 Coquelicot.Rbar <> Rbar_le def
+R22129:22130 Coq.Sets.Image <> Im ind
+R22158:22167 Packetizer <> packetizer def
+R22173:22174 Packetizer <> ls:1233 var
+R22171:22171 Packetizer <> l:1232 var
+R22169:22169 Packetizer <> a:1234 var
+binder 22144:22144 <> x:1238
+R22150:22153 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R22149:22149 Packetizer <> x:1238 var
+R22134:22137 Coquelicot.Rbar <> Rbar ind
+R22132:22132 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R22274:22291 SetTheory <> set_is_bound_above def
+R22306:22317 Packetizer <> arrival_time def
+R22326:22343 Coquelicot.Lub <> is_glb_Rbar_unique thm
+R22326:22343 Coquelicot.Lub <> is_glb_Rbar_unique thm
+R22353:22363 Coquelicot.Lub <> is_glb_Rbar def
+R22373:22382 Coquelicot.Lub <> is_lb_Rbar def
+R22422:22431 Packetizer <> packetizer def
+R22422:22431 Packetizer <> packetizer def
+R22453:22454 Coq.Sets.Image <> Im ind
+R22506:22515 Packetizer <> packetizer def
+R22486:22495 Packetizer <> packetizer def
+R22472:22472 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 22468:22468 <> x:1239
+R22478:22481 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R22477:22477 Packetizer <> x:1239 var
+R22458:22461 Coquelicot.Rbar <> Rbar ind
+R22456:22456 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R22453:22454 Coq.Sets.Image <> Im ind
+R22506:22515 Packetizer <> packetizer def
+R22486:22495 Packetizer <> packetizer def
+R22472:22472 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 22468:22468 <> x:1240
+R22478:22481 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R22477:22477 Packetizer <> x:1240 var
+R22458:22461 Coquelicot.Rbar <> Rbar ind
+R22456:22456 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R22536:22543 Coq.Sets.Image <> Im_intro constr
+R22547:22550 Coquelicot.Rbar <> Rbar ind
+R22545:22545 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R22536:22543 Coq.Sets.Image <> Im_intro constr
+R22547:22550 Coquelicot.Rbar <> Rbar ind
+R22545:22545 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R22567:22568 Coq.Sets.Ensembles <> In def
+R22635:22640 Coq.Reals.RIneq <> INR_le thm
+R22635:22640 Coq.Reals.RIneq <> INR_le thm
+R22657:22675 Seq <> nat_seq_strict_incr def
+R22678:22684 Seq <> nat_sum def
+R22657:22675 Seq <> nat_seq_strict_incr def
+R22678:22684 Seq <> nat_sum def
+R22711:22736 Seq <> nat_sum_length_strict_incr thm
+R22711:22736 Seq <> nat_sum_length_strict_incr thm
+R22764:22782 Seq <> nat_seq_strict_incr def
+R22810:22818 Coq.Arith.Lt <> le_not_lt thm
+R22810:22818 Coq.Arith.Lt <> le_not_lt thm
+prf 22962:22983 <> arrival_time_partition
+R22992:23005 Packetizer <> LengthSequence class
+binder 23007:23007 <> l:1241
+binder 22987:22988 <> ls:1242
+binder 23019:23019 <> a:1243
+R23025:23034 Definitions <> Cumulative class
+R23036:23036 Packetizer <> a:1243 var
+binder 23022:23022 <> A:1244
+R23043:23043 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 23040:23040 <> t:1245
+R23047:23053 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23055:23056 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 23054:23054 <> i:1246
+R23057:23063 Coquelicot.Rbar <> Rbar_le def
+R23068:23079 Packetizer <> arrival_time def
+R23086:23086 Packetizer <> i:1246 var
+R23084:23084 Packetizer <> a:1243 var
+R23081:23082 Packetizer <> ls:1242 var
+R23065:23065 Packetizer <> t:1245 var
+R23104:23110 Coq.Logic.Classical_Prop <> classic prfax
+R23113:23129 SetTheory <> set_bounded_above def
+R23189:23201 SetTheory <> Rbar_le_order thm
+R23181:23187 Coquelicot.Rbar <> Rbar_le def
+R23132:23133 Coq.Sets.Image <> Im ind
+R23161:23170 Packetizer <> packetizer def
+binder 23147:23147 <> x:1247
+R23153:23156 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R23152:23152 Packetizer <> x:1247 var
+R23137:23140 Coquelicot.Rbar <> Rbar ind
+R23135:23135 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R23104:23110 Coq.Logic.Classical_Prop <> classic prfax
+R23113:23129 SetTheory <> set_bounded_above def
+R23189:23201 SetTheory <> Rbar_le_order thm
+R23181:23187 Coquelicot.Rbar <> Rbar_le def
+R23132:23133 Coq.Sets.Image <> Im ind
+R23161:23170 Packetizer <> packetizer def
+binder 23147:23147 <> x:1248
+R23153:23156 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R23152:23152 Packetizer <> x:1248 var
+R23137:23140 Coquelicot.Rbar <> Rbar ind
+R23135:23135 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R23225:23241 SetTheory <> set_bounded_above def
+R23254:23267 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R23269:23272 Coquelicot.Rbar <> Rbar ind
+R23254:23267 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R23269:23272 Coquelicot.Rbar <> Rbar ind
+R23287:23304 SetTheory <> set_is_bound_above def
+R23319:23330 Packetizer <> arrival_time def
+R23352:23355 Coquelicot.Rbar <> Rbar ind
+binder 23348:23348 <> n:1249
+R23358:23364 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23373:23374 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23369:23372 Coquelicot.Rbar <> Rbar ind
+binder 23365:23365 <> s:1250
+R23428:23431 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23375:23376 Coq.Sets.Image <> Im ind
+R23427:23427 Packetizer <> s:1250 var
+R23408:23417 Packetizer <> packetizer def
+R23394:23394 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 23390:23390 <> x:1251
+R23400:23403 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R23399:23399 Packetizer <> x:1251 var
+R23380:23383 Coquelicot.Rbar <> Rbar ind
+R23378:23378 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R23432:23438 Coquelicot.Rbar <> Rbar_lt def
+R23442:23442 Packetizer <> s:1250 var
+R23440:23440 Packetizer <> n:1249 var
+R23352:23355 Coquelicot.Rbar <> Rbar ind
+binder 23348:23348 <> n:1252
+R23358:23364 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23373:23374 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R23369:23372 Coquelicot.Rbar <> Rbar ind
+binder 23365:23365 <> s:1253
+R23428:23431 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R23375:23376 Coq.Sets.Image <> Im ind
+R23427:23427 Packetizer <> s:1253 var
+R23408:23417 Packetizer <> packetizer def
+R23394:23394 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 23390:23390 <> x:1254
+R23400:23403 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R23399:23399 Packetizer <> x:1254 var
+R23380:23383 Coquelicot.Rbar <> Rbar ind
+R23378:23378 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R23432:23438 Coquelicot.Rbar <> Rbar_lt def
+R23442:23442 Packetizer <> s:1253 var
+R23440:23440 Packetizer <> n:1252 var
+R23473:23486 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R23473:23486 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R23524:23530 Coq.Logic.Decidable <> not_imp thm
+R23524:23530 Coq.Logic.Decidable <> not_imp thm
+R23572:23585 Coquelicot.Rbar <> Rbar_not_le_lt thm
+R23572:23585 Coquelicot.Rbar <> Rbar_not_le_lt thm
+R23608:23616 Coq.Logic.Decidable <> decidable def
+R23633:23639 Coq.Logic.Decidable <> not_not thm
+R23633:23639 Coq.Logic.Decidable <> not_not thm
+R23649:23657 Coq.Logic.Decidable <> decidable def
+R23681:23694 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R23696:23698 Coq.Init.Datatypes <> nat ind
+R23681:23694 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R23696:23698 Coq.Init.Datatypes <> nat ind
+R23717:23726 Packetizer <> packetizer def
+R23717:23726 Packetizer <> packetizer def
+R23771:23776 Coq.Sets.Image <> Im_inv thm
+R23771:23776 Coq.Sets.Image <> Im_inv thm
+R23838:23845 RbarComp <> Rbar_dec thm
+R23848:23857 Packetizer <> packetizer def
+R23838:23845 RbarComp <> Rbar_dec thm
+R23848:23857 Packetizer <> packetizer def
+R23912:23920 Coquelicot.Rbar <> is_finite def
+R23912:23920 Coquelicot.Rbar <> is_finite def
+R23937:23938 Coq.Sets.Ensembles <> In def
+R23966:23984 Packetizer <> packetizer_finite_t thm
+R23966:23984 Packetizer <> packetizer_finite_t thm
+R24020:24039 Packetizer <> packetization_is_sum thm
+R24047:24050 Coquelicot.Rbar <> real def
+R24020:24039 Packetizer <> packetization_is_sum thm
+R24047:24050 Coquelicot.Rbar <> real def
+R24080:24088 Coquelicot.Rbar <> is_finite def
+R24121:24130 Packetizer <> packetizer def
+R24121:24130 Packetizer <> packetizer def
+R24170:24183 Coquelicot.Rbar <> Rbar_not_le_lt thm
+R24170:24183 Coquelicot.Rbar <> Rbar_not_le_lt thm
+R24200:24212 InfSup <> inf_Rbar_Rbar thm
+R24200:24212 InfSup <> inf_Rbar_Rbar thm
+R24200:24212 InfSup <> inf_Rbar_Rbar thm
+R24227:24232 InfSup <> gt_inf thm
+R24227:24232 InfSup <> gt_inf thm
+R24274:24286 SetTheory <> set_R_to_Rbar def
+R24329:24337 Coquelicot.Rbar <> is_finite def
+R24386:24401 Packetizer <> packetizer_cumul prfax
+R24386:24401 Packetizer <> packetizer_cumul prfax
+R24453:24463 Definitions <> non_decr_eq thm
+R24453:24463 Definitions <> non_decr_eq thm
+R24485:24500 Definitions <> non_decreasing_2 def
+R24521:24529 Coq.Reals.RIneq <> Rge_trans thm
+R24539:24544 Coq.Reals.RIneq <> Rle_ge thm
+R24521:24529 Coq.Reals.RIneq <> Rge_trans thm
+R24539:24544 Coq.Reals.RIneq <> Rle_ge thm
+R24581:24584 Coq.Init.Logic <> conj constr
+R24581:24584 Coq.Init.Logic <> conj constr
+R24647:24660 Coquelicot.Rbar <> Rbar_le_not_lt thm
+R24647:24660 Coquelicot.Rbar <> Rbar_le_not_lt thm
+R24693:24694 Coq.Sets.Ensembles <> In def
+R24709:24724 Packetizer <> packetizer_cumul prfax
+R24709:24724 Packetizer <> packetizer_cumul prfax
+R24857:24863 Coquelicot.Rbar <> p_infty constr
+R24857:24863 Coquelicot.Rbar <> p_infty constr
+def 25045:25059 <> combined_system
+R25066:25071 Definitions <> Server class
+binder 25073:25073 <> s:1255
+binder 25063:25063 <> S:1256
+R25082:25095 Packetizer <> LengthSequence class
+binder 25097:25097 <> l:1257
+binder 25078:25079 <> ls:1258
+R25103:25115 Definitions <> server_concat def
+R25120:25129 Packetizer <> Packetizer inst
+R25131:25132 Packetizer <> ls:1258 var
+R25117:25117 Packetizer <> S:1256 var
+inst 25227:25240 <> CombinedSystem
+R25247:25252 Definitions <> Server class
+binder 25254:25254 <> s:1259
+binder 25244:25244 <> S:1260
+R25263:25276 Packetizer <> LengthSequence class
+binder 25278:25278 <> l:1261
+binder 25259:25260 <> ls:1262
+R25283:25288 Definitions <> Server class
+R25291:25305 Packetizer <> combined_system def
+R25309:25310 Packetizer <> ls:1262 var
+R25307:25307 Packetizer <> S:1260 var
+R25320:25331 Definitions <> ServerConcat inst
+R25320:25331 Definitions <> ServerConcat inst
+prf 25402:25417 <> combined_backlog
+R25424:25429 Definitions <> Server class
+binder 25431:25431 <> s:1263
+binder 25421:25421 <> S:1264
+R25441:25454 Packetizer <> LengthSequence class
+binder 25456:25456 <> l:1265
+binder 25436:25437 <> ls:1266
+binder 25468:25468 <> a:1267
+binder 25470:25470 <> d:1268
+binder 25472:25473 <> d':1269
+R25480:25483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25507:25510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25546:25549 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R25511:25517 Coquelicot.Rbar <> Rbar_le def
+R25533:25539 Main <> backlog def
+R25543:25544 Packetizer <> d':1269 var
+R25541:25541 Packetizer <> a:1267 var
+R25519:25525 Main <> backlog def
+R25529:25529 Packetizer <> d:1268 var
+R25527:25527 Packetizer <> a:1267 var
+R25550:25556 Coquelicot.Rbar <> Rbar_le def
+R25574:25582 Coquelicot.Rbar <> Rbar_plus def
+R25599:25601 Coq.Reals.Raxioms <> INR def
+R25603:25606 Packetizer <> lmax def
+R25608:25609 Packetizer <> ls:1266 var
+R25585:25591 Main <> backlog def
+R25595:25595 Packetizer <> d:1268 var
+R25593:25593 Packetizer <> a:1267 var
+R25559:25565 Main <> backlog def
+R25569:25570 Packetizer <> d':1269 var
+R25567:25567 Packetizer <> a:1267 var
+R25484:25498 Packetizer <> packetizer_serv def
+R25505:25506 Packetizer <> d':1269 var
+R25503:25503 Packetizer <> d:1268 var
+R25500:25501 Packetizer <> ls:1266 var
+R25475:25475 Packetizer <> s:1263 var
+R25479:25479 Packetizer <> d:1268 var
+R25477:25477 Packetizer <> a:1267 var
+prf 28097:28112 <> combined_service
+R28119:28124 Definitions <> Server class
+binder 28126:28126 <> s:1270
+binder 28116:28116 <> S:1271
+R28136:28149 Packetizer <> LengthSequence class
+binder 28151:28151 <> l:1272
+binder 28131:28132 <> ls:1273
+R28162:28182 Definitions <> NonDecreasingPositive class
+binder 28184:28187 <> beta:1274
+binder 28156:28159 <> Beta:1275
+R28216:28219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28220:28237 Main <> is_minimal_service def
+R28262:28273 Definitions <> NonDecrFPlus inst
+R28276:28288 Definitions <> non_decr_plus thm
+R28300:28300 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R28301:28303 Coq.Reals.Raxioms <> INR def
+R28306:28309 Packetizer <> lmax def
+R28311:28312 Packetizer <> ls:1273 var
+R28290:28297 Definitions <> non_decr meth
+R28240:28253 Packetizer <> CombinedSystem inst
+R28257:28258 Packetizer <> ls:1273 var
+R28255:28255 Packetizer <> S:1271 var
+R28191:28208 Main <> is_minimal_service def
+R28212:28215 Packetizer <> Beta:1275 var
+R28210:28210 Packetizer <> S:1271 var
+R28333:28352 Main <> minimal_service_plus prfax
+R28333:28352 Main <> minimal_service_plus prfax
+R28370:28387 Main <> is_minimal_service def
+R28402:28416 Packetizer <> combined_system def
+R28432:28444 Definitions <> server_concat def
+R28485:28499 Definitions <> finite_server_t thm
+R28502:28511 Packetizer <> Packetizer inst
+R28485:28499 Definitions <> finite_server_t thm
+R28502:28511 Packetizer <> Packetizer inst
+R28543:28557 Packetizer <> packetizer_serv def
+R28596:28603 RbarComp <> Rbar_dec thm
+R28596:28603 RbarComp <> Rbar_dec thm
+R28620:28629 Packetizer <> packetizer def
+R28660:28666 Coq.Logic.FunctionalExtensionality <> equal_f thm
+R28660:28666 Coq.Logic.FunctionalExtensionality <> equal_f thm
+R28711:28723 Packetizer <> packetization def
+R28753:28756 Definitions <> conv def
+R28770:28770 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 28765:28766 <> t0:1276
+R28775:28783 Coquelicot.Rbar <> Rbar_plus def
+R28796:28796 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R28797:28799 Coq.Reals.Raxioms <> INR def
+R28802:28805 Packetizer <> lmax def
+R28791:28792 Packetizer <> t0:1276 var
+R28753:28756 Definitions <> conv def
+R28770:28770 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 28765:28766 <> t0:1277
+R28775:28783 Coquelicot.Rbar <> Rbar_plus def
+R28796:28796 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R28797:28799 Coq.Reals.Raxioms <> INR def
+R28802:28805 Packetizer <> lmax def
+R28791:28792 Packetizer <> t0:1277 var
+R28873:28888 Packetizer <> packetizer_cumul prfax
+R28873:28888 Packetizer <> packetizer_cumul prfax
+R29055:29063 Coquelicot.Rbar <> is_finite def
+R29078:29084 Coq.Logic.FunctionalExtensionality <> equal_f thm
+R29078:29084 Coq.Logic.FunctionalExtensionality <> equal_f thm
+R29131:29150 Packetizer <> packetization_bounds thm
+R29131:29150 Packetizer <> packetization_bounds thm
+R29273:29283 Definitions <> ConvNonDecr prfax
+R29273:29283 Definitions <> ConvNonDecr prfax
+R29471:29476 Coq.Reals.RIneq <> Rle_ge thm
+R29471:29476 Coq.Reals.RIneq <> Rle_ge thm
+R29589:29604 Definitions <> convolution_plus prfax
+R29607:29608 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R29609:29611 Coq.Reals.Raxioms <> INR def
+R29613:29616 Packetizer <> lmax def
+R29589:29604 Definitions <> convolution_plus prfax
+R29607:29608 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R29609:29611 Coq.Reals.Raxioms <> INR def
+R29613:29616 Packetizer <> lmax def
+R29672:29680 Coquelicot.Rbar <> is_finite def
+R29682:29685 Definitions <> conv def
+R29672:29680 Coquelicot.Rbar <> is_finite def
+R29682:29685 Definitions <> conv def
+R29705:29712 RbarComp <> Rbar_dec thm
+R29715:29718 Definitions <> conv def
+R29705:29712 RbarComp <> Rbar_dec thm
+R29715:29718 Definitions <> conv def
+R29831:29839 Coquelicot.Rbar <> is_finite def
+R29930:29946 Coq.Reals.RIneq <> Rplus_le_compat_r thm
+R29949:29950 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R29951:29953 Coq.Reals.Raxioms <> INR def
+R29955:29958 Packetizer <> lmax def
+R29930:29946 Coq.Reals.RIneq <> Rplus_le_compat_r thm
+R29949:29950 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R29951:29953 Coq.Reals.Raxioms <> INR def
+R29955:29958 Packetizer <> lmax def
+R29984:29995 Coq.Reals.RIneq <> Rle_lt_trans thm
+R29984:29995 Coq.Reals.RIneq <> Rle_lt_trans thm
+R30019:30028 Coq.Reals.Raxioms <> Rplus_comm thm
+R30019:30028 Coq.Reals.Raxioms <> Rplus_comm thm
+R30019:30028 Coq.Reals.Raxioms <> Rplus_comm thm
+R30037:30042 Coq.Reals.RIneq <> Rlt_le thm
+R30037:30042 Coq.Reals.RIneq <> Rlt_le thm
+prf 30157:30170 <> combined_delay
+R30177:30182 Definitions <> Server class
+binder 30184:30184 <> s:1278
+binder 30174:30174 <> S:1279
+R30193:30206 Packetizer <> LengthSequence class
+binder 30208:30208 <> l:1280
+binder 30189:30190 <> ls:1281
+binder 30220:30220 <> a:1282
+binder 30222:30222 <> d:1283
+binder 30224:30225 <> d':1284
+R30231:30240 Packetizer <> packetized def
+R30245:30245 Packetizer <> a:1282 var
+R30242:30243 Packetizer <> ls:1281 var
+binder 30228:30228 <> p:1285
+R30254:30257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30285:30288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30298:30300 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30289:30293 Main <> delay def
+R30297:30297 Packetizer <> d:1283 var
+R30295:30295 Packetizer <> a:1282 var
+R30301:30305 Main <> delay def
+R30309:30310 Packetizer <> d':1284 var
+R30307:30307 Packetizer <> a:1282 var
+R30259:30273 Packetizer <> combined_system def
+R30277:30278 Packetizer <> ls:1281 var
+R30275:30275 Packetizer <> S:1279 var
+R30283:30284 Packetizer <> d':1284 var
+R30281:30281 Packetizer <> d:1283 var
+R30249:30249 Packetizer <> s:1278 var
+R30253:30253 Packetizer <> d:1283 var
+R30251:30251 Packetizer <> a:1282 var

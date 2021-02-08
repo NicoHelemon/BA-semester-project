@@ -1,0 +1,352 @@
+Require Import Reals FunImage Image RbarComp InfSup SetTheory.
+From Coquelicot Require Import Rbar.
+From Coquelicot Require Import Compactness Lim_seq Rcomplements Hierarchy Lub.
+
+Section Dioids.
+
+Class Dioid {A: Type}(plus : A -> A -> A)(mult : A -> A -> A)(zero : A)(one : A) : Prop := {
+plus_assoc : forall x y z, plus x (plus y z) = plus (plus x y) z;
+mult_assoc : forall x y z, mult x (mult y z) = mult (mult x y) z;
+plus_com : forall x y, plus x y = plus y x;
+plus_neutral : forall x, plus zero x = x;
+mult_neutral_l : forall x, mult one x = x;
+mult_neutral_r : forall x, mult x one = x;
+mult_abs_l : forall x, mult zero x = zero;
+mult_abs_r : forall x, mult x zero = zero;
+distrib_l : forall x y z, mult x (plus y z) = plus (mult x y) (mult x z);
+distrib_r : forall x y z, mult (plus x y) z = plus (mult x z) (mult y z);
+idempotent: forall x, plus x x = x
+}.
+
+End Dioids.
+
+Section FunctionSets.
+
+Generalizable Variables p.
+
+Definition non_decreasing (f: R -> Rbar) := forall s t, (s >= 0 /\ t >= 0) -> (s < t -> Rbar_le (f(s)) (f(t))).
+Definition non_decreasing_2 (f: R -> Rbar) := forall s t, (s >= 0 /\ t >= 0) -> (s <= t -> Rbar_le (f(s)) (f(t))).
+Theorem non_decr_eq : forall f, non_decreasing f <-> non_decreasing_2 f.
+intros.
+unfold non_decreasing.
+unfold non_decreasing_2.
+split.
+intros.
+pose (H s t H0).
+unfold Rle in H1.
+case H1.
+intros.
+apply (r H2).
+intros.
+rewrite H2.
+apply Rbar_le_refl.
+intros.
+pose (H s t H0).
+apply Rlt_le in H1.
+apply (r H1).
+Qed.
+
+Class NotMInf (f: R -> Rbar) := {
+  not_inf: forall x, x >= 0 -> (m_infty) <> (f x)
+}.
+
+Class Positive (f: R -> Rbar) := {
+  pos_to_pos : forall x, x >= 0 -> Rbar_le 0 (f x)
+}.
+
+Class NonDecreasingPositive (f: R -> Rbar) := {
+  positive :> Positive f;
+  non_decr: non_decreasing f
+}.
+
+
+Class Cumulative (f: R -> Rbar) := {
+  non_decr_pos :> NonDecreasingPositive f;
+  left_cont: forall x, x > 0 -> filterlim f (at_left x) (Rbar_locally (f x));
+  start_0 : f(0) = 0;
+}.
+
+
+(* a  positive function is always greater than minus infinity*)
+Global Instance PosNotMInf `(P: Positive p) : NotMInf p. 
+Proof.
+split.
+intros.
+destruct P.
+pose (pos_to_pos0 x H).
+assert (Rbar_lt m_infty 0).
+simpl.
+exact I.
+pose (Rbar_lt_le_trans _ _ _ H0 r).
+apply Rbar_lt_not_eq in r0.
+tauto.
+
+Qed.
+
+
+End FunctionSets.
+
+
+Section FunctionOperations.
+
+  Definition continuous (f: R -> Rbar) := forall x: R, x >= 0 -> filterlim f (locally x) (Rbar_locally (f x)).
+  
+  Definition is_finite_f (f: R -> Rbar) := forall x: R, x >= 0 -> is_finite (f x).
+  
+  Theorem continuous_not_inf : forall (f: R -> Rbar), continuous f -> exists x, is_finite (f x) -> is_finite_f f.
+  Admitted. 
+
+Generalizable Variables pa pb al fm.
+  
+  Definition Rbar_max (a b : Rbar) := Rbar_opp (Rbar_min (Rbar_opp a) (Rbar_opp b)).
+  Definition f_plus (f : R -> Rbar) := fun x => Rbar_max 0 (f x).
+  
+  Section Convolution.
+
+  Definition conv (f g : R -> Rbar) := fun t: R => Rbar_glb (Im R Rbar (fun x: R => x >= 0 /\ x <= t) (fun s => Rbar_plus (f (t-s)) (g(s)))).
+  
+  Theorem conv_com : forall f g t, conv f g t = conv g f t.
+  Proof.
+  intros.
+  unfold conv.
+  rewrite (image_f_t_shift_flip (fun s: R => (Rbar_plus (f(t -s)) (g s))) 0 t t).
+  unfold Rminus at 1 2 3.
+  rewrite Rplus_opp_r.
+  rewrite Ropp_0.
+  rewrite Rplus_0_r.
+  rewrite image_t_f_is_f_t.
+  rewrite (image_eq_fun_r_rbar (fun x2 : R => x2 <= t /\ x2 >= 0)  (fun s : R => Rbar_plus (f (t + - (t - s))) (g (t - s))) (fun s : R => Rbar_plus (g (t - s)) (f s))).
+  auto.
+  intros.
+  rewrite Ropp_minus_distr.
+  unfold Rminus.
+  rewrite (Rplus_comm x (-t)).
+  rewrite <- Rplus_assoc.
+  rewrite Rplus_opp_r.
+  rewrite Rplus_0_l.
+  rewrite Rbar_plus_comm.
+  auto.
+  Qed.
+  
+  Theorem conv_isotone : forall f f' g g': R -> Rbar, (forall x, f(x) <= f'(x)) /\ (forall x, g(x) <= g'(x)) -> (forall x, conv f g x <= conv f' g' x).
+  Admitted.
+  
+  Definition delta (T: Rbar) : R -> Rbar := fun x => match Rle_lt_dec x T with
+    | left _ => 0
+    | right _ => p_infty
+    end.
+    
+  Global Instance DeltaPos(T: R): Positive (delta T).
+    split.
+    intros.
+    intros.
+    unfold delta.
+    destruct Rle_lt_dec.
+    simpl.
+    intuition.
+    simpl.
+    trivial.
+    Qed.
+  
+    
+  Global Instance DeltaIncr (T: R): NonDecreasingPositive (delta T).
+    split.
+    apply (DeltaPos T).
+    unfold non_decreasing.
+    intros.
+    unfold delta.
+    destruct Rle_lt_dec.
+    destruct Rle_lt_dec.
+    simpl.
+    intuition.
+    simpl.
+    trivial.
+    destruct Rle_lt_dec.
+    pose (Rlt_trans T s t r H0).
+    apply Rlt_gt in r1.
+    apply Rgt_not_le in r1.
+    tauto.
+    simpl.
+    trivial.
+    Qed.
+
+  Global Instance DeltaCumul (T: R): T >= 0 -> Cumulative (delta T).
+    Proof.
+    intros.
+    split.
+    apply DeltaIncr.
+    admit.
+    unfold delta.
+    destruct Rle_lt_dec.
+    trivial.
+    apply Rlt_not_ge in r.
+    tauto.
+    Admitted.
+  
+  Definition neutral_conv := delta 0.
+      
+  Lemma neutral_conv_0 : neutral_conv 0 = 0.
+  pose (DeltaCumul 0).
+  pose (Rle_refl 0).
+  apply Rle_ge in r.
+  pose (c r).
+  destruct c0.
+  tauto.
+  Qed.  
+    
+  Lemma neutral_conv_gt_0 : forall t, t > 0 -> neutral_conv t = p_infty.
+  intros.
+  unfold neutral_conv.
+  unfold delta.
+  destruct Rle_lt_dec.
+  apply Rle_not_gt in r.
+  tauto.
+  trivial.
+  Qed.
+   
+  Theorem conv_with_neutral_r `(F: NotMInf fm): forall t, t >= 0 -> conv fm neutral_conv t = fm t.
+  Proof.
+  intros.
+  unfold conv.
+  apply Rge_le in H.
+  rewrite <- (set_f_t_plus_f 0 t H).
+  rewrite Im_add.
+  unfold Add.
+  rewrite inf_union.
+  rewrite Rminus_0_r.
+  rewrite neutral_conv_0.
+  rewrite Rbar_plus_0_r.
+  pose (inf_singleton (fm t)).
+  rewrite <- e at 2.
+  assert (Im R Rbar (fun x : R => x > 0 /\ x <= t)
+        (fun s : R => Rbar_plus (fm (t - s)) (neutral_conv s)) = Singleton Rbar p_infty).
+  apply Extensionality_Ensembles.
+  unfold Same_set.
+  unfold Included.
+  split.
+  intros.
+  apply Im_inv in H0.
+  destruct H0.
+  destruct H0.
+  apply Singleton_intro.
+  unfold In in H0.
+  destruct H0.
+  pose (neutral_conv_gt_0 x0 H0).
+  rewrite e0 in H1.
+  destruct F.
+  apply Rle_ge in H2.
+  apply (Rplus_ge_compat_r (- x0) _ _) in H2.
+  rewrite (Rplus_opp_r _) in H2.
+  pose (not_inf0 (t - x0) H2).
+  apply (Rbar_plus_inf_not_minf ) in n.
+  rewrite <- H1.
+  apply eq_sym.
+  tauto.
+  Admitted.
+  
+    
+    
+    Global Instance ConvPos`(Pa: Positive pa)`(Pb: Positive pb): Positive (conv pa pb).
+    Proof.
+    split.
+    intros.
+    destruct Pa.
+    assert (forall s: R, 0 <= s <= x -> Rbar_le 0 (pa(x - s))).
+    intros.
+    destruct H0.
+    apply (Rplus_le_compat_r (-s) s x) in H1.
+    rewrite Rplus_opp_r in H1.
+    apply Rle_ge in H1.
+    apply (pos_to_pos0 (x - s) H1).
+    assert (forall s: R, 0 <= s <= x -> Rbar_le 0 (Rbar_plus (pa(x - s)) (pb(s)))).
+    intros.
+    pose (H0 s H1).
+    destruct Pb.
+    pose (pos_to_pos1 s).
+    pose H1.
+    destruct H1.
+    pose (Rle_ge 0 s r1).
+    pose (r0 r3).
+    pose (H0 s a).
+    pose (Rbar_plus_le_pos (pa (x - s)) (pb s) r5 r4).
+    tauto.
+    unfold conv.
+    apply le_inf.
+    intros.
+    fold (In Rbar (Im R Rbar (fun x0 : R => x0 >= 0 /\ x0 <= x)
+       (fun s : R => Rbar_plus (pa (x - s)) (pb s))) x0) in H2.
+    apply Im_inv in H2.
+    destruct H2.
+    destruct H2.
+    unfold In in H2.
+    destruct H2.
+    apply Rge_le in H2.
+    pose (conj H2 H4).
+    pose (H1 x1 a).
+    setoid_rewrite H3 in r.
+    tauto.
+    Qed.
+
+     
+    Global Instance ConvNonDecr`(Pa: NonDecreasingPositive pa)`(Pb: NonDecreasingPositive pb): NonDecreasingPositive (conv pa pb).
+    Admitted.  
+    
+    Definition deconv(f g : R -> Rbar) := fun t: R => Rbar_lub (Im R Rbar (fun x: R => x >= 0) (fun s => Rbar_minus (f (t+s)) (g(s)))).
+   
+    Theorem deconv_non_decr `(Pa: NonDecreasingPositive pa)(g: R -> Rbar): non_decreasing (deconv pa g).
+    Admitted.
+    Global Instance DeconvNonDecrPos `(Pa: NonDecreasingPositive pa)(g: R -> Rbar): (forall x, pa x >= g x) -> NonDecreasingPositive (deconv pa g).
+    Admitted.
+    
+  End Convolution.
+  
+  Section Min.
+
+    Definition min_f (f g : R -> Rbar) := fun t: R => Rbar_min (f t) (g t).
+
+    Definition neutral_min: R -> Rbar := fun x: R => p_infty.
+    
+  End Min.
+
+Theorem conv_le_min_if_0 : forall f g x, (f(0) = 0 /\ g(0) = 0) -> conv f g x <= min_f f g x.
+Admitted.
+
+Global Instance MinConv : Dioid min_f conv neutral_min neutral_conv.
+Admitted.
+
+Fixpoint conv_pow (f: R -> Rbar) (n: nat) :=
+match n with
+| O => neutral_conv
+| S n' => conv f (conv_pow f n')
+end.
+
+Definition subadd_clos (alpha: R -> Rbar): (R -> Rbar) :=
+(fun x: R => Inf_seq (fun n: nat => conv_pow alpha n x)).
+
+Global Instance SubaddClos`(alpha: NonDecreasingPositive al) : NonDecreasingPositive (subadd_clos al).
+Admitted.
+
+Theorem subadd_cl_is_subadd `(alpha: NonDecreasingPositive al): forall a b, a >= 0 /\ b >= 0 -> subadd_clos al (a + b) <= subadd_clos al a + subadd_clos al b.
+Admitted.
+
+Theorem subadd_cl_0_is_0 `(alpha: NonDecreasingPositive al): subadd_clos al 0 = 0.
+Admitted.
+
+End FunctionOperations.
+
+Section Server.
+
+Class Server (S : (R -> Rbar) -> (R -> Rbar) -> Prop) := {
+  subset_c_c: forall a d : R -> Rbar, S a d -> Cumulative a /\ Cumulative d;
+  completeness: forall a : R -> Rbar, Cumulative a -> exists d, S a d;
+  causality: forall a d t, S a d -> Rbar_le (d(t)) (a(t))
+}.
+
+Class MultiInput (S : list (R -> Rbar) -> list (R -> Rbar) -> Prop) (n: nat) := {
+  same_length: forall (A D : list (R -> Rbar)), S A D -> length A = n \/ length D = n;
+  cumul_lists: forall (A D : list (R -> Rbar)) (a d : R -> Rbar), S A D -> (List.In a A -> Cumulative a \/ List.In d D -> Cumulative d);
+  completeness_sched: forall (A : list (R -> Rbar)), (forall a, List.In a A -> Cumulative a) -> exists D, S A D;
+  causality_sched: forall (A D : list (R -> Rbar)) (i: nat) (t: R), S A D -> lt i n -> List.nth i A (delta 0) t >= List.nth i D (delta 0) t
+}.
+
+End Server.

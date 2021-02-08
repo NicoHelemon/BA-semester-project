@@ -1,0 +1,1318 @@
+DIGEST 57d9b60dde0eef3f82b0b19df10d1946
+FFunImage
+R82:86 Coq.Reals.Reals <> <> lib
+R88:96 Coq.ssr.ssreflect <> <> lib
+R98:121 Coq.Logic.FunctionalExtensionality <> <> lib
+R123:128 Coq.Setoids.Setoid <> <> lib
+R130:134 Coq.Sets.Image <> <> lib
+R136:144 Coq.Logic.Decidable <> <> lib
+R178:181 Coquelicot.Rbar <> <> lib
+R215:226 Coquelicot.Rcomplements <> <> lib
+R260:270 Coquelicot.Compactness <> <> lib
+R272:278 Coquelicot.Lim_seq <> <> lib
+R280:291 Coquelicot.Rcomplements <> <> lib
+R293:301 Coquelicot.Hierarchy <> <> lib
+R303:305 Coquelicot.Lub <> <> lib
+R337:342 mathcomp.ssreflect.ssrnat <> <> lib
+R360:368 SetTheory <> <> lib
+sec 415:419 <> Image
+prf 485:496 <> image_eq_fun
+binder 499:499 <> U:188
+binder 507:507 <> V:189
+R528:535 Coq.Sets.Ensembles <> Ensemble def
+R537:537 FunImage <> U:188 var
+binder 525:525 <> X:190
+R547:550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R551:551 FunImage <> V:189 var
+R546:546 FunImage <> U:188 var
+binder 541:541 <> f:191
+binder 543:543 <> g:192
+R555:555 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R577:581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R592:594 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R582:583 Coq.Sets.Image <> Im ind
+R591:591 FunImage <> f:191 var
+R589:589 FunImage <> X:190 var
+R587:587 FunImage <> V:189 var
+R585:585 FunImage <> U:188 var
+R595:596 Coq.Sets.Image <> Im ind
+R604:604 FunImage <> g:192 var
+R602:602 FunImage <> X:190 var
+R600:600 FunImage <> V:189 var
+R598:598 FunImage <> U:188 var
+binder 563:563 <> x:193
+R570:572 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R566:566 FunImage <> f:191 var
+R568:568 FunImage <> x:193 var
+R573:573 FunImage <> g:192 var
+R575:575 FunImage <> x:193 var
+R634:657 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R634:657 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R669:676 Coq.Sets.Ensembles <> Same_set def
+R688:695 Coq.Sets.Ensembles <> Included def
+R707:708 Coq.Sets.Ensembles <> In def
+R738:743 Coq.Sets.Image <> Im_inv thm
+R738:743 Coq.Sets.Image <> Im_inv thm
+R776:777 Coq.Sets.Ensembles <> In def
+R795:802 Coq.Sets.Image <> Im_intro constr
+R795:802 Coq.Sets.Image <> Im_intro constr
+R841:842 Coq.Sets.Ensembles <> In def
+R926:931 Coq.Sets.Image <> Im_inv thm
+R926:931 Coq.Sets.Image <> Im_inv thm
+R964:965 Coq.Sets.Ensembles <> In def
+R983:990 Coq.Sets.Image <> Im_intro constr
+R983:990 Coq.Sets.Image <> Im_intro constr
+R1029:1030 Coq.Sets.Ensembles <> In def
+prf 1184:1195 <> image_eq_set
+binder 1198:1198 <> U:194
+binder 1206:1206 <> V:195
+R1228:1235 Coq.Sets.Ensembles <> Ensemble def
+R1237:1237 FunImage <> U:194 var
+binder 1223:1223 <> X:196
+binder 1225:1226 <> X':197
+R1245:1248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1249:1249 FunImage <> V:195 var
+R1244:1244 FunImage <> U:194 var
+binder 1241:1241 <> f:198
+R1254:1254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1280:1284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1295:1297 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1285:1286 Coq.Sets.Image <> Im ind
+R1294:1294 FunImage <> f:198 var
+R1292:1292 FunImage <> X:196 var
+R1290:1290 FunImage <> V:195 var
+R1288:1288 FunImage <> U:194 var
+R1298:1299 Coq.Sets.Image <> Im ind
+R1308:1308 FunImage <> f:198 var
+R1305:1306 FunImage <> X':197 var
+R1303:1303 FunImage <> V:195 var
+R1301:1301 FunImage <> U:194 var
+R1265:1265 FunImage <> U:194 var
+binder 1262:1262 <> x:199
+R1271:1275 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1268:1268 FunImage <> X:196 var
+R1270:1270 FunImage <> x:199 var
+R1276:1277 FunImage <> X':197 var
+R1279:1279 FunImage <> x:199 var
+R1338:1361 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R1338:1361 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R1373:1380 Coq.Sets.Ensembles <> Same_set def
+R1392:1399 Coq.Sets.Ensembles <> Included def
+R1411:1412 Coq.Sets.Ensembles <> In def
+R1442:1447 Coq.Sets.Image <> Im_inv thm
+R1442:1447 Coq.Sets.Image <> Im_inv thm
+R1480:1487 Coq.Sets.Image <> Im_intro constr
+R1480:1487 Coq.Sets.Image <> Im_intro constr
+R1542:1543 Coq.Sets.Ensembles <> In def
+R1561:1562 Coq.Sets.Ensembles <> In def
+R1582:1587 Coq.Init.Logic <> eq_sym thm
+R1582:1587 Coq.Init.Logic <> eq_sym thm
+R1617:1622 Coq.Sets.Image <> Im_inv thm
+R1617:1622 Coq.Sets.Image <> Im_inv thm
+R1655:1662 Coq.Sets.Image <> Im_intro constr
+R1655:1662 Coq.Sets.Image <> Im_intro constr
+R1716:1717 Coq.Sets.Ensembles <> In def
+R1735:1736 Coq.Sets.Ensembles <> In def
+R1756:1761 Coq.Init.Logic <> eq_sym thm
+R1756:1761 Coq.Init.Logic <> eq_sym thm
+prf 1908:1918 <> image_empty
+binder 1921:1921 <> U:200
+binder 1929:1929 <> V:201
+binder 1946:1946 <> X:202
+binder 1948:1948 <> f:203
+R1966:1970 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1952:1954 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1951:1951 FunImage <> X:202 var
+R1955:1963 Coq.Sets.Ensembles <> Empty_set ind
+R1965:1965 FunImage <> U:200 var
+R1981:1983 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1971:1972 Coq.Sets.Image <> Im ind
+R1980:1980 FunImage <> f:203 var
+R1978:1978 FunImage <> X:202 var
+R1976:1976 FunImage <> V:201 var
+R1974:1974 FunImage <> U:200 var
+R1984:1992 Coq.Sets.Ensembles <> Empty_set ind
+R1994:1994 FunImage <> V:201 var
+R2024:2031 SetTheory <> is_empty thm
+R2024:2031 SetTheory <> is_empty thm
+R2054:2061 SetTheory <> is_empty thm
+R2054:2061 SetTheory <> is_empty thm
+R2091:2096 Coq.Sets.Image <> Im_inv thm
+R2091:2096 Coq.Sets.Image <> Im_inv thm
+R2181:2188 SetTheory <> is_empty thm
+R2181:2188 SetTheory <> is_empty thm
+R2211:2218 SetTheory <> is_empty thm
+R2211:2218 SetTheory <> is_empty thm
+R2248:2255 Coq.Sets.Image <> Im_intro constr
+R2276:2282 Coq.Init.Logic <> eq_refl constr
+R2248:2255 Coq.Sets.Image <> Im_intro constr
+R2276:2282 Coq.Init.Logic <> eq_refl constr
+prf 2443:2457 <> image_non_empty
+binder 2460:2460 <> U:204
+binder 2468:2468 <> V:205
+binder 2485:2485 <> X:206
+binder 2487:2487 <> f:207
+R2506:2510 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2491:2494 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2490:2490 FunImage <> X:206 var
+R2495:2503 Coq.Sets.Ensembles <> Empty_set ind
+R2505:2505 FunImage <> U:204 var
+R2521:2524 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2511:2512 Coq.Sets.Image <> Im ind
+R2520:2520 FunImage <> f:207 var
+R2518:2518 FunImage <> X:206 var
+R2516:2516 FunImage <> V:205 var
+R2514:2514 FunImage <> U:204 var
+R2525:2533 Coq.Sets.Ensembles <> Empty_set ind
+R2535:2535 FunImage <> V:205 var
+R2592:2602 FunImage <> image_empty thm
+R2592:2602 FunImage <> image_empty thm
+R2644:2654 FunImage <> image_empty thm
+R2644:2654 FunImage <> image_empty thm
+prf 2829:2842 <> image_included
+binder 2845:2845 <> U:208
+binder 2853:2853 <> V:209
+R2877:2884 Coq.Sets.Ensembles <> Ensemble def
+R2886:2886 FunImage <> U:208 var
+binder 2871:2871 <> X:210
+binder 2873:2874 <> X':211
+R2894:2897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2898:2898 FunImage <> V:209 var
+R2893:2893 FunImage <> U:208 var
+binder 2890:2890 <> f:212
+R2917:2920 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2921:2928 Coq.Sets.Ensembles <> Included def
+R2946:2947 Coq.Sets.Image <> Im ind
+R2956:2956 FunImage <> f:212 var
+R2953:2954 FunImage <> X':211 var
+R2951:2951 FunImage <> V:209 var
+R2949:2949 FunImage <> U:208 var
+R2933:2934 Coq.Sets.Image <> Im ind
+R2942:2942 FunImage <> f:212 var
+R2940:2940 FunImage <> X:210 var
+R2938:2938 FunImage <> V:209 var
+R2936:2936 FunImage <> U:208 var
+R2930:2930 FunImage <> V:209 var
+R2902:2909 Coq.Sets.Ensembles <> Included def
+R2915:2916 FunImage <> X':211 var
+R2913:2913 FunImage <> X:210 var
+R2911:2911 FunImage <> U:208 var
+R2969:2976 Coq.Sets.Ensembles <> Included def
+R2997:3002 Coq.Sets.Image <> Im_inv thm
+R2997:3002 Coq.Sets.Image <> Im_inv thm
+R3068:3075 Coq.Sets.Image <> Im_intro constr
+R3068:3075 Coq.Sets.Image <> Im_intro constr
+prf 3273:3283 <> image_union
+binder 3286:3286 <> U:213
+binder 3294:3294 <> V:214
+R3318:3325 Coq.Sets.Ensembles <> Ensemble def
+R3327:3327 FunImage <> U:213 var
+binder 3312:3312 <> X:215
+binder 3314:3315 <> X':216
+R3335:3338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3339:3339 FunImage <> V:214 var
+R3334:3334 FunImage <> U:213 var
+binder 3331:3331 <> f:217
+R3377:3379 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3343:3347 Coq.Sets.Ensembles <> Union ind
+R3365:3366 Coq.Sets.Image <> Im ind
+R3375:3375 FunImage <> f:217 var
+R3372:3373 FunImage <> X':216 var
+R3370:3370 FunImage <> V:214 var
+R3368:3368 FunImage <> U:213 var
+R3352:3353 Coq.Sets.Image <> Im ind
+R3361:3361 FunImage <> f:217 var
+R3359:3359 FunImage <> X:215 var
+R3357:3357 FunImage <> V:214 var
+R3355:3355 FunImage <> U:213 var
+R3349:3349 FunImage <> V:214 var
+R3380:3381 Coq.Sets.Image <> Im ind
+R3402:3402 FunImage <> f:217 var
+R3388:3392 Coq.Sets.Ensembles <> Union ind
+R3398:3399 FunImage <> X':216 var
+R3396:3396 FunImage <> X:215 var
+R3394:3394 FunImage <> U:213 var
+R3385:3385 FunImage <> V:214 var
+R3383:3383 FunImage <> U:213 var
+R3423:3446 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R3423:3446 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R3458:3465 Coq.Sets.Ensembles <> Same_set def
+R3477:3484 Coq.Sets.Ensembles <> Included def
+R3515:3516 Coq.Sets.Ensembles <> In def
+R3532:3540 Coq.Sets.Constructive_sets <> Union_inv thm
+R3532:3540 Coq.Sets.Constructive_sets <> Union_inv thm
+R3557:3558 Coq.Sets.Ensembles <> In def
+R3583:3588 Coq.Sets.Image <> Im_inv thm
+R3583:3588 Coq.Sets.Image <> Im_inv thm
+R3619:3626 Coq.Sets.Image <> Im_intro constr
+R3619:3626 Coq.Sets.Image <> Im_intro constr
+R3663:3674 Coq.Sets.Ensembles <> Union_introl constr
+R3663:3674 Coq.Sets.Ensembles <> Union_introl constr
+R3694:3699 Coq.Init.Logic <> eq_sym thm
+R3694:3699 Coq.Init.Logic <> eq_sym thm
+R3719:3724 Coq.Sets.Image <> Im_inv thm
+R3719:3724 Coq.Sets.Image <> Im_inv thm
+R3755:3762 Coq.Sets.Image <> Im_intro constr
+R3755:3762 Coq.Sets.Image <> Im_intro constr
+R3799:3810 Coq.Sets.Ensembles <> Union_intror constr
+R3799:3810 Coq.Sets.Ensembles <> Union_intror constr
+R3830:3835 Coq.Init.Logic <> eq_sym thm
+R3830:3835 Coq.Init.Logic <> eq_sym thm
+R3868:3873 Coq.Sets.Image <> Im_inv thm
+R3868:3873 Coq.Sets.Image <> Im_inv thm
+R3917:3925 Coq.Sets.Constructive_sets <> Union_inv thm
+R3917:3925 Coq.Sets.Constructive_sets <> Union_inv thm
+R3955:3966 Coq.Sets.Ensembles <> Union_introl constr
+R3955:3966 Coq.Sets.Ensembles <> Union_introl constr
+R3978:3985 Coq.Sets.Image <> Im_intro constr
+R4003:4008 Coq.Init.Logic <> eq_sym thm
+R3978:3985 Coq.Sets.Image <> Im_intro constr
+R4003:4008 Coq.Init.Logic <> eq_sym thm
+R4024:4035 Coq.Sets.Ensembles <> Union_intror constr
+R4024:4035 Coq.Sets.Ensembles <> Union_intror constr
+R4047:4054 Coq.Sets.Image <> Im_intro constr
+R4073:4078 Coq.Init.Logic <> eq_sym thm
+R4047:4054 Coq.Sets.Image <> Im_intro constr
+R4073:4078 Coq.Init.Logic <> eq_sym thm
+R4103:4107 FunImage Image <> sec
+sec 4167:4176 <> RbarImages
+prf 4194:4212 <> image_eq_fun_r_rbar
+R4227:4234 Coq.Sets.Ensembles <> Ensemble def
+R4236:4236 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4224:4224 <> X:218
+R4246:4249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4250:4253 Coquelicot.Rbar <> Rbar ind
+R4245:4245 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4240:4240 <> f:219
+binder 4242:4242 <> g:220
+R4257:4257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4279:4283 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4297:4299 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4284:4285 Coq.Sets.Image <> Im ind
+R4296:4296 FunImage <> f:219 var
+R4294:4294 FunImage <> X:218 var
+R4289:4292 Coquelicot.Rbar <> Rbar ind
+R4287:4287 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4300:4301 Coq.Sets.Image <> Im ind
+R4312:4312 FunImage <> g:220 var
+R4310:4310 FunImage <> X:218 var
+R4305:4308 Coquelicot.Rbar <> Rbar ind
+R4303:4303 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4265:4265 <> x:221
+R4272:4274 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4268:4268 FunImage <> f:219 var
+R4270:4270 FunImage <> x:221 var
+R4275:4275 FunImage <> g:220 var
+R4277:4277 FunImage <> x:221 var
+R4349:4360 FunImage <> image_eq_fun thm
+R4349:4360 FunImage <> image_eq_fun thm
+prf 4516:4535 <> image_f_t_shift_flip
+binder 4546:4546 <> f:222
+binder 4548:4551 <> from:223
+binder 4553:4554 <> to:224
+binder 4556:4556 <> s:225
+R4608:4610 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4559:4560 Coq.Sets.Image <> Im ind
+R4607:4607 FunImage <> f:222 var
+R4578:4578 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4574:4575 <> x0:226
+R4593:4596 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4585:4588 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R4583:4584 FunImage <> x0:226 var
+R4589:4592 FunImage <> from:223 var
+R4599:4602 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4597:4598 FunImage <> x0:226 var
+R4603:4604 FunImage <> to:224 var
+R4564:4567 Coquelicot.Rbar <> Rbar ind
+R4562:4562 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4611:4612 Coq.Sets.Image <> Im ind
+R4672:4672 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4667:4668 <> x2:227
+R4677:4677 FunImage <> f:222 var
+R4681:4683 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R4680:4680 FunImage <> s:225 var
+R4684:4685 FunImage <> x2:227 var
+R4627:4627 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4623:4624 <> x1:228
+R4645:4648 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4634:4637 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4632:4633 FunImage <> x1:228 var
+R4639:4640 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R4638:4638 FunImage <> s:225 var
+R4641:4644 FunImage <> from:223 var
+R4651:4654 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R4649:4650 FunImage <> x1:228 var
+R4656:4657 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R4655:4655 FunImage <> s:225 var
+R4658:4659 FunImage <> to:224 var
+R4717:4740 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R4717:4740 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R4752:4759 Coq.Sets.Ensembles <> Same_set def
+R4771:4778 Coq.Sets.Ensembles <> Included def
+R4809:4814 Coq.Sets.Image <> Im_inv thm
+R4809:4814 Coq.Sets.Image <> Im_inv thm
+R4867:4868 Coq.Sets.Ensembles <> In def
+R4885:4892 Coq.Sets.Image <> Im_intro constr
+R4971:4973 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+binder 4951:4952 <> x3:229
+R4961:4963 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R4964:4965 FunImage <> x3:229 var
+R4910:4910 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4906:4907 <> x2:230
+R4929:4932 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4917:4920 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4915:4916 FunImage <> x2:230 var
+R4922:4924 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R4935:4938 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R4933:4934 FunImage <> x2:230 var
+R4940:4941 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R4896:4899 Coquelicot.Rbar <> Rbar ind
+R4894:4894 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4885:4892 Coq.Sets.Image <> Im_intro constr
+R4971:4973 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+binder 4951:4952 <> x3:231
+R4961:4963 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R4964:4965 FunImage <> x3:231 var
+R4910:4910 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 4906:4907 <> x2:232
+R4929:4932 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4917:4920 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R4915:4916 FunImage <> x2:232 var
+R4922:4924 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R4935:4938 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R4933:4934 FunImage <> x2:232 var
+R4940:4941 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R4896:4899 Coquelicot.Rbar <> Rbar ind
+R4894:4894 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R4989:4990 Coq.Sets.Ensembles <> In def
+R5024:5040 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R5024:5040 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R5064:5080 Coq.Reals.RIneq <> Rplus_ge_compat_l thm
+R5064:5080 Coq.Reals.RIneq <> Rplus_ge_compat_l thm
+R5105:5110 Coq.Reals.Rdefinitions <> Rminus def
+R5124:5138 Coq.Reals.RIneq <> Ropp_plus_distr thm
+R5143:5144 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R5124:5138 Coq.Reals.RIneq <> Ropp_plus_distr thm
+R5143:5144 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R5124:5138 Coq.Reals.RIneq <> Ropp_plus_distr thm
+R5143:5144 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R5161:5175 Coq.Reals.RIneq <> Ropp_involutive thm
+R5161:5175 Coq.Reals.RIneq <> Ropp_involutive thm
+R5161:5175 Coq.Reals.RIneq <> Ropp_involutive thm
+R5191:5201 Coq.Reals.Raxioms <> Rplus_assoc thm
+R5191:5201 Coq.Reals.Raxioms <> Rplus_assoc thm
+R5191:5201 Coq.Reals.Raxioms <> Rplus_assoc thm
+R5214:5224 Coq.Reals.Raxioms <> Rplus_opp_r thm
+R5214:5224 Coq.Reals.Raxioms <> Rplus_opp_r thm
+R5214:5224 Coq.Reals.Raxioms <> Rplus_opp_r thm
+R5237:5245 Coq.Reals.Raxioms <> Rplus_0_l thm
+R5237:5245 Coq.Reals.Raxioms <> Rplus_0_l thm
+R5237:5245 Coq.Reals.Raxioms <> Rplus_0_l thm
+R5275:5280 Coq.Sets.Image <> Im_inv thm
+R5275:5280 Coq.Sets.Image <> Im_inv thm
+R5333:5334 Coq.Sets.Ensembles <> In def
+R5351:5358 Coq.Sets.Image <> Im_intro constr
+R5426:5427 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+binder 5410:5411 <> x3:233
+R5419:5420 FunImage <> x3:233 var
+R5376:5376 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5372:5373 <> x2:234
+R5391:5394 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5383:5386 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R5381:5382 FunImage <> x2:234 var
+R5397:5400 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R5395:5396 FunImage <> x2:234 var
+R5362:5365 Coquelicot.Rbar <> Rbar ind
+R5360:5360 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R5351:5358 Coq.Sets.Image <> Im_intro constr
+R5426:5427 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+binder 5410:5411 <> x3:235
+R5419:5420 FunImage <> x3:235 var
+R5376:5376 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 5372:5373 <> x2:236
+R5391:5394 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5383:5386 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R5381:5382 FunImage <> x2:236 var
+R5397:5400 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R5395:5396 FunImage <> x2:236 var
+R5362:5365 Coquelicot.Rbar <> Rbar ind
+R5360:5360 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R5443:5444 Coq.Sets.Ensembles <> In def
+R5479:5492 Coq.Reals.RIneq <> Rplus_ge_reg_l thm
+R5501:5503 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R5495:5495 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R5479:5492 Coq.Reals.RIneq <> Rplus_ge_reg_l thm
+R5501:5503 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R5495:5495 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R5524:5529 Coq.Reals.Rdefinitions <> Rminus def
+R5546:5556 Coq.Reals.Raxioms <> Rplus_assoc thm
+R5546:5556 Coq.Reals.Raxioms <> Rplus_assoc thm
+R5546:5556 Coq.Reals.Raxioms <> Rplus_assoc thm
+R5570:5580 Coq.Reals.RIneq <> Rplus_opp_l thm
+R5570:5580 Coq.Reals.RIneq <> Rplus_opp_l thm
+R5570:5580 Coq.Reals.RIneq <> Rplus_opp_l thm
+R5593:5601 Coq.Reals.Raxioms <> Rplus_0_l thm
+R5593:5601 Coq.Reals.Raxioms <> Rplus_0_l thm
+R5593:5601 Coq.Reals.Raxioms <> Rplus_0_l thm
+R5612:5625 Coq.Reals.RIneq <> Ropp_ge_cancel thm
+R5612:5625 Coq.Reals.RIneq <> Ropp_ge_cancel thm
+R5638:5652 Coq.Reals.RIneq <> Ropp_plus_distr thm
+R5638:5652 Coq.Reals.RIneq <> Ropp_plus_distr thm
+R5638:5652 Coq.Reals.RIneq <> Ropp_plus_distr thm
+R5665:5679 Coq.Reals.RIneq <> Ropp_involutive thm
+R5665:5679 Coq.Reals.RIneq <> Ropp_involutive thm
+R5665:5679 Coq.Reals.RIneq <> Ropp_involutive thm
+R5692:5706 Coq.Reals.RIneq <> Ropp_involutive thm
+R5692:5706 Coq.Reals.RIneq <> Ropp_involutive thm
+R5692:5706 Coq.Reals.RIneq <> Ropp_involutive thm
+R5744:5757 Coq.Reals.RIneq <> Rplus_le_reg_l thm
+R5760:5760 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R5744:5757 Coq.Reals.RIneq <> Rplus_le_reg_l thm
+R5760:5760 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R5775:5780 Coq.Reals.Rdefinitions <> Rminus def
+R5797:5807 Coq.Reals.Raxioms <> Rplus_assoc thm
+R5797:5807 Coq.Reals.Raxioms <> Rplus_assoc thm
+R5797:5807 Coq.Reals.Raxioms <> Rplus_assoc thm
+R5821:5831 Coq.Reals.RIneq <> Rplus_opp_l thm
+R5821:5831 Coq.Reals.RIneq <> Rplus_opp_l thm
+R5821:5831 Coq.Reals.RIneq <> Rplus_opp_l thm
+R5844:5852 Coq.Reals.Raxioms <> Rplus_0_l thm
+R5844:5852 Coq.Reals.Raxioms <> Rplus_0_l thm
+R5844:5852 Coq.Reals.Raxioms <> Rplus_0_l thm
+R5863:5876 Coq.Reals.RIneq <> Ropp_le_cancel thm
+R5863:5876 Coq.Reals.RIneq <> Ropp_le_cancel thm
+R5889:5903 Coq.Reals.RIneq <> Ropp_plus_distr thm
+R5889:5903 Coq.Reals.RIneq <> Ropp_plus_distr thm
+R5889:5903 Coq.Reals.RIneq <> Ropp_plus_distr thm
+R5916:5930 Coq.Reals.RIneq <> Ropp_involutive thm
+R5916:5930 Coq.Reals.RIneq <> Ropp_involutive thm
+R5916:5930 Coq.Reals.RIneq <> Ropp_involutive thm
+R5943:5957 Coq.Reals.RIneq <> Ropp_involutive thm
+R5943:5957 Coq.Reals.RIneq <> Ropp_involutive thm
+R5943:5957 Coq.Reals.RIneq <> Ropp_involutive thm
+R5968:5973 Coq.Reals.RIneq <> Rge_le thm
+R5968:5973 Coq.Reals.RIneq <> Rge_le thm
+prf 6112:6128 <> image_f_t_shifted
+binder 6139:6139 <> f:237
+binder 6141:6144 <> from:238
+binder 6146:6147 <> to:239
+binder 6149:6149 <> s:240
+R6201:6203 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6152:6153 Coq.Sets.Image <> Im ind
+R6200:6200 FunImage <> f:237 var
+R6171:6171 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6167:6168 <> x0:241
+R6186:6189 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6178:6181 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R6176:6177 FunImage <> x0:241 var
+R6182:6185 FunImage <> from:238 var
+R6192:6195 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R6190:6191 FunImage <> x0:241 var
+R6196:6197 FunImage <> to:239 var
+R6157:6160 Coquelicot.Rbar <> Rbar ind
+R6155:6155 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R6204:6205 Coq.Sets.Image <> Im ind
+R6267:6267 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6262:6263 <> x3:242
+R6272:6272 FunImage <> f:237 var
+R6277:6279 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6275:6276 FunImage <> x3:242 var
+R6280:6280 FunImage <> s:240 var
+R6220:6220 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6216:6217 <> x2:243
+R6239:6242 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6227:6230 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R6225:6226 FunImage <> x2:243 var
+R6235:6237 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6231:6234 FunImage <> from:238 var
+R6238:6238 FunImage <> s:240 var
+R6245:6248 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R6243:6244 FunImage <> x2:243 var
+R6251:6253 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6249:6250 FunImage <> to:239 var
+R6254:6254 FunImage <> s:240 var
+R6312:6335 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R6312:6335 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R6347:6354 Coq.Sets.Ensembles <> Same_set def
+R6366:6373 Coq.Sets.Ensembles <> Included def
+R6404:6409 Coq.Sets.Image <> Im_inv thm
+R6404:6409 Coq.Sets.Image <> Im_inv thm
+R6462:6463 Coq.Sets.Ensembles <> In def
+R6480:6487 Coq.Sets.Image <> Im_intro constr
+R6568:6570 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+binder 6547:6548 <> x3:244
+R6558:6560 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6556:6557 FunImage <> x3:244 var
+R6505:6505 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6501:6502 <> x2:245
+R6524:6527 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6512:6515 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R6510:6511 FunImage <> x2:245 var
+R6520:6522 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6530:6533 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R6528:6529 FunImage <> x2:245 var
+R6536:6538 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6491:6494 Coquelicot.Rbar <> Rbar ind
+R6489:6489 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R6480:6487 Coq.Sets.Image <> Im_intro constr
+R6568:6570 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+binder 6547:6548 <> x3:246
+R6558:6560 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R6556:6557 FunImage <> x3:246 var
+R6505:6505 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6501:6502 <> x2:247
+R6524:6527 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6512:6515 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R6510:6511 FunImage <> x2:247 var
+R6520:6522 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6530:6533 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R6528:6529 FunImage <> x2:247 var
+R6536:6538 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R6491:6494 Coquelicot.Rbar <> Rbar ind
+R6489:6489 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R6585:6586 Coq.Sets.Ensembles <> In def
+R6647:6652 Coq.Reals.Rdefinitions <> Rminus def
+R6666:6676 Coq.Reals.Raxioms <> Rplus_assoc thm
+R6684:6684 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6666:6676 Coq.Reals.Raxioms <> Rplus_assoc thm
+R6684:6684 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6666:6676 Coq.Reals.Raxioms <> Rplus_assoc thm
+R6684:6684 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R6701:6711 Coq.Reals.Raxioms <> Rplus_opp_r thm
+R6701:6711 Coq.Reals.Raxioms <> Rplus_opp_r thm
+R6701:6711 Coq.Reals.Raxioms <> Rplus_opp_r thm
+R6727:6735 Coq.Reals.RIneq <> Rplus_0_r thm
+R6727:6735 Coq.Reals.RIneq <> Rplus_0_r thm
+R6727:6735 Coq.Reals.RIneq <> Rplus_0_r thm
+R6765:6770 Coq.Sets.Image <> Im_inv thm
+R6765:6770 Coq.Sets.Image <> Im_inv thm
+R6823:6824 Coq.Sets.Ensembles <> In def
+R6841:6848 Coq.Sets.Image <> Im_intro constr
+R6917:6919 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+binder 6900:6901 <> x3:248
+R6909:6910 FunImage <> x3:248 var
+R6866:6866 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6862:6863 <> x2:249
+R6881:6884 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6873:6876 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R6871:6872 FunImage <> x2:249 var
+R6887:6890 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R6885:6886 FunImage <> x2:249 var
+R6852:6855 Coquelicot.Rbar <> Rbar ind
+R6850:6850 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R6841:6848 Coq.Sets.Image <> Im_intro constr
+R6917:6919 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+binder 6900:6901 <> x3:250
+R6909:6910 FunImage <> x3:250 var
+R6866:6866 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6862:6863 <> x2:251
+R6881:6884 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6873:6876 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R6871:6872 FunImage <> x2:251 var
+R6887:6890 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R6885:6886 FunImage <> x2:251 var
+R6852:6855 Coquelicot.Rbar <> Rbar ind
+R6850:6850 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R6934:6935 Coq.Sets.Ensembles <> In def
+R6969:6974 Coq.Reals.RIneq <> Rle_ge thm
+R6969:6974 Coq.Reals.RIneq <> Rle_ge thm
+R6986:6999 Coq.Reals.RIneq <> Rplus_le_reg_r thm
+R6986:6999 Coq.Reals.RIneq <> Rplus_le_reg_r thm
+R7013:7018 Coq.Reals.RIneq <> Rge_le thm
+R7013:7018 Coq.Reals.RIneq <> Rge_le thm
+R7032:7042 Coq.Reals.Raxioms <> Rplus_assoc thm
+R7048:7048 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7032:7042 Coq.Reals.Raxioms <> Rplus_assoc thm
+R7048:7048 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7032:7042 Coq.Reals.Raxioms <> Rplus_assoc thm
+R7048:7048 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7067:7077 Coq.Reals.RIneq <> Rplus_opp_l thm
+R7067:7077 Coq.Reals.RIneq <> Rplus_opp_l thm
+R7067:7077 Coq.Reals.RIneq <> Rplus_opp_l thm
+R7093:7101 Coq.Reals.RIneq <> Rplus_0_r thm
+R7093:7101 Coq.Reals.RIneq <> Rplus_0_r thm
+R7093:7101 Coq.Reals.RIneq <> Rplus_0_r thm
+R7121:7134 Coq.Reals.RIneq <> Rplus_le_reg_r thm
+R7121:7134 Coq.Reals.RIneq <> Rplus_le_reg_r thm
+R7151:7161 Coq.Reals.Raxioms <> Rplus_assoc thm
+R7167:7167 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7151:7161 Coq.Reals.Raxioms <> Rplus_assoc thm
+R7167:7167 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7151:7161 Coq.Reals.Raxioms <> Rplus_assoc thm
+R7167:7167 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7186:7196 Coq.Reals.RIneq <> Rplus_opp_l thm
+R7186:7196 Coq.Reals.RIneq <> Rplus_opp_l thm
+R7186:7196 Coq.Reals.RIneq <> Rplus_opp_l thm
+R7212:7220 Coq.Reals.RIneq <> Rplus_0_r thm
+R7212:7220 Coq.Reals.RIneq <> Rplus_0_r thm
+R7212:7220 Coq.Reals.RIneq <> Rplus_0_r thm
+prf 7374:7390 <> image_f_t_flipped
+binder 7401:7401 <> f:252
+binder 7403:7406 <> from:253
+binder 7408:7409 <> to:254
+R7461:7463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7412:7413 Coq.Sets.Image <> Im ind
+R7460:7460 FunImage <> f:252 var
+R7431:7431 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7427:7428 <> x0:255
+R7446:7449 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7438:7441 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R7436:7437 FunImage <> x0:255 var
+R7442:7445 FunImage <> from:253 var
+R7452:7455 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7450:7451 FunImage <> x0:255 var
+R7456:7457 FunImage <> to:254 var
+R7417:7420 Coquelicot.Rbar <> Rbar ind
+R7415:7415 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R7464:7465 Coq.Sets.Image <> Im ind
+R7521:7521 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7516:7517 <> x3:256
+R7526:7526 FunImage <> f:252 var
+R7529:7529 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7530:7531 FunImage <> x3:256 var
+R7480:7480 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7476:7477 <> x2:257
+R7496:7499 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7487:7490 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7485:7486 FunImage <> x2:257 var
+R7491:7491 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7492:7495 FunImage <> from:253 var
+R7502:7505 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R7500:7501 FunImage <> x2:257 var
+R7506:7506 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7507:7508 FunImage <> to:254 var
+R7566:7577 FunImage <> image_eq_fun thm
+binder 7652:7652 <> x:258
+R7660:7662 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7663:7663 FunImage <> x:258 var
+R7632:7632 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7627:7628 <> x3:259
+R7640:7641 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7642:7643 FunImage <> x3:259 var
+R7589:7589 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7584:7585 <> x2:260
+R7606:7609 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7596:7599 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7594:7595 FunImage <> x2:260 var
+R7600:7601 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7612:7615 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R7610:7611 FunImage <> x2:260 var
+R7616:7617 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7566:7577 FunImage <> image_eq_fun thm
+binder 7652:7652 <> x:261
+R7660:7662 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7663:7663 FunImage <> x:261 var
+R7632:7632 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7627:7628 <> x3:262
+R7640:7641 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7642:7643 FunImage <> x3:262 var
+R7589:7589 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7584:7585 <> x2:263
+R7606:7609 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7596:7599 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7594:7595 FunImage <> x2:263 var
+R7600:7601 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7612:7615 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R7610:7611 FunImage <> x2:263 var
+R7616:7617 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7566:7577 FunImage <> image_eq_fun thm
+binder 7652:7652 <> x:264
+R7660:7662 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7663:7663 FunImage <> x:264 var
+R7632:7632 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7627:7628 <> x3:265
+R7640:7641 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7642:7643 FunImage <> x3:265 var
+R7589:7589 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7584:7585 <> x2:266
+R7606:7609 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7596:7599 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7594:7595 FunImage <> x2:266 var
+R7600:7601 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7612:7615 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R7610:7611 FunImage <> x2:266 var
+R7616:7617 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7681:7692 FunImage <> image_eq_set thm
+R7785:7785 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7781:7781 <> x:267
+R7794:7796 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7797:7797 FunImage <> x:267 var
+binder 7738:7739 <> x1:268
+R7758:7761 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7746:7749 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7744:7745 FunImage <> x1:268 var
+R7751:7753 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7764:7767 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R7762:7763 FunImage <> x1:268 var
+R7769:7771 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+binder 7699:7700 <> x1:269
+R7717:7720 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7707:7710 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7705:7706 FunImage <> x1:269 var
+R7711:7712 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7723:7726 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R7721:7722 FunImage <> x1:269 var
+R7727:7728 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7681:7692 FunImage <> image_eq_set thm
+R7785:7785 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7781:7781 <> x:270
+R7794:7796 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7797:7797 FunImage <> x:270 var
+binder 7738:7739 <> x1:271
+R7758:7761 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7746:7749 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7744:7745 FunImage <> x1:271 var
+R7751:7753 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7764:7767 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R7762:7763 FunImage <> x1:271 var
+R7769:7771 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+binder 7699:7700 <> x1:272
+R7717:7720 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7707:7710 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7705:7706 FunImage <> x1:272 var
+R7711:7712 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7723:7726 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R7721:7722 FunImage <> x1:272 var
+R7727:7728 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7681:7692 FunImage <> image_eq_set thm
+R7785:7785 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 7781:7781 <> x:273
+R7794:7796 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7797:7797 FunImage <> x:273 var
+binder 7738:7739 <> x1:274
+R7758:7761 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7746:7749 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7744:7745 FunImage <> x1:274 var
+R7751:7753 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+R7764:7767 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R7762:7763 FunImage <> x1:274 var
+R7769:7771 Coq.Reals.Rdefinitions <> ::R_scope:x_'-'_x not
+binder 7699:7700 <> x1:275
+R7717:7720 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7707:7710 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R7705:7706 FunImage <> x1:275 var
+R7711:7712 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7723:7726 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R7721:7722 FunImage <> x1:275 var
+R7727:7728 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R7812:7831 FunImage <> image_f_t_shift_flip thm
+R7812:7831 FunImage <> image_f_t_shift_flip thm
+R7866:7871 Coq.Reals.Rdefinitions <> Rminus def
+R7884:7892 Coq.Reals.Raxioms <> Rplus_0_l thm
+R7884:7892 Coq.Reals.Raxioms <> Rplus_0_l thm
+R7884:7892 Coq.Reals.Raxioms <> Rplus_0_l thm
+R7905:7913 Coq.Reals.Raxioms <> Rplus_0_l thm
+R7905:7913 Coq.Reals.Raxioms <> Rplus_0_l thm
+R7905:7913 Coq.Reals.Raxioms <> Rplus_0_l thm
+R7944:7949 Coq.Reals.Rdefinitions <> Rminus def
+R7962:7970 Coq.Reals.Raxioms <> Rplus_0_l thm
+R7962:7970 Coq.Reals.Raxioms <> Rplus_0_l thm
+R7962:7970 Coq.Reals.Raxioms <> Rplus_0_l thm
+prf 8006:8021 <> image_t_f_is_f_t
+binder 8032:8032 <> f:276
+binder 8034:8037 <> from:277
+binder 8039:8040 <> to:278
+R8092:8094 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8043:8044 Coq.Sets.Image <> Im ind
+R8091:8091 FunImage <> f:276 var
+R8062:8062 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8058:8059 <> x0:279
+R8077:8080 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8069:8072 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8067:8068 FunImage <> x0:279 var
+R8073:8076 FunImage <> from:277 var
+R8083:8086 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8081:8082 FunImage <> x0:279 var
+R8087:8088 FunImage <> to:278 var
+R8048:8051 Coquelicot.Rbar <> Rbar ind
+R8046:8046 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R8095:8096 Coq.Sets.Image <> Im ind
+R8140:8140 FunImage <> f:276 var
+R8111:8111 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8107:8108 <> x2:280
+R8124:8127 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8118:8121 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8116:8117 FunImage <> x2:280 var
+R8122:8123 FunImage <> to:278 var
+R8130:8133 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8128:8129 FunImage <> x2:280 var
+R8134:8137 FunImage <> from:277 var
+R8183:8183 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8179:8180 <> x0:281
+R8220:8225 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+binder 8191:8191 <> x:282
+R8205:8208 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8197:8200 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8196:8196 FunImage <> x:282 var
+R8210:8213 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8209:8209 FunImage <> x:282 var
+R8218:8219 FunImage <> x0:281 var
+binder 8231:8231 <> x:283
+R8243:8246 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8237:8240 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8236:8236 FunImage <> x:283 var
+R8248:8251 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8247:8247 FunImage <> x:283 var
+R8258:8259 FunImage <> x0:281 var
+R8183:8183 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8179:8180 <> x0:284
+R8220:8225 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+binder 8191:8191 <> x:285
+R8205:8208 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8197:8200 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8196:8196 FunImage <> x:285 var
+R8210:8213 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8209:8209 FunImage <> x:285 var
+R8218:8219 FunImage <> x0:284 var
+binder 8231:8231 <> x:286
+R8243:8246 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8237:8240 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8236:8236 FunImage <> x:286 var
+R8248:8251 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8247:8247 FunImage <> x:286 var
+R8258:8259 FunImage <> x0:284 var
+R8293:8304 FunImage <> image_eq_set thm
+binder 8346:8347 <> x0:287
+R8360:8363 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8354:8357 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8352:8353 FunImage <> x0:287 var
+R8366:8369 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8364:8365 FunImage <> x0:287 var
+binder 8311:8312 <> x0:288
+R8327:8330 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8319:8322 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8317:8318 FunImage <> x0:288 var
+R8333:8336 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8331:8332 FunImage <> x0:288 var
+R8293:8304 FunImage <> image_eq_set thm
+binder 8346:8347 <> x0:289
+R8360:8363 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8354:8357 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8352:8353 FunImage <> x0:289 var
+R8366:8369 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8364:8365 FunImage <> x0:289 var
+binder 8311:8312 <> x0:290
+R8327:8330 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8319:8322 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8317:8318 FunImage <> x0:290 var
+R8333:8336 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8331:8332 FunImage <> x0:290 var
+R8293:8304 FunImage <> image_eq_set thm
+binder 8346:8347 <> x0:291
+R8360:8363 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8354:8357 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8352:8353 FunImage <> x0:291 var
+R8366:8369 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8364:8365 FunImage <> x0:291 var
+binder 8311:8312 <> x0:292
+R8327:8330 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8319:8322 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8317:8318 FunImage <> x0:292 var
+R8333:8336 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8331:8332 FunImage <> x0:292 var
+prf 8505:8513 <> image_f_f
+binder 8524:8524 <> f:293
+binder 8526:8529 <> from:294
+R8584:8585 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8532:8533 Coq.Sets.Image <> Im ind
+R8583:8583 FunImage <> f:293 var
+R8552:8552 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8547:8548 <> x0:295
+R8567:8570 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8559:8562 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8557:8558 FunImage <> x0:295 var
+R8563:8566 FunImage <> from:294 var
+R8573:8576 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8571:8572 FunImage <> x0:295 var
+R8577:8580 FunImage <> from:294 var
+R8537:8540 Coquelicot.Rbar <> Rbar ind
+R8535:8535 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R8586:8587 Coq.Sets.Image <> Im ind
+R8618:8618 FunImage <> f:293 var
+R8602:8602 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8598:8599 <> x0:296
+R8609:8611 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8607:8608 FunImage <> x0:296 var
+R8612:8615 FunImage <> from:294 var
+R8652:8652 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8648:8649 <> x0:297
+R8691:8696 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+binder 8660:8660 <> x:298
+R8674:8677 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8666:8669 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8665:8665 FunImage <> x:298 var
+R8679:8682 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8678:8678 FunImage <> x:298 var
+R8689:8690 FunImage <> x0:297 var
+binder 8702:8702 <> x:299
+R8708:8710 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8707:8707 FunImage <> x:299 var
+R8717:8718 FunImage <> x0:297 var
+R8652:8652 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 8648:8649 <> x0:300
+R8691:8696 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+binder 8660:8660 <> x:301
+R8674:8677 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8666:8669 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8665:8665 FunImage <> x:301 var
+R8679:8682 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8678:8678 FunImage <> x:301 var
+R8689:8690 FunImage <> x0:300 var
+binder 8702:8702 <> x:302
+R8708:8710 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8707:8707 FunImage <> x:302 var
+R8717:8718 FunImage <> x0:300 var
+R8773:8778 Coq.Reals.RIneq <> Rge_le thm
+R8773:8778 Coq.Reals.RIneq <> Rge_le thm
+R8794:8802 Coq.Reals.RIneq <> Rle_le_eq thm
+R8794:8802 Coq.Reals.RIneq <> Rle_le_eq thm
+R8832:8839 Coq.Reals.RIneq <> Rle_refl thm
+R8832:8839 Coq.Reals.RIneq <> Rle_refl thm
+R8882:8893 FunImage <> image_eq_set thm
+binder 8937:8938 <> x0:303
+R8945:8947 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8943:8944 FunImage <> x0:303 var
+binder 8900:8901 <> x0:304
+R8916:8919 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8908:8911 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8906:8907 FunImage <> x0:304 var
+R8922:8925 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8920:8921 FunImage <> x0:304 var
+R8882:8893 FunImage <> image_eq_set thm
+binder 8937:8938 <> x0:305
+R8945:8947 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8943:8944 FunImage <> x0:305 var
+binder 8900:8901 <> x0:306
+R8916:8919 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8908:8911 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8906:8907 FunImage <> x0:306 var
+R8922:8925 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8920:8921 FunImage <> x0:306 var
+R8882:8893 FunImage <> image_eq_set thm
+binder 8937:8938 <> x0:307
+R8945:8947 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8943:8944 FunImage <> x0:307 var
+binder 8900:8901 <> x0:308
+R8916:8919 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R8908:8911 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R8906:8907 FunImage <> x0:308 var
+R8922:8925 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R8920:8921 FunImage <> x0:308 var
+prf 9040:9054 <> image_singleton
+binder 9065:9065 <> f:309
+binder 9067:9068 <> x0:310
+R9100:9102 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9071:9072 Coq.Sets.Image <> Im ind
+R9099:9099 FunImage <> f:309 var
+binder 9086:9086 <> x:311
+R9092:9094 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9091:9091 FunImage <> x:311 var
+R9095:9096 FunImage <> x0:310 var
+R9076:9079 Coquelicot.Rbar <> Rbar ind
+R9074:9074 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R9103:9111 Coq.Sets.Ensembles <> Singleton ind
+R9119:9119 FunImage <> f:309 var
+R9121:9122 FunImage <> x0:310 var
+R9113:9116 Coquelicot.Rbar <> Rbar ind
+R9144:9167 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R9144:9167 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R9179:9186 Coq.Sets.Ensembles <> Same_set def
+R9198:9205 Coq.Sets.Ensembles <> Included def
+R9235:9240 Coq.Sets.Image <> Im_inv thm
+R9235:9240 Coq.Sets.Image <> Im_inv thm
+R9285:9286 Coq.Sets.Ensembles <> In def
+R9303:9304 Coq.Sets.Ensembles <> In def
+R9315:9329 Coq.Sets.Constructive_sets <> Singleton_intro thm
+R9315:9329 Coq.Sets.Constructive_sets <> Singleton_intro thm
+R9376:9377 Coq.Sets.Ensembles <> In def
+R9393:9405 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R9393:9405 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R9422:9429 Coq.Sets.Image <> Im_intro constr
+R9433:9436 Coquelicot.Rbar <> Rbar ind
+R9431:9431 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R9422:9429 Coq.Sets.Image <> Im_intro constr
+R9433:9436 Coquelicot.Rbar <> Rbar ind
+R9431:9431 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R9458:9459 Coq.Sets.Ensembles <> In def
+prf 9563:9573 <> image_lt_le
+binder 9583:9583 <> f:312
+binder 9585:9588 <> from:313
+R9635:9637 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9591:9592 Coq.Sets.Image <> Im ind
+R9634:9634 FunImage <> f:312 var
+binder 9606:9606 <> x:314
+R9619:9622 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9612:9614 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R9611:9611 FunImage <> x:314 var
+R9615:9618 FunImage <> from:313 var
+R9624:9627 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R9623:9623 FunImage <> x:314 var
+R9628:9631 FunImage <> from:313 var
+R9596:9599 Coquelicot.Rbar <> Rbar ind
+R9594:9594 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R9638:9646 Coq.Sets.Ensembles <> Empty_set ind
+R9648:9651 Coquelicot.Rbar <> Rbar ind
+R9672:9695 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R9672:9695 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R9707:9714 Coq.Sets.Ensembles <> Same_set def
+R9726:9733 Coq.Sets.Ensembles <> Included def
+R9763:9768 Coq.Sets.Image <> Im_inv thm
+R9763:9768 Coq.Sets.Image <> Im_inv thm
+R9813:9814 Coq.Sets.Ensembles <> In def
+R9845:9854 Coq.Reals.RIneq <> Rle_not_gt thm
+R9845:9854 Coq.Reals.RIneq <> Rle_not_gt thm
+R9891:9892 Coq.Sets.Ensembles <> In def
+prf 9989:9999 <> image_le_lt
+binder 10009:10009 <> f:315
+binder 10011:10014 <> from:316
+R10061:10063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10017:10018 Coq.Sets.Image <> Im ind
+R10060:10060 FunImage <> f:315 var
+binder 10032:10032 <> x:317
+R10046:10049 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10038:10041 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R10037:10037 FunImage <> x:317 var
+R10042:10045 FunImage <> from:316 var
+R10051:10053 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R10050:10050 FunImage <> x:317 var
+R10054:10057 FunImage <> from:316 var
+R10022:10025 Coquelicot.Rbar <> Rbar ind
+R10020:10020 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R10064:10072 Coq.Sets.Ensembles <> Empty_set ind
+R10074:10077 Coquelicot.Rbar <> Rbar ind
+R10098:10121 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R10098:10121 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R10133:10140 Coq.Sets.Ensembles <> Same_set def
+R10152:10159 Coq.Sets.Ensembles <> Included def
+R10189:10194 Coq.Sets.Image <> Im_inv thm
+R10189:10194 Coq.Sets.Image <> Im_inv thm
+R10239:10240 Coq.Sets.Ensembles <> In def
+R10271:10280 Coq.Reals.RIneq <> Rlt_not_ge thm
+R10271:10280 Coq.Reals.RIneq <> Rlt_not_ge thm
+R10317:10318 Coq.Sets.Ensembles <> In def
+prf 10415:10425 <> image_lt_lt
+binder 10435:10435 <> f:318
+binder 10437:10440 <> from:319
+R10486:10488 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10443:10444 Coq.Sets.Image <> Im ind
+R10485:10485 FunImage <> f:318 var
+binder 10458:10458 <> x:320
+R10471:10474 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10464:10466 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R10463:10463 FunImage <> x:320 var
+R10467:10470 FunImage <> from:319 var
+R10476:10478 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R10475:10475 FunImage <> x:320 var
+R10479:10482 FunImage <> from:319 var
+R10448:10451 Coquelicot.Rbar <> Rbar ind
+R10446:10446 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R10489:10497 Coq.Sets.Ensembles <> Empty_set ind
+R10499:10502 Coquelicot.Rbar <> Rbar ind
+R10523:10546 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R10523:10546 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R10558:10565 Coq.Sets.Ensembles <> Same_set def
+R10577:10584 Coq.Sets.Ensembles <> Included def
+R10614:10619 Coq.Sets.Image <> Im_inv thm
+R10614:10619 Coq.Sets.Image <> Im_inv thm
+R10664:10665 Coq.Sets.Ensembles <> In def
+R10696:10701 Coq.Reals.RIneq <> Rgt_ge thm
+R10696:10701 Coq.Reals.RIneq <> Rgt_ge thm
+R10717:10726 Coq.Reals.RIneq <> Rlt_not_ge thm
+R10717:10726 Coq.Reals.RIneq <> Rlt_not_ge thm
+R10763:10764 Coq.Sets.Ensembles <> In def
+prf 10878:10896 <> image_f_t_non_empty
+binder 10907:10907 <> f:321
+binder 10909:10912 <> from:322
+binder 10914:10915 <> to:323
+R10928:10931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10975:10978 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10932:10933 Coq.Sets.Image <> Im ind
+R10974:10974 FunImage <> f:321 var
+binder 10947:10947 <> x:324
+R10961:10964 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10953:10956 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R10952:10952 FunImage <> x:324 var
+R10957:10960 FunImage <> from:322 var
+R10966:10969 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10965:10965 FunImage <> x:324 var
+R10970:10971 FunImage <> to:323 var
+R10937:10940 Coquelicot.Rbar <> Rbar ind
+R10935:10935 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R10979:10987 Coq.Sets.Ensembles <> Empty_set ind
+R10989:10992 Coquelicot.Rbar <> Rbar ind
+R10922:10925 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R10918:10921 FunImage <> from:322 var
+R10926:10927 FunImage <> to:323 var
+R11013:11027 FunImage <> image_non_empty thm
+R11013:11027 FunImage <> image_non_empty thm
+R11061:11068 SetTheory <> is_empty thm
+R11061:11068 SetTheory <> is_empty thm
+binder 11093:11093 <> x:325
+R11106:11109 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11096:11096 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11098:11101 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R11097:11097 FunImage <> x:325 var
+R11110:11110 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11112:11115 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11111:11111 FunImage <> x:325 var
+binder 11093:11093 <> x:326
+R11106:11109 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11096:11096 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11098:11101 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R11097:11097 FunImage <> x:326 var
+R11110:11110 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11112:11115 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11111:11111 FunImage <> x:326 var
+R11139:11145 Coq.Logic.Decidable <> not_and thm
+R11139:11145 Coq.Logic.Decidable <> not_and thm
+R11157:11165 Coq.Logic.Decidable <> decidable def
+R11213:11213 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 11209:11209 <> x:327
+R11224:11227 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11217:11219 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R11216:11216 FunImage <> x:327 var
+R11229:11231 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R11228:11228 FunImage <> x:327 var
+R11213:11213 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 11209:11209 <> x:328
+R11224:11227 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R11217:11219 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R11216:11216 FunImage <> x:328 var
+R11229:11231 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R11228:11228 FunImage <> x:328 var
+R11290:11299 Coq.Reals.RIneq <> Rnot_ge_lt thm
+R11290:11299 Coq.Reals.RIneq <> Rnot_ge_lt thm
+R11335:11344 Coq.Reals.RIneq <> Rnot_le_gt thm
+R11335:11344 Coq.Reals.RIneq <> Rnot_le_gt thm
+R11408:11417 Coq.Reals.RIneq <> Rlt_not_eq thm
+R11408:11417 Coq.Reals.RIneq <> Rlt_not_eq thm
+R11453:11462 Coq.Reals.RIneq <> Rgt_not_le thm
+R11453:11462 Coq.Reals.RIneq <> Rgt_not_le thm
+prf 11549:11565 <> image_f_non_empty
+binder 11576:11576 <> f:329
+binder 11578:11581 <> from:330
+R11616:11619 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R11584:11585 Coq.Sets.Image <> Im ind
+R11615:11615 FunImage <> f:329 var
+binder 11599:11599 <> x:331
+R11605:11608 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R11604:11604 FunImage <> x:331 var
+R11609:11612 FunImage <> from:330 var
+R11589:11592 Coquelicot.Rbar <> Rbar ind
+R11587:11587 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11620:11628 Coq.Sets.Ensembles <> Empty_set ind
+R11630:11633 Coquelicot.Rbar <> Rbar ind
+R11654:11668 FunImage <> image_non_empty thm
+R11654:11668 FunImage <> image_non_empty thm
+R11680:11688 SetTheory <> non_empty thm
+R11680:11688 SetTheory <> non_empty thm
+R11706:11708 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11706:11708 Coq.Reals.Rdefinitions <> ::R_scope:x_'+'_x not
+R11721:11726 Coq.Reals.RIneq <> Rle_ge thm
+R11721:11726 Coq.Reals.RIneq <> Rle_ge thm
+R11743:11751 Coq.Reals.RIneq <> Rplus_0_r thm
+R11743:11751 Coq.Reals.RIneq <> Rplus_0_r thm
+R11743:11751 Coq.Reals.RIneq <> Rplus_0_r thm
+R11769:11785 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R11769:11785 Coq.Reals.RIneq <> Rplus_le_compat_l thm
+R11808:11814 Coq.Reals.RIneq <> Rle_0_1 thm
+R11808:11814 Coq.Reals.RIneq <> Rle_0_1 thm
+prf 11908:11916 <> image_opp
+binder 11927:11927 <> X:332
+binder 11929:11929 <> f:333
+R11960:11962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11932:11943 SetTheory <> set_opp_Rbar def
+R11946:11947 Coq.Sets.Image <> Im ind
+R11958:11958 FunImage <> f:333 var
+R11956:11956 FunImage <> X:332 var
+R11951:11954 Coquelicot.Rbar <> Rbar ind
+R11949:11949 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R11963:11964 Coq.Sets.Image <> Im ind
+binder 11980:11980 <> x:334
+R11985:11992 Coquelicot.Rbar <> Rbar_opp def
+R11995:11995 FunImage <> f:333 var
+R11997:11997 FunImage <> x:334 var
+R11973:11973 FunImage <> X:332 var
+R11968:11971 Coquelicot.Rbar <> Rbar ind
+R11966:11966 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+prf 12165:12179 <> image_f_t_union
+binder 12189:12189 <> f:335
+binder 12191:12194 <> from:336
+binder 12196:12197 <> to:337
+binder 12199:12201 <> eps:338
+R12222:12225 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12275:12277 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12226:12227 Coq.Sets.Image <> Im ind
+R12274:12274 FunImage <> f:335 var
+R12245:12245 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12241:12242 <> x0:339
+R12260:12263 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12252:12255 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R12250:12251 FunImage <> x0:339 var
+R12256:12259 FunImage <> from:336 var
+R12266:12269 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12264:12265 FunImage <> x0:339 var
+R12270:12271 FunImage <> to:337 var
+R12231:12234 Coquelicot.Rbar <> Rbar ind
+R12229:12229 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R12278:12282 Coq.Sets.Ensembles <> Union ind
+R12343:12344 Coq.Sets.Image <> Im ind
+R12390:12390 FunImage <> f:335 var
+R12362:12362 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12358:12359 <> x0:340
+R12376:12379 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12369:12372 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R12367:12368 FunImage <> x0:340 var
+R12373:12375 FunImage <> eps:338 var
+R12382:12385 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12380:12381 FunImage <> x0:340 var
+R12386:12387 FunImage <> to:337 var
+R12348:12351 Coquelicot.Rbar <> Rbar ind
+R12346:12346 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R12290:12291 Coq.Sets.Image <> Im ind
+R12339:12339 FunImage <> f:335 var
+R12309:12309 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12305:12306 <> x0:341
+R12324:12327 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12316:12319 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R12314:12315 FunImage <> x0:341 var
+R12320:12323 FunImage <> from:336 var
+R12330:12333 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12328:12329 FunImage <> x0:341 var
+R12334:12336 FunImage <> eps:338 var
+R12295:12298 Coquelicot.Rbar <> Rbar ind
+R12293:12293 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R12284:12287 Coquelicot.Rbar <> Rbar ind
+R12209:12212 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R12216:12219 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x_'<='_x not
+R12205:12208 FunImage <> from:336 var
+R12213:12215 FunImage <> eps:338 var
+R12213:12215 FunImage <> eps:338 var
+R12220:12221 FunImage <> to:337 var
+R12414:12424 FunImage <> image_union thm
+R12414:12424 FunImage <> image_union thm
+R12414:12424 FunImage <> image_union thm
+R12435:12446 FunImage <> image_eq_set thm
+R12435:12446 FunImage <> image_eq_set thm
+R12486:12492 Coq.Reals.RIneq <> Rle_dec thm
+R12486:12492 Coq.Reals.RIneq <> Rle_dec thm
+R12520:12531 Coq.Sets.Ensembles <> Union_introl constr
+R12520:12531 Coq.Sets.Ensembles <> Union_introl constr
+R12543:12544 Coq.Sets.Ensembles <> In def
+R12574:12585 Coq.Sets.Ensembles <> Union_intror constr
+R12574:12585 Coq.Sets.Ensembles <> Union_intror constr
+R12596:12605 Coq.Reals.RIneq <> Rnot_le_gt thm
+R12596:12605 Coq.Reals.RIneq <> Rnot_le_gt thm
+R12621:12626 Coq.Reals.RIneq <> Rgt_ge thm
+R12621:12626 Coq.Reals.RIneq <> Rgt_ge thm
+R12643:12644 Coq.Sets.Ensembles <> In def
+R12674:12682 Coq.Sets.Constructive_sets <> Union_inv thm
+R12674:12682 Coq.Sets.Constructive_sets <> Union_inv thm
+R12700:12701 Coq.Sets.Ensembles <> In def
+R12768:12776 Coq.Reals.RIneq <> Rle_trans thm
+R12768:12776 Coq.Reals.RIneq <> Rle_trans thm
+R12834:12839 Coq.Reals.RIneq <> Rle_ge thm
+R12834:12839 Coq.Reals.RIneq <> Rle_ge thm
+R12855:12863 Coq.Reals.RIneq <> Rge_trans thm
+R12855:12863 Coq.Reals.RIneq <> Rge_trans thm
+R12903:12912 FunImage RbarImages <> sec

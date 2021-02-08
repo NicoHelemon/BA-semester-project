@@ -1,0 +1,70 @@
+Require Import Reals Image Decidable RbarComp ClassicalDescription.
+From Coquelicot Require Import Rbar Lub.
+Require Import Definitions SetTheory Packetizer.
+
+Definition monot_inter (a d: R -> Rbar) (t eps: R) := eps > 0 /\ ((forall delta, 0 < delta < eps -> a (t + delta) <= d(t + delta)) \/ (forall delta, 0 < delta < eps -> a (t + delta) > d (t + delta))).
+
+Definition ex_monot_inter (a d: R -> Rbar) (t: R) := exists eps, monot_inter a d t eps.
+
+Theorem ex_monot_inter_packet (a d: R -> Rbar) (t: R) : packetized a -> Cumulative d -> ex_monot_inter a d t.
+Admitted.
+
+Theorem sig_monot_inter (a d: R -> Rbar) (t: R) (p : ex_monot_inter a d t) : {eps : R | monot_inter a d t eps}.
+Admitted.
+
+Theorem dec_monot_inter (a d: R -> Rbar) (t: R) (p: ex_monot_inter a d t): {forall delta, 0 < delta < proj1_sig (sig_monot_inter a d t p) -> a (t + delta) <= d(t + delta)} + {forall delta, 0 < delta < proj1_sig (sig_monot_inter a d t p) -> a (t + delta) > d (t + delta)}.
+Admitted.
+
+Definition equal_up_to (a d: R -> Rbar) (t: R) (eps: Rbar) := 
+match eps with
+|Finite e => forall delta, t <= delta <= t + e -> d delta = a delta
+|p_infty => forall delta, t <= delta -> d delta = a delta
+|m_infty => False
+end.
+
+
+Definition incr_up_to (a d: R -> Rbar) (t c: R)  (eps: Rbar) := 
+match eps with
+|Finite e => forall delta, t <= delta <= t + e -> d delta = Rbar_plus (a t) (c * (delta - t))
+|p_infty => forall delta, t <= delta -> d delta = Rbar_plus (a t) (c * (delta - t))
+|m_infty => False
+end.
+
+Definition set_monot_inter (a d : R -> Rbar) (t: R): Ensemble R := (fun eps => monot_inter a d t eps).
+
+Definition max_monot_inter (a d : R -> Rbar) (t: R): Rbar := Lub_Rbar (set_monot_inter a d t).
+
+Definition find_eps (ah al dh dl: R -> Rbar) (t: R) :=
+Rbar_min (max_monot_inter ah dh t) (max_monot_inter al dl t).
+
+Definition rem_length (l: nat -> nat) (z: l O = O) (v: R):=
+INR(nat_sum l (S (last_packet l z v))) - v.
+
+Definition is_not_serving (l: nat -> nat) (z: l O = O) (v: R) :=
+INR(nat_sum l (last_packet l z v)) = v.
+
+Definition proc_time (l: nat -> nat) (z: l O = O) (v: Rbar) (c: R): R := real ((rem_length l z v) / c).
+
+Class Scheduler (S : (R -> Rbar) -> (R -> Rbar) -> (R -> Rbar) -> (R -> Rbar) -> Prop) (l: nat -> nat) (z: l O = O) (c: R) := {
+  packet_inputs: forall ah al dh dl, S ah al dh dl -> packetized ah /\ packetized al;
+  cumul_outputs: forall ah al dh dl, S ah al dh dl -> Cumulative dh /\ Cumulative dl;
+  output_def: forall ah al dh dl (p: S ah al dh dl), forall t, t >= 0 ->
+  match dec_monot_inter ah dh t (ex_monot_inter_packet ah dh t (proj1 (packet_inputs ah al dh dl p)) (proj1 (cumul_outputs ah al dh dl p))) with
+  | left _ =>
+    match dec_monot_inter al dl t (ex_monot_inter_packet al dl t (proj2 (packet_inputs ah al dh dl p)) (proj2 (cumul_outputs ah al dh dl p))) with
+    | left _ => equal_up_to ah dh t (t + find_eps ah al dh dl t) /\ equal_up_to al dl t (t + find_eps ah al dh dl t)
+    | right _ => equal_up_to ah dh t (t + find_eps ah al dh dl t) /\ incr_up_to al dl t (t + find_eps ah al dh dl t) c
+    end
+  | right _ =>
+    match dec_monot_inter al dl t (ex_monot_inter_packet al dl t (proj2 (packet_inputs ah al dh dl p)) (proj2 (cumul_outputs ah al dh dl p))) with
+    | left _ => incr_up_to ah dh t (t + find_eps ah al dh dl t) c /\ equal_up_to al dl t (t + find_eps ah al dh dl t)
+    | right _ => equal_up_to ah dh t (t + (proc_time l z (dh t) c))  /\ incr_up_to ah dh (t + (proc_time l z (dh t) c)) (t + find_eps ah al dh dl t) c
+    /\ incr_up_to al dl t (t + (proc_time l z (dl t) c)) c /\ equal_up_to al dl (t + (proc_time l z (dl t) c)) (t + find_eps ah al dh dl t)
+    end
+  end
+}.
+
+
+
+
+
