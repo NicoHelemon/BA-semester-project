@@ -1,281 +1,278 @@
-DIGEST 9bdf90783897c224673ec18168dad23c
+DIGEST 1efc4848e1a7353ff4b7e8be2ab84323
 FRbarComp
-R88:92 Coq.Reals.Reals <> <> lib
-R94:102 Coq.ssr.ssreflect <> <> lib
-R104:127 Coq.Logic.FunctionalExtensionality <> <> lib
-R129:134 Coq.Setoids.Setoid <> <> lib
-R136:140 Coq.Sets.Image <> <> lib
-R174:177 Coquelicot.Rbar <> <> lib
-R211:222 Coquelicot.Rcomplements <> <> lib
-R256:266 Coquelicot.Compactness <> <> lib
-R268:274 Coquelicot.Lim_seq <> <> lib
-R276:287 Coquelicot.Rcomplements <> <> lib
-R289:297 Coquelicot.Hierarchy <> <> lib
-R299:301 Coquelicot.Lub <> <> lib
-R333:338 mathcomp.ssreflect.ssrnat <> <> lib
-prf 378:391 <> Rbar_plus_le_r
-R410:413 Coquelicot.Rbar <> Rbar ind
-binder 402:402 <> x:1
-binder 404:404 <> y:2
-binder 406:406 <> z:3
-R427:430 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R431:437 Coquelicot.Rbar <> Rbar_le def
-R456:464 Coquelicot.Rbar <> Rbar_plus def
-R468:468 RbarComp <> z:3 var
-R466:466 RbarComp <> y:2 var
-R440:448 Coquelicot.Rbar <> Rbar_plus def
-R452:452 RbarComp <> z:3 var
-R450:450 RbarComp <> x:1 var
-R416:422 Coquelicot.Rbar <> Rbar_le def
-R426:426 RbarComp <> y:2 var
-R424:424 RbarComp <> x:1 var
-R486:497 Coquelicot.Rbar <> Rbar_le_refl thm
-R486:497 Coquelicot.Rbar <> Rbar_le_refl thm
-R510:528 Coquelicot.Rbar <> Rbar_plus_le_compat thm
-R510:528 Coquelicot.Rbar <> Rbar_plus_le_compat thm
-prf 587:600 <> Rbar_plus_le_l
-R619:622 Coquelicot.Rbar <> Rbar ind
-binder 611:611 <> x:4
-binder 613:613 <> y:5
-binder 615:615 <> z:6
-R636:639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R640:646 Coquelicot.Rbar <> Rbar_le def
-R665:673 Coquelicot.Rbar <> Rbar_plus def
-R677:677 RbarComp <> y:5 var
-R675:675 RbarComp <> z:6 var
-R649:657 Coquelicot.Rbar <> Rbar_plus def
-R661:661 RbarComp <> x:4 var
-R659:659 RbarComp <> z:6 var
-R625:631 Coquelicot.Rbar <> Rbar_le def
-R635:635 RbarComp <> y:5 var
-R633:633 RbarComp <> x:4 var
-R695:706 Coquelicot.Rbar <> Rbar_le_refl thm
-R695:706 Coquelicot.Rbar <> Rbar_le_refl thm
-R719:737 Coquelicot.Rbar <> Rbar_plus_le_compat thm
-R719:737 Coquelicot.Rbar <> Rbar_plus_le_compat thm
-prf 803:818 <> Rbar_plus_le_pos
-R834:837 Coquelicot.Rbar <> Rbar ind
-binder 829:829 <> x:7
-binder 831:831 <> y:8
-R851:854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R866:869 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R870:876 Coquelicot.Rbar <> Rbar_le def
-R881:889 Coquelicot.Rbar <> Rbar_plus def
-R893:893 RbarComp <> y:8 var
-R891:891 RbarComp <> x:7 var
-R855:861 Coquelicot.Rbar <> Rbar_le def
-R865:865 RbarComp <> y:8 var
-R840:846 Coquelicot.Rbar <> Rbar_le def
-R850:850 RbarComp <> x:7 var
-R911:929 Coquelicot.Rbar <> Rbar_plus_le_compat thm
-R911:929 Coquelicot.Rbar <> Rbar_plus_le_compat thm
-R961:973 Coquelicot.Rbar <> Rbar_plus_0_l thm
-R961:973 Coquelicot.Rbar <> Rbar_plus_0_l thm
-R961:973 Coquelicot.Rbar <> Rbar_plus_0_l thm
-R961:973 Coquelicot.Rbar <> Rbar_plus_0_l thm
-R961:973 Coquelicot.Rbar <> Rbar_plus_0_l thm
-R961:973 Coquelicot.Rbar <> Rbar_plus_0_l thm
-R961:973 Coquelicot.Rbar <> Rbar_plus_0_l thm
-R961:973 Coquelicot.Rbar <> Rbar_plus_0_l thm
-prf 1052:1073 <> Rbar_plus_inf_not_minf
-R1087:1090 Coquelicot.Rbar <> Rbar ind
-binder 1084:1084 <> x:9
-R1105:1108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1128:1130 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R1109:1117 Coquelicot.Rbar <> Rbar_plus def
-R1121:1127 Coquelicot.Rbar <> p_infty constr
-R1119:1119 RbarComp <> x:9 var
-R1131:1137 Coquelicot.Rbar <> p_infty constr
-R1100:1103 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R1093:1099 Coquelicot.Rbar <> m_infty constr
-R1104:1104 RbarComp <> x:9 var
-prf 1300:1307 <> Rbar_dec
-binder 1318:1318 <> x:10
-R1332:1335 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
-R1322:1324 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R1321:1321 RbarComp <> x:10 var
-R1325:1331 Coquelicot.Rbar <> p_infty constr
-R1347:1350 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
-R1337:1339 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R1336:1336 RbarComp <> x:10 var
-R1340:1346 Coquelicot.Rbar <> m_infty constr
-R1351:1359 Coquelicot.Rbar <> is_finite def
-R1361:1361 RbarComp <> x:10 var
-R1395:1403 Coquelicot.Rbar <> is_finite def
-prf 1502:1516 <> Rbar_not_finite
-binder 1527:1527 <> x:11
-R1542:1545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1557:1560 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
-R1547:1549 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R1546:1546 RbarComp <> x:11 var
-R1550:1556 Coquelicot.Rbar <> p_infty constr
-R1562:1564 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R1561:1561 RbarComp <> x:11 var
-R1565:1571 Coquelicot.Rbar <> m_infty constr
-R1530:1530 Coq.Init.Logic <> ::type_scope:'~'_x not
-R1531:1539 Coquelicot.Rbar <> is_finite def
-R1541:1541 RbarComp <> x:11 var
-R1595:1602 RbarComp <> Rbar_dec thm
-R1595:1602 RbarComp <> Rbar_dec thm
-prf 1774:1789 <> Rbar_assoc_m_inf
-binder 1799:1799 <> x:12
-binder 1801:1801 <> y:13
-binder 1803:1803 <> z:14
-R1818:1821 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1834:1837 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1850:1853 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1881:1883 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R1854:1862 Coquelicot.Rbar <> Rbar_plus def
-R1880:1880 RbarComp <> z:14 var
-R1865:1873 Coquelicot.Rbar <> Rbar_plus def
-R1877:1877 RbarComp <> y:13 var
-R1875:1875 RbarComp <> x:12 var
-R1884:1892 Coquelicot.Rbar <> Rbar_plus def
-R1897:1905 Coquelicot.Rbar <> Rbar_plus def
-R1909:1909 RbarComp <> z:14 var
-R1907:1907 RbarComp <> y:13 var
-R1894:1894 RbarComp <> x:12 var
-R1839:1842 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R1838:1838 RbarComp <> z:14 var
-R1843:1849 Coquelicot.Rbar <> m_infty constr
-R1823:1826 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R1822:1822 RbarComp <> y:13 var
-R1827:1833 Coquelicot.Rbar <> m_infty constr
-R1807:1810 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R1806:1806 RbarComp <> x:12 var
-R1811:1817 Coquelicot.Rbar <> m_infty constr
-R1934:1941 RbarComp <> Rbar_dec thm
-R1934:1941 RbarComp <> Rbar_dec thm
-R1981:1988 RbarComp <> Rbar_dec thm
-R1981:1988 RbarComp <> Rbar_dec thm
-R2029:2036 RbarComp <> Rbar_dec thm
-R2029:2036 RbarComp <> Rbar_dec thm
-R2123:2131 Coquelicot.Rbar <> is_finite def
-R2220:2228 Coquelicot.Rbar <> is_finite def
-R2258:2265 RbarComp <> Rbar_dec thm
-R2258:2265 RbarComp <> Rbar_dec thm
-R2374:2382 Coquelicot.Rbar <> is_finite def
-R2470:2478 Coquelicot.Rbar <> is_finite def
-R2508:2515 RbarComp <> Rbar_dec thm
-R2508:2515 RbarComp <> Rbar_dec thm
-R2547:2554 RbarComp <> Rbar_dec thm
-R2547:2554 RbarComp <> Rbar_dec thm
-R2645:2653 Coquelicot.Rbar <> is_finite def
-R2742:2750 Coquelicot.Rbar <> is_finite def
-R2780:2787 RbarComp <> Rbar_dec thm
-R2780:2787 RbarComp <> Rbar_dec thm
-R2878:2886 Coquelicot.Rbar <> is_finite def
-R2923:2936 Coquelicot.Rbar <> Rbar_finite_eq thm
-R2923:2936 Coquelicot.Rbar <> Rbar_finite_eq thm
-R2945:2955 Coq.Reals.Raxioms <> Rplus_assoc thm
-R2945:2955 Coq.Reals.Raxioms <> Rplus_assoc thm
-prf 3041:3056 <> Rbar_assoc_x_y_f
-binder 3066:3066 <> x:15
-binder 3068:3068 <> y:16
-binder 3070:3070 <> z:17
-R3084:3087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3099:3102 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3130:3132 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R3103:3111 Coquelicot.Rbar <> Rbar_plus def
-R3129:3129 RbarComp <> z:17 var
-R3114:3122 Coquelicot.Rbar <> Rbar_plus def
-R3126:3126 RbarComp <> y:16 var
-R3124:3124 RbarComp <> x:15 var
-R3133:3141 Coquelicot.Rbar <> Rbar_plus def
-R3146:3154 Coquelicot.Rbar <> Rbar_plus def
-R3158:3158 RbarComp <> z:17 var
-R3156:3156 RbarComp <> y:16 var
-R3143:3143 RbarComp <> x:15 var
-R3088:3096 Coquelicot.Rbar <> is_finite def
-R3098:3098 RbarComp <> y:16 var
-R3073:3081 Coquelicot.Rbar <> is_finite def
-R3083:3083 RbarComp <> x:15 var
-R3169:3177 Coquelicot.Rbar <> is_finite def
-R3223:3230 RbarComp <> Rbar_dec thm
-R3223:3230 RbarComp <> Rbar_dec thm
-R3351:3364 Coquelicot.Rbar <> Rbar_finite_eq thm
-R3351:3364 Coquelicot.Rbar <> Rbar_finite_eq thm
-R3373:3383 Coq.Reals.Raxioms <> Rplus_assoc thm
-R3373:3383 Coq.Reals.Raxioms <> Rplus_assoc thm
-prf 3469:3484 <> Rbar_assoc_x_z_f
-binder 3494:3494 <> x:18
-binder 3496:3496 <> y:19
-binder 3498:3498 <> z:20
-R3512:3515 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3527:3530 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3558:3560 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R3531:3539 Coquelicot.Rbar <> Rbar_plus def
-R3557:3557 RbarComp <> z:20 var
-R3542:3550 Coquelicot.Rbar <> Rbar_plus def
-R3554:3554 RbarComp <> y:19 var
-R3552:3552 RbarComp <> x:18 var
-R3561:3569 Coquelicot.Rbar <> Rbar_plus def
-R3574:3582 Coquelicot.Rbar <> Rbar_plus def
-R3586:3586 RbarComp <> z:20 var
-R3584:3584 RbarComp <> y:19 var
-R3571:3571 RbarComp <> x:18 var
-R3516:3524 Coquelicot.Rbar <> is_finite def
-R3526:3526 RbarComp <> z:20 var
-R3501:3509 Coquelicot.Rbar <> is_finite def
-R3511:3511 RbarComp <> x:18 var
-R3597:3605 Coquelicot.Rbar <> is_finite def
-R3658:3665 RbarComp <> Rbar_dec thm
-R3658:3665 RbarComp <> Rbar_dec thm
-R3765:3773 Coquelicot.Rbar <> is_finite def
-R3810:3823 Coquelicot.Rbar <> Rbar_finite_eq thm
-R3810:3823 Coquelicot.Rbar <> Rbar_finite_eq thm
-R3832:3842 Coq.Reals.Raxioms <> Rplus_assoc thm
-R3832:3842 Coq.Reals.Raxioms <> Rplus_assoc thm
-prf 3929:3944 <> Rbar_assoc_y_z_f
-binder 3954:3954 <> x:21
-binder 3956:3956 <> y:22
-binder 3958:3958 <> z:23
-R3972:3975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3987:3990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4018:4020 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R3991:3999 Coquelicot.Rbar <> Rbar_plus def
-R4017:4017 RbarComp <> z:23 var
-R4002:4010 Coquelicot.Rbar <> Rbar_plus def
-R4014:4014 RbarComp <> y:22 var
-R4012:4012 RbarComp <> x:21 var
-R4021:4029 Coquelicot.Rbar <> Rbar_plus def
-R4034:4042 Coquelicot.Rbar <> Rbar_plus def
-R4046:4046 RbarComp <> z:23 var
-R4044:4044 RbarComp <> y:22 var
-R4031:4031 RbarComp <> x:21 var
-R3976:3984 Coquelicot.Rbar <> is_finite def
-R3986:3986 RbarComp <> z:23 var
-R3961:3969 Coquelicot.Rbar <> is_finite def
-R3971:3971 RbarComp <> y:22 var
-R4057:4065 Coquelicot.Rbar <> is_finite def
-R4118:4125 RbarComp <> Rbar_dec thm
-R4118:4125 RbarComp <> Rbar_dec thm
-R4225:4233 Coquelicot.Rbar <> is_finite def
-R4270:4283 Coquelicot.Rbar <> Rbar_finite_eq thm
-R4270:4283 Coquelicot.Rbar <> Rbar_finite_eq thm
-R4292:4302 Coq.Reals.Raxioms <> Rplus_assoc thm
-R4292:4302 Coq.Reals.Raxioms <> Rplus_assoc thm
-prf 4387:4395 <> finite_eq
-R4410:4410 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 4407:4407 <> x:24
-R4417:4417 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 4414:4414 <> y:25
-R4426:4430 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R4422:4424 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R4421:4421 RbarComp <> x:24 var
-R4425:4425 RbarComp <> y:25 var
-R4439:4441 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R4431:4436 Coquelicot.Rbar <> Finite constr
-R4438:4438 RbarComp <> x:24 var
-R4442:4447 Coquelicot.Rbar <> Finite constr
-R4449:4449 RbarComp <> y:25 var
-R4509:4515 Coquelicot.Rbar <> Rbar_le def
-R4509:4515 Coquelicot.Rbar <> Rbar_le def
-R4540:4551 Coquelicot.Rbar <> Rbar_le_refl thm
-R4540:4551 Coquelicot.Rbar <> Rbar_le_refl thm
-R4562:4568 Coquelicot.Rbar <> Rbar_le def
-R4562:4568 Coquelicot.Rbar <> Rbar_le def
-R4593:4604 Coquelicot.Rbar <> Rbar_le_refl thm
-R4593:4604 Coquelicot.Rbar <> Rbar_le_refl thm
-R4640:4650 Coq.Reals.RIneq <> Rle_antisym thm
-R4640:4650 Coq.Reals.RIneq <> Rle_antisym thm
+R89:93 Coq.Reals.Reals <> <> lib
+R95:103 Coq.ssr.ssreflect <> <> lib
+R105:128 Coq.Logic.FunctionalExtensionality <> <> lib
+R130:135 Coq.Setoids.Setoid <> <> lib
+R137:141 Coq.Sets.Image <> <> lib
+R175:178 Coquelicot.Rbar <> <> lib
+R212:223 Coquelicot.Rcomplements <> <> lib
+R257:267 Coquelicot.Compactness <> <> lib
+R269:275 Coquelicot.Lim_seq <> <> lib
+R277:288 Coquelicot.Rcomplements <> <> lib
+R290:298 Coquelicot.Hierarchy <> <> lib
+R300:302 Coquelicot.Lub <> <> lib
+R334:339 mathcomp.ssreflect.ssrnat <> <> lib
+prf 380:393 <> Rbar_plus_le_r
+R412:415 Coquelicot.Rbar <> Rbar ind
+binder 404:404 <> x:1
+binder 406:406 <> y:2
+binder 408:408 <> z:3
+R432:435 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R421:427 Coquelicot.Rbar <> Rbar_le def
+R429:429 RbarComp <> x:1 var
+R431:431 RbarComp <> y:2 var
+R436:442 Coquelicot.Rbar <> Rbar_le def
+R445:453 Coquelicot.Rbar <> Rbar_plus def
+R455:455 RbarComp <> x:1 var
+R457:457 RbarComp <> z:3 var
+R461:469 Coquelicot.Rbar <> Rbar_plus def
+R471:471 RbarComp <> y:2 var
+R473:473 RbarComp <> z:3 var
+R503:514 Coquelicot.Rbar <> Rbar_le_refl thm
+R503:514 Coquelicot.Rbar <> Rbar_le_refl thm
+R529:547 Coquelicot.Rbar <> Rbar_plus_le_compat thm
+R529:547 Coquelicot.Rbar <> Rbar_plus_le_compat thm
+prf 608:621 <> Rbar_plus_le_l
+R640:643 Coquelicot.Rbar <> Rbar ind
+binder 632:632 <> x:4
+binder 634:634 <> y:5
+binder 636:636 <> z:6
+R659:662 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R648:654 Coquelicot.Rbar <> Rbar_le def
+R656:656 RbarComp <> x:4 var
+R658:658 RbarComp <> y:5 var
+R663:669 Coquelicot.Rbar <> Rbar_le def
+R672:680 Coquelicot.Rbar <> Rbar_plus def
+R682:682 RbarComp <> z:6 var
+R684:684 RbarComp <> x:4 var
+R688:696 Coquelicot.Rbar <> Rbar_plus def
+R698:698 RbarComp <> z:6 var
+R700:700 RbarComp <> y:5 var
+R730:741 Coquelicot.Rbar <> Rbar_le_refl thm
+R730:741 Coquelicot.Rbar <> Rbar_le_refl thm
+R756:774 Coquelicot.Rbar <> Rbar_plus_le_compat thm
+R756:774 Coquelicot.Rbar <> Rbar_plus_le_compat thm
+prf 842:857 <> Rbar_plus_le_pos
+R874:877 Coquelicot.Rbar <> Rbar ind
+binder 868:868 <> x:7
+binder 870:870 <> y:8
+R893:896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R882:888 Coquelicot.Rbar <> Rbar_le def
+R892:892 RbarComp <> x:7 var
+R908:911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R897:903 Coquelicot.Rbar <> Rbar_le def
+R907:907 RbarComp <> y:8 var
+R912:918 Coquelicot.Rbar <> Rbar_le def
+R923:931 Coquelicot.Rbar <> Rbar_plus def
+R933:933 RbarComp <> x:7 var
+R935:935 RbarComp <> y:8 var
+R965:983 Coquelicot.Rbar <> Rbar_plus_le_compat thm
+R965:983 Coquelicot.Rbar <> Rbar_plus_le_compat thm
+R1017:1029 Coquelicot.Rbar <> Rbar_plus_0_l thm
+R1017:1029 Coquelicot.Rbar <> Rbar_plus_0_l thm
+R1017:1029 Coquelicot.Rbar <> Rbar_plus_0_l thm
+R1017:1029 Coquelicot.Rbar <> Rbar_plus_0_l thm
+R1017:1029 Coquelicot.Rbar <> Rbar_plus_0_l thm
+R1017:1029 Coquelicot.Rbar <> Rbar_plus_0_l thm
+R1017:1029 Coquelicot.Rbar <> Rbar_plus_0_l thm
+R1017:1029 Coquelicot.Rbar <> Rbar_plus_0_l thm
+prf 1119:1140 <> Rbar_plus_inf_not_minf
+R1155:1158 Coquelicot.Rbar <> Rbar ind
+binder 1151:1151 <> x:9
+R1176:1179 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1171:1174 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1164:1170 Coquelicot.Rbar <> m_infty constr
+R1175:1175 RbarComp <> x:9 var
+R1199:1201 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1180:1188 Coquelicot.Rbar <> Rbar_plus def
+R1190:1190 RbarComp <> x:9 var
+R1192:1198 Coquelicot.Rbar <> p_infty constr
+R1202:1208 Coquelicot.Rbar <> p_infty constr
+prf 1403:1410 <> Rbar_dec
+binder 1421:1421 <> x:10
+R1438:1441 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1428:1430 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1427:1427 RbarComp <> x:10 var
+R1431:1437 Coquelicot.Rbar <> p_infty constr
+R1453:1456 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1443:1445 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1442:1442 RbarComp <> x:10 var
+R1446:1452 Coquelicot.Rbar <> m_infty constr
+R1457:1465 Coquelicot.Rbar <> is_finite def
+R1467:1467 RbarComp <> x:10 var
+R1521:1529 Coquelicot.Rbar <> is_finite def
+prf 1644:1658 <> Rbar_not_finite
+binder 1669:1669 <> x:11
+R1686:1689 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1674:1674 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1675:1683 Coquelicot.Rbar <> is_finite def
+R1685:1685 RbarComp <> x:11 var
+R1701:1704 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R1691:1693 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1690:1690 RbarComp <> x:11 var
+R1694:1700 Coquelicot.Rbar <> p_infty constr
+R1706:1708 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1705:1705 RbarComp <> x:11 var
+R1709:1715 Coquelicot.Rbar <> m_infty constr
+R1744:1751 RbarComp <> Rbar_dec thm
+R1744:1751 RbarComp <> Rbar_dec thm
+prf 1999:2014 <> Rbar_assoc_m_inf
+binder 2025:2025 <> x:12
+binder 2027:2027 <> y:13
+binder 2029:2029 <> z:14
+R2047:2050 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2036:2039 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2035:2035 RbarComp <> x:12 var
+R2040:2046 Coquelicot.Rbar <> m_infty constr
+R2063:2066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2052:2055 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2051:2051 RbarComp <> y:13 var
+R2056:2062 Coquelicot.Rbar <> m_infty constr
+R2079:2084 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2068:2071 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2067:2067 RbarComp <> z:14 var
+R2072:2078 Coquelicot.Rbar <> m_infty constr
+R2112:2114 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2085:2093 Coquelicot.Rbar <> Rbar_plus def
+R2096:2104 Coquelicot.Rbar <> Rbar_plus def
+R2106:2106 RbarComp <> x:12 var
+R2108:2108 RbarComp <> y:13 var
+R2111:2111 RbarComp <> z:14 var
+R2115:2123 Coquelicot.Rbar <> Rbar_plus def
+R2125:2125 RbarComp <> x:12 var
+R2128:2136 Coquelicot.Rbar <> Rbar_plus def
+R2138:2138 RbarComp <> y:13 var
+R2140:2140 RbarComp <> z:14 var
+R2170:2177 RbarComp <> Rbar_dec thm
+R2170:2177 RbarComp <> Rbar_dec thm
+R2249:2256 RbarComp <> Rbar_dec thm
+R2249:2256 RbarComp <> Rbar_dec thm
+R2337:2344 RbarComp <> Rbar_dec thm
+R2337:2344 RbarComp <> Rbar_dec thm
+R2760:2768 Coquelicot.Rbar <> is_finite def
+R2814:2821 RbarComp <> Rbar_dec thm
+R2814:2821 RbarComp <> Rbar_dec thm
+R3284:3292 Coquelicot.Rbar <> is_finite def
+R3334:3341 RbarComp <> Rbar_dec thm
+R3334:3341 RbarComp <> Rbar_dec thm
+R3415:3422 RbarComp <> Rbar_dec thm
+R3415:3422 RbarComp <> Rbar_dec thm
+R3662:3670 Coquelicot.Rbar <> is_finite def
+R3872:3880 Coquelicot.Rbar <> is_finite def
+R3930:3937 RbarComp <> Rbar_dec thm
+R3930:3937 RbarComp <> Rbar_dec thm
+R4144:4152 Coquelicot.Rbar <> is_finite def
+R4231:4244 Coquelicot.Rbar <> Rbar_finite_eq thm
+R4231:4244 Coquelicot.Rbar <> Rbar_finite_eq thm
+R4267:4277 Coq.Reals.Raxioms <> Rplus_assoc thm
+R4267:4277 Coq.Reals.Raxioms <> Rplus_assoc thm
+prf 4372:4387 <> Rbar_assoc_x_y_f
+binder 4398:4398 <> x:15
+binder 4400:4400 <> y:16
+binder 4402:4402 <> z:17
+R4418:4421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4407:4415 Coquelicot.Rbar <> is_finite def
+R4417:4417 RbarComp <> x:15 var
+R4433:4438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4422:4430 Coquelicot.Rbar <> is_finite def
+R4432:4432 RbarComp <> y:16 var
+R4466:4468 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4439:4447 Coquelicot.Rbar <> Rbar_plus def
+R4450:4458 Coquelicot.Rbar <> Rbar_plus def
+R4460:4460 RbarComp <> x:15 var
+R4462:4462 RbarComp <> y:16 var
+R4465:4465 RbarComp <> z:17 var
+R4469:4477 Coquelicot.Rbar <> Rbar_plus def
+R4479:4479 RbarComp <> x:15 var
+R4482:4490 Coquelicot.Rbar <> Rbar_plus def
+R4492:4492 RbarComp <> y:16 var
+R4494:4494 RbarComp <> z:17 var
+R4515:4523 Coquelicot.Rbar <> is_finite def
+R4577:4584 RbarComp <> Rbar_dec thm
+R4577:4584 RbarComp <> Rbar_dec thm
+R4767:4780 Coquelicot.Rbar <> Rbar_finite_eq thm
+R4767:4780 Coquelicot.Rbar <> Rbar_finite_eq thm
+R4795:4805 Coq.Reals.Raxioms <> Rplus_assoc thm
+R4795:4805 Coq.Reals.Raxioms <> Rplus_assoc thm
+prf 4900:4915 <> Rbar_assoc_x_z_f
+binder 4926:4926 <> x:18
+binder 4928:4928 <> y:19
+binder 4930:4930 <> z:20
+R4946:4949 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4935:4943 Coquelicot.Rbar <> is_finite def
+R4945:4945 RbarComp <> x:18 var
+R4961:4967 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4950:4958 Coquelicot.Rbar <> is_finite def
+R4960:4960 RbarComp <> z:20 var
+R4995:4997 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4968:4976 Coquelicot.Rbar <> Rbar_plus def
+R4979:4987 Coquelicot.Rbar <> Rbar_plus def
+R4989:4989 RbarComp <> x:18 var
+R4991:4991 RbarComp <> y:19 var
+R4994:4994 RbarComp <> z:20 var
+R4998:5006 Coquelicot.Rbar <> Rbar_plus def
+R5008:5008 RbarComp <> x:18 var
+R5011:5019 Coquelicot.Rbar <> Rbar_plus def
+R5021:5021 RbarComp <> y:19 var
+R5023:5023 RbarComp <> z:20 var
+R5044:5052 Coquelicot.Rbar <> is_finite def
+R5115:5122 RbarComp <> Rbar_dec thm
+R5115:5122 RbarComp <> Rbar_dec thm
+R5272:5280 Coquelicot.Rbar <> is_finite def
+R5335:5348 Coquelicot.Rbar <> Rbar_finite_eq thm
+R5335:5348 Coquelicot.Rbar <> Rbar_finite_eq thm
+R5363:5373 Coq.Reals.Raxioms <> Rplus_assoc thm
+R5363:5373 Coq.Reals.Raxioms <> Rplus_assoc thm
+prf 5469:5484 <> Rbar_assoc_y_z_f
+binder 5495:5495 <> x:21
+binder 5497:5497 <> y:22
+binder 5499:5499 <> z:23
+R5515:5518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5504:5512 Coquelicot.Rbar <> is_finite def
+R5514:5514 RbarComp <> y:22 var
+R5530:5535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5519:5527 Coquelicot.Rbar <> is_finite def
+R5529:5529 RbarComp <> z:23 var
+R5563:5565 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5536:5544 Coquelicot.Rbar <> Rbar_plus def
+R5547:5555 Coquelicot.Rbar <> Rbar_plus def
+R5557:5557 RbarComp <> x:21 var
+R5559:5559 RbarComp <> y:22 var
+R5562:5562 RbarComp <> z:23 var
+R5566:5574 Coquelicot.Rbar <> Rbar_plus def
+R5576:5576 RbarComp <> x:21 var
+R5579:5587 Coquelicot.Rbar <> Rbar_plus def
+R5589:5589 RbarComp <> y:22 var
+R5591:5591 RbarComp <> z:23 var
+R5612:5620 Coquelicot.Rbar <> is_finite def
+R5683:5690 RbarComp <> Rbar_dec thm
+R5683:5690 RbarComp <> Rbar_dec thm
+R5840:5848 Coquelicot.Rbar <> is_finite def
+R5903:5916 Coquelicot.Rbar <> Rbar_finite_eq thm
+R5903:5916 Coquelicot.Rbar <> Rbar_finite_eq thm
+R5931:5941 Coq.Reals.Raxioms <> Rplus_assoc thm
+R5931:5941 Coq.Reals.Raxioms <> Rplus_assoc thm
+prf 6029:6037 <> finite_eq
+R6054:6054 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 6048:6048 <> x:24
+binder 6050:6050 <> y:25
+R6064:6068 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R6060:6062 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6059:6059 RbarComp <> x:24 var
+R6063:6063 RbarComp <> y:25 var
+R6077:6079 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6069:6074 Coquelicot.Rbar <> Finite constr
+R6076:6076 RbarComp <> x:24 var
+R6080:6085 Coquelicot.Rbar <> Finite constr
+R6087:6087 RbarComp <> y:25 var
+R6179:6185 Coquelicot.Rbar <> Rbar_le def
+R6179:6185 Coquelicot.Rbar <> Rbar_le def
+R6218:6229 Coquelicot.Rbar <> Rbar_le_refl thm
+R6218:6229 Coquelicot.Rbar <> Rbar_le_refl thm
+R6244:6250 Coquelicot.Rbar <> Rbar_le def
+R6244:6250 Coquelicot.Rbar <> Rbar_le def
+R6283:6294 Coquelicot.Rbar <> Rbar_le_refl thm
+R6283:6294 Coquelicot.Rbar <> Rbar_le_refl thm
+R6342:6352 Coq.Reals.RIneq <> Rle_antisym thm
+R6342:6352 Coq.Reals.RIneq <> Rle_antisym thm

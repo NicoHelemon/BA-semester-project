@@ -1,4 +1,4 @@
-DIGEST 16282f2cd7d59d503368abf0b4156906
+DIGEST 08a7224af6c34c3f1c6c2d12105d97a9
 FSetTheory
 R201:209 Coq.Sets.Ensembles <> <> lib
 R211:215 Coq.Reals.Reals <> <> lib
@@ -11,1256 +11,1219 @@ R252:259 Coq.Arith.PeanoNat <> <> lib
 R261:264 Coq.Arith.Plus <> <> lib
 R266:285 Coq.Logic.ClassicalDescription <> <> lib
 R319:322 Coquelicot.Rbar <> <> lib
-sec 353:357 <> Empty
-prf 412:419 <> is_empty
-binder 422:422 <> U:26
-binder 439:439 <> S:27
-R442:442 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R458:463 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-binder 450:450 <> x:28
-R453:454 Coq.Init.Logic <> ::type_scope:'~'_x not
-R455:455 SetTheory <> S:27 var
-R457:457 SetTheory <> x:28 var
-R465:467 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R464:464 SetTheory <> S:27 var
-R468:476 Coq.Sets.Ensembles <> Empty_set ind
-R478:478 SetTheory <> U:26 var
-R495:508 Coq.Sets.Constructive_sets <> Noone_in_empty thm
-R495:508 Coq.Sets.Constructive_sets <> Noone_in_empty thm
-R535:558 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
-R535:558 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
-R568:575 Coq.Sets.Ensembles <> Same_set def
-R585:592 Coq.Sets.Ensembles <> Included def
-prf 756:764 <> non_empty
-binder 767:767 <> U:29
-binder 784:784 <> S:30
-R787:787 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R802:807 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R788:794 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R796:798 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 795:795 <> n:31
-R799:799 SetTheory <> S:30 var
-R801:801 SetTheory <> n:31 var
-R809:812 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R808:808 SetTheory <> S:30 var
-R813:821 Coq.Sets.Ensembles <> Empty_set ind
-R823:823 SetTheory <> U:29 var
-R840:847 SetTheory <> is_empty thm
-R840:847 SetTheory <> is_empty thm
-R891:904 Coq.Logic.Classical_Pred_Type <> all_not_not_ex thm
-R891:904 Coq.Logic.Classical_Pred_Type <> all_not_not_ex thm
-R938:939 Coq.Init.Logic <> ::type_scope:'~'_x not
-R958:958 Coq.Init.Logic <> ::type_scope:'~'_x not
-binder 947:947 <> x:32
-R953:954 Coq.Init.Logic <> ::type_scope:'~'_x not
-R957:957 SetTheory <> x:32 var
-R938:939 Coq.Init.Logic <> ::type_scope:'~'_x not
-R958:958 Coq.Init.Logic <> ::type_scope:'~'_x not
-binder 947:947 <> x:33
-R953:954 Coq.Init.Logic <> ::type_scope:'~'_x not
-R957:957 SetTheory <> x:33 var
-R994:1007 Coq.Logic.Classical_Pred_Type <> not_all_not_ex thm
-R994:1007 Coq.Logic.Classical_Pred_Type <> not_all_not_ex thm
-R1033:1037 SetTheory Empty <> sec
-sec 1071:1077 <> Generic
-binder 1091:1091 <> T:34
-def 1149:1156 <> universe
-R1160:1167 Coq.Sets.Ensembles <> Ensemble def
-R1169:1169 SetTheory <> Generic.T var
-R1183:1183 SetTheory <> Generic.T var
-binder 1179:1179 <> e:35
-R1188:1191 Coq.Init.Logic <> True ind
-prf 1255:1260 <> set_eq
-binder 1263:1263 <> U:36
-R1286:1293 Coq.Sets.Ensembles <> Ensemble def
-R1295:1295 SetTheory <> U:36 var
-binder 1282:1282 <> S:37
-R1299:1299 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R1315:1318 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R1307:1307 SetTheory <> U:36 var
-binder 1304:1304 <> x:38
-R1312:1312 SetTheory <> S:37 var
-R1314:1314 SetTheory <> x:38 var
-R1319:1319 SetTheory <> S:37 var
-def 1413:1430 <> set_is_bound_above
-R1436:1443 Coq.Sets.Ensembles <> Ensemble def
-R1445:1445 SetTheory <> Generic.T var
-binder 1433:1433 <> S:39
-R1457:1464 Coq.Relations.Relation_Definitions <> relation def
-R1466:1466 SetTheory <> Generic.T var
-binder 1449:1454 <> ord_le:40
-R1474:1478 Coq.Relations.Relation_Definitions <> order rec
-R1482:1487 SetTheory <> ord_le:40 var
-R1480:1480 SetTheory <> Generic.T var
-binder 1470:1471 <> po:41
-R1494:1494 SetTheory <> Generic.T var
-binder 1491:1491 <> b:42
-binder 1507:1507 <> s:43
-R1513:1516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1517:1522 SetTheory <> ord_le:40 var
-R1526:1526 SetTheory <> b:42 var
-R1524:1524 SetTheory <> s:43 var
-R1510:1510 SetTheory <> S:39 var
-R1512:1512 SetTheory <> s:43 var
-def 1580:1596 <> set_bounded_above
-R1602:1609 Coq.Sets.Ensembles <> Ensemble def
-R1611:1611 SetTheory <> Generic.T var
-binder 1599:1599 <> S:44
-R1623:1630 Coq.Relations.Relation_Definitions <> relation def
-R1632:1632 SetTheory <> Generic.T var
-binder 1615:1620 <> ord_le:45
-R1640:1644 Coq.Relations.Relation_Definitions <> order rec
-R1648:1653 SetTheory <> ord_le:45 var
-R1646:1646 SetTheory <> Generic.T var
-binder 1636:1637 <> po:46
-R1659:1665 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R1667:1668 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 1666:1666 <> b:47
-R1669:1686 SetTheory <> set_is_bound_above def
-R1700:1700 SetTheory <> b:47 var
-R1697:1698 SetTheory <> po:46 var
-R1690:1695 SetTheory <> ord_le:45 var
-R1688:1688 SetTheory <> S:44 var
-def 1747:1764 <> set_is_bound_below
-R1770:1777 Coq.Sets.Ensembles <> Ensemble def
-R1779:1779 SetTheory <> Generic.T var
-binder 1767:1767 <> S:48
-R1791:1798 Coq.Relations.Relation_Definitions <> relation def
-R1800:1800 SetTheory <> Generic.T var
-binder 1783:1788 <> ord_le:49
-R1808:1812 Coq.Relations.Relation_Definitions <> order rec
-R1816:1821 SetTheory <> ord_le:49 var
-R1814:1814 SetTheory <> Generic.T var
-binder 1804:1805 <> po:50
-R1828:1828 SetTheory <> Generic.T var
-binder 1825:1825 <> b:51
-binder 1841:1841 <> s:52
-R1847:1850 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R1851:1856 SetTheory <> ord_le:49 var
-R1860:1860 SetTheory <> s:52 var
-R1858:1858 SetTheory <> b:51 var
-R1844:1844 SetTheory <> S:48 var
-R1846:1846 SetTheory <> s:52 var
-def 1913:1929 <> set_bounded_below
-R1935:1942 Coq.Sets.Ensembles <> Ensemble def
-R1944:1944 SetTheory <> Generic.T var
-binder 1932:1932 <> S:53
-R1956:1963 Coq.Relations.Relation_Definitions <> relation def
-R1965:1965 SetTheory <> Generic.T var
-binder 1948:1953 <> ord_le:54
-R1973:1977 Coq.Relations.Relation_Definitions <> order rec
-R1981:1986 SetTheory <> ord_le:54 var
-R1979:1979 SetTheory <> Generic.T var
-binder 1969:1970 <> po:55
-R1992:1998 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R2000:2001 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 1999:1999 <> b:56
-R2002:2019 SetTheory <> set_is_bound_below def
-R2033:2033 SetTheory <> b:56 var
-R2030:2031 SetTheory <> po:55 var
-R2023:2028 SetTheory <> ord_le:54 var
-R2021:2021 SetTheory <> S:53 var
-def 2078:2091 <> set_is_minimum
-R2097:2104 Coq.Sets.Ensembles <> Ensemble def
-R2106:2106 SetTheory <> Generic.T var
-binder 2094:2094 <> S:57
-R2118:2125 Coq.Relations.Relation_Definitions <> relation def
-R2127:2127 SetTheory <> Generic.T var
-binder 2110:2115 <> ord_le:58
-R2135:2139 Coq.Relations.Relation_Definitions <> order rec
-R2143:2148 SetTheory <> ord_le:58 var
-R2141:2141 SetTheory <> Generic.T var
-binder 2131:2132 <> po:59
-R2155:2155 SetTheory <> Generic.T var
-binder 2152:2152 <> s:60
-R2164:2167 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R2161:2161 SetTheory <> S:57 var
-R2163:2163 SetTheory <> s:60 var
-R2179:2179 SetTheory <> Generic.T var
-binder 2175:2176 <> s':61
-R2186:2189 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2190:2195 SetTheory <> ord_le:58 var
-R2199:2200 SetTheory <> s':61 var
-R2197:2197 SetTheory <> s:60 var
-R2182:2182 SetTheory <> S:57 var
-R2184:2185 SetTheory <> s':61 var
-def 2262:2275 <> set_ex_minimum
-R2281:2288 Coq.Sets.Ensembles <> Ensemble def
-R2290:2290 SetTheory <> Generic.T var
-binder 2278:2278 <> S:62
-R2302:2309 Coq.Relations.Relation_Definitions <> relation def
-R2311:2311 SetTheory <> Generic.T var
-binder 2294:2299 <> ord_le:63
-R2319:2323 Coq.Relations.Relation_Definitions <> order rec
-R2327:2332 SetTheory <> ord_le:63 var
-R2325:2325 SetTheory <> Generic.T var
-binder 2315:2316 <> po:64
-R2338:2338 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
-R2340:2342 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
-R2344:2346 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
-R2375:2375 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
-R2343:2343 SetTheory <> Generic.T var
-binder 2339:2339 <> m:65
-R2347:2360 SetTheory <> set_is_minimum def
-R2374:2374 SetTheory <> m:65 var
-R2371:2372 SetTheory <> po:64 var
-R2364:2369 SetTheory <> ord_le:63 var
-R2362:2362 SetTheory <> S:62 var
-prf 2457:2473 <> set_is_minimum_ex
-R2479:2486 Coq.Sets.Ensembles <> Ensemble def
-R2488:2488 SetTheory <> Generic.T var
-binder 2476:2476 <> S:66
-R2500:2507 Coq.Relations.Relation_Definitions <> relation def
-R2509:2509 SetTheory <> Generic.T var
-binder 2492:2497 <> ord_le:67
-R2517:2521 Coq.Relations.Relation_Definitions <> order rec
-R2525:2530 SetTheory <> ord_le:67 var
-R2523:2523 SetTheory <> Generic.T var
-binder 2513:2514 <> po:68
-R2537:2537 SetTheory <> Generic.T var
-binder 2534:2534 <> s:69
-R2569:2572 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R2573:2586 SetTheory <> set_ex_minimum def
-R2597:2598 SetTheory <> po:68 var
-R2590:2595 SetTheory <> ord_le:67 var
-R2588:2588 SetTheory <> S:66 var
-R2541:2554 SetTheory <> set_is_minimum def
-R2568:2568 SetTheory <> s:69 var
-R2565:2566 SetTheory <> po:68 var
-R2558:2563 SetTheory <> ord_le:67 var
-R2556:2556 SetTheory <> S:66 var
-def 2676:2686 <> set_minimum
-R2692:2699 Coq.Sets.Ensembles <> Ensemble def
-R2701:2701 SetTheory <> Generic.T var
-binder 2689:2689 <> S:70
-R2713:2720 Coq.Relations.Relation_Definitions <> relation def
-R2722:2722 SetTheory <> Generic.T var
-binder 2705:2710 <> ord_le:71
-R2730:2734 Coq.Relations.Relation_Definitions <> order rec
-R2738:2743 SetTheory <> ord_le:71 var
-R2736:2736 SetTheory <> Generic.T var
-binder 2726:2727 <> po:72
-R2751:2764 SetTheory <> set_ex_minimum def
-R2775:2776 SetTheory <> po:72 var
-R2768:2773 SetTheory <> ord_le:71 var
-R2766:2766 SetTheory <> S:70 var
-binder 2747:2748 <> ex:73
-R2782:2790 Coq.Init.Specif <> proj1_sig def
-R2792:2793 SetTheory <> ex:73 var
-prf 2841:2858 <> set_minimum_unique
-R2864:2871 Coq.Sets.Ensembles <> Ensemble def
-R2873:2873 SetTheory <> Generic.T var
-binder 2861:2861 <> S:74
-R2885:2892 Coq.Relations.Relation_Definitions <> relation def
-R2894:2894 SetTheory <> Generic.T var
-binder 2877:2882 <> ord_le:75
-R2902:2906 Coq.Relations.Relation_Definitions <> order rec
-R2910:2915 SetTheory <> ord_le:75 var
-R2908:2908 SetTheory <> Generic.T var
-binder 2898:2899 <> po:76
-R2922:2922 SetTheory <> Generic.T var
-binder 2919:2919 <> s:77
-R2938:2951 SetTheory <> set_is_minimum def
-R2965:2965 SetTheory <> s:77 var
-R2962:2963 SetTheory <> po:76 var
-R2955:2960 SetTheory <> ord_le:75 var
-R2953:2953 SetTheory <> S:74 var
-binder 2935:2935 <> p:78
-R3028:3030 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R2969:2979 SetTheory <> set_minimum def
-R2994:3010 SetTheory <> set_is_minimum_ex thm
-R3026:3026 SetTheory <> p:78 var
-R3024:3024 SetTheory <> s:77 var
-R3021:3022 SetTheory <> po:76 var
-R3014:3019 SetTheory <> ord_le:75 var
-R3012:3012 SetTheory <> S:74 var
-R2990:2991 SetTheory <> po:76 var
-R2983:2988 SetTheory <> ord_le:75 var
-R2981:2981 SetTheory <> S:74 var
-R3031:3031 SetTheory <> s:77 var
-R3056:3066 SetTheory <> set_minimum def
-R3080:3096 SetTheory <> set_is_minimum_ex thm
-R3080:3096 SetTheory <> set_is_minimum_ex thm
-R3130:3143 SetTheory <> set_is_minimum def
-R3158:3171 SetTheory <> set_is_minimum def
-R3256:3268 Coq.Relations.Relation_Definitions <> antisymmetric def
-prf 3387:3408 <> set_minimum_is_minimum
-R3414:3421 Coq.Sets.Ensembles <> Ensemble def
-R3423:3423 SetTheory <> Generic.T var
-binder 3411:3411 <> S:79
-R3435:3442 Coq.Relations.Relation_Definitions <> relation def
-R3444:3444 SetTheory <> Generic.T var
-binder 3427:3432 <> ord_le:80
-R3452:3456 Coq.Relations.Relation_Definitions <> order rec
-R3460:3465 SetTheory <> ord_le:80 var
-R3458:3458 SetTheory <> Generic.T var
-binder 3448:3449 <> po:81
-R3473:3486 SetTheory <> set_ex_minimum def
-R3497:3498 SetTheory <> po:81 var
-R3490:3495 SetTheory <> ord_le:80 var
-R3488:3488 SetTheory <> S:79 var
-binder 3469:3470 <> ex:82
-R3503:3516 SetTheory <> set_is_minimum def
-R3531:3541 SetTheory <> set_minimum def
-R3555:3556 SetTheory <> ex:82 var
-R3552:3553 SetTheory <> po:81 var
-R3545:3550 SetTheory <> ord_le:80 var
-R3543:3543 SetTheory <> S:79 var
-R3527:3528 SetTheory <> po:81 var
-R3520:3525 SetTheory <> ord_le:80 var
-R3518:3518 SetTheory <> S:79 var
-R3567:3577 SetTheory <> set_minimum def
-prf 3726:3745 <> set_minimum_included
-R3762:3769 Coq.Sets.Ensembles <> Ensemble def
-R3771:3771 SetTheory <> Generic.T var
-binder 3757:3757 <> A:83
-binder 3759:3759 <> B:84
-R3783:3790 Coq.Relations.Relation_Definitions <> relation def
-R3792:3792 SetTheory <> Generic.T var
-binder 3775:3780 <> ord_le:85
-R3800:3804 Coq.Relations.Relation_Definitions <> order rec
-R3808:3813 SetTheory <> ord_le:85 var
-R3806:3806 SetTheory <> Generic.T var
-binder 3796:3797 <> po:86
-R3822:3835 SetTheory <> set_ex_minimum def
-R3846:3847 SetTheory <> po:86 var
-R3839:3844 SetTheory <> ord_le:85 var
-R3837:3837 SetTheory <> A:83 var
-binder 3817:3819 <> exA:87
-R3856:3869 SetTheory <> set_ex_minimum def
-R3880:3881 SetTheory <> po:86 var
-R3873:3878 SetTheory <> ord_le:85 var
-R3871:3871 SetTheory <> B:84 var
-binder 3851:3853 <> exB:88
-R3899:3902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R3903:3908 SetTheory <> ord_le:85 var
-R3941:3951 SetTheory <> set_minimum def
-R3965:3967 SetTheory <> exA:87 var
-R3962:3963 SetTheory <> po:86 var
-R3955:3960 SetTheory <> ord_le:85 var
-R3953:3953 SetTheory <> A:83 var
-R3911:3921 SetTheory <> set_minimum def
-R3935:3937 SetTheory <> exB:88 var
-R3932:3933 SetTheory <> po:86 var
-R3925:3930 SetTheory <> ord_le:85 var
-R3923:3923 SetTheory <> B:84 var
-R3885:3892 Coq.Sets.Ensembles <> Included def
-R3898:3898 SetTheory <> B:84 var
-R3896:3896 SetTheory <> A:83 var
-R3894:3894 SetTheory <> Generic.T var
-binder 3994:3995 <> n0:89
-binder 3997:3998 <> n1:90
-R4030:4033 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4063:4066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4077:4078 SetTheory <> n1:90 var
-R4074:4075 SetTheory <> n0:89 var
-R4034:4047 SetTheory <> set_is_minimum def
-R4061:4062 SetTheory <> n1:90 var
-R4001:4014 SetTheory <> set_is_minimum def
-R4028:4029 SetTheory <> n0:89 var
-binder 3994:3995 <> n0:91
-binder 3997:3998 <> n1:92
-R4030:4033 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4063:4066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4077:4078 SetTheory <> n1:92 var
-R4074:4075 SetTheory <> n0:91 var
-R4034:4047 SetTheory <> set_is_minimum def
-R4061:4062 SetTheory <> n1:92 var
-R4001:4014 SetTheory <> set_is_minimum def
-R4028:4029 SetTheory <> n0:91 var
-R4089:4102 SetTheory <> set_is_minimum def
-R4146:4153 Coq.Sets.Ensembles <> Included def
-R4184:4185 Coq.Sets.Ensembles <> In def
-R4216:4237 SetTheory <> set_minimum_is_minimum thm
-R4216:4237 SetTheory <> set_minimum_is_minimum thm
-R4263:4284 SetTheory <> set_minimum_is_minimum thm
-R4263:4284 SetTheory <> set_minimum_is_minimum thm
-R4345:4355 SetTheory <> set_minimum def
-R4315:4325 SetTheory <> set_minimum def
-R4345:4355 SetTheory <> set_minimum def
-R4315:4325 SetTheory <> set_minimum def
-def 4428:4441 <> set_is_maximum
-R4447:4454 Coq.Sets.Ensembles <> Ensemble def
-R4456:4456 SetTheory <> Generic.T var
-binder 4444:4444 <> S:93
-R4468:4475 Coq.Relations.Relation_Definitions <> relation def
-R4477:4477 SetTheory <> Generic.T var
-binder 4460:4465 <> ord_le:94
-R4485:4489 Coq.Relations.Relation_Definitions <> order rec
-R4493:4498 SetTheory <> ord_le:94 var
-R4491:4491 SetTheory <> Generic.T var
-binder 4481:4482 <> po:95
-R4505:4505 SetTheory <> Generic.T var
-binder 4502:4502 <> s:96
-R4514:4517 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R4511:4511 SetTheory <> S:93 var
-R4513:4513 SetTheory <> s:96 var
-R4529:4529 SetTheory <> Generic.T var
-binder 4525:4526 <> s':97
-R4536:4539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4540:4545 SetTheory <> ord_le:94 var
-R4550:4550 SetTheory <> s:96 var
-R4547:4548 SetTheory <> s':97 var
-R4532:4532 SetTheory <> S:93 var
-R4534:4535 SetTheory <> s':97 var
-def 4612:4625 <> set_ex_maximum
-R4631:4638 Coq.Sets.Ensembles <> Ensemble def
-R4640:4640 SetTheory <> Generic.T var
-binder 4628:4628 <> S:98
-R4652:4659 Coq.Relations.Relation_Definitions <> relation def
-R4661:4661 SetTheory <> Generic.T var
-binder 4644:4649 <> ord_le:99
-R4669:4673 Coq.Relations.Relation_Definitions <> order rec
-R4677:4682 SetTheory <> ord_le:99 var
-R4675:4675 SetTheory <> Generic.T var
-binder 4665:4666 <> po:100
-R4688:4688 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
-R4690:4692 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
-R4694:4696 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
-R4725:4725 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
-R4693:4693 SetTheory <> Generic.T var
-binder 4689:4689 <> m:101
-R4697:4710 SetTheory <> set_is_maximum def
-R4724:4724 SetTheory <> m:101 var
-R4721:4722 SetTheory <> po:100 var
-R4714:4719 SetTheory <> ord_le:99 var
-R4712:4712 SetTheory <> S:98 var
-prf 4807:4823 <> set_is_maximum_ex
-R4829:4836 Coq.Sets.Ensembles <> Ensemble def
-R4838:4838 SetTheory <> Generic.T var
-binder 4826:4826 <> S:102
-R4850:4857 Coq.Relations.Relation_Definitions <> relation def
-R4859:4859 SetTheory <> Generic.T var
-binder 4842:4847 <> ord_le:103
-R4867:4871 Coq.Relations.Relation_Definitions <> order rec
-R4875:4880 SetTheory <> ord_le:103 var
-R4873:4873 SetTheory <> Generic.T var
-binder 4863:4864 <> po:104
-R4887:4887 SetTheory <> Generic.T var
-binder 4884:4884 <> s:105
-R4920:4923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R4924:4937 SetTheory <> set_ex_maximum def
-R4948:4949 SetTheory <> po:104 var
-R4941:4946 SetTheory <> ord_le:103 var
-R4939:4939 SetTheory <> S:102 var
-R4892:4905 SetTheory <> set_is_maximum def
-R4919:4919 SetTheory <> s:105 var
-R4916:4917 SetTheory <> po:104 var
-R4909:4914 SetTheory <> ord_le:103 var
-R4907:4907 SetTheory <> S:102 var
-def 5027:5037 <> set_maximum
-R5043:5050 Coq.Sets.Ensembles <> Ensemble def
-R5052:5052 SetTheory <> Generic.T var
-binder 5040:5040 <> S:106
-R5064:5071 Coq.Relations.Relation_Definitions <> relation def
-R5073:5073 SetTheory <> Generic.T var
-binder 5056:5061 <> ord_le:107
-R5081:5085 Coq.Relations.Relation_Definitions <> order rec
-R5089:5094 SetTheory <> ord_le:107 var
-R5087:5087 SetTheory <> Generic.T var
-binder 5077:5078 <> po:108
-R5102:5115 SetTheory <> set_ex_maximum def
-R5126:5127 SetTheory <> po:108 var
-R5119:5124 SetTheory <> ord_le:107 var
-R5117:5117 SetTheory <> S:106 var
-binder 5098:5099 <> ex:109
-R5133:5141 Coq.Init.Specif <> proj1_sig def
-R5143:5144 SetTheory <> ex:109 var
-prf 5192:5209 <> set_maximum_unique
-R5215:5222 Coq.Sets.Ensembles <> Ensemble def
-R5224:5224 SetTheory <> Generic.T var
-binder 5212:5212 <> S:110
-R5236:5243 Coq.Relations.Relation_Definitions <> relation def
-R5245:5245 SetTheory <> Generic.T var
-binder 5228:5233 <> ord_le:111
-R5253:5257 Coq.Relations.Relation_Definitions <> order rec
-R5261:5266 SetTheory <> ord_le:111 var
-R5259:5259 SetTheory <> Generic.T var
-binder 5249:5250 <> po:112
-R5273:5286 SetTheory <> set_ex_maximum def
-R5297:5298 SetTheory <> po:112 var
-R5290:5295 SetTheory <> ord_le:111 var
-R5288:5288 SetTheory <> S:110 var
-binder 5270:5270 <> p:113
-R5305:5305 SetTheory <> Generic.T var
-binder 5302:5302 <> s:114
-R5338:5341 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R5367:5369 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R5342:5352 SetTheory <> set_maximum def
-R5366:5366 SetTheory <> p:113 var
-R5363:5364 SetTheory <> po:112 var
-R5356:5361 SetTheory <> ord_le:111 var
-R5354:5354 SetTheory <> S:110 var
-R5370:5370 SetTheory <> s:114 var
-R5310:5323 SetTheory <> set_is_maximum def
-R5337:5337 SetTheory <> s:114 var
-R5334:5335 SetTheory <> po:112 var
-R5327:5332 SetTheory <> ord_le:111 var
-R5325:5325 SetTheory <> S:110 var
-R5408:5421 SetTheory <> set_ex_maximum def
-R5448:5461 SetTheory <> set_is_maximum def
-R5539:5551 Coq.Relations.Relation_Definitions <> antisymmetric def
-R5617:5627 SetTheory <> set_maximum def
-prf 5708:5729 <> set_maximum_is_maximum
-R5735:5742 Coq.Sets.Ensembles <> Ensemble def
-R5744:5744 SetTheory <> Generic.T var
-binder 5732:5732 <> S:115
-R5756:5763 Coq.Relations.Relation_Definitions <> relation def
-R5765:5765 SetTheory <> Generic.T var
-binder 5748:5753 <> ord_le:116
-R5773:5777 Coq.Relations.Relation_Definitions <> order rec
-R5781:5786 SetTheory <> ord_le:116 var
-R5779:5779 SetTheory <> Generic.T var
-binder 5769:5770 <> po:117
-R5794:5807 SetTheory <> set_ex_maximum def
-R5818:5819 SetTheory <> po:117 var
-R5811:5816 SetTheory <> ord_le:116 var
-R5809:5809 SetTheory <> S:115 var
-binder 5790:5791 <> ex:118
-R5824:5837 SetTheory <> set_is_maximum def
-R5852:5862 SetTheory <> set_maximum def
-R5876:5877 SetTheory <> ex:118 var
-R5873:5874 SetTheory <> po:117 var
-R5866:5871 SetTheory <> ord_le:116 var
-R5864:5864 SetTheory <> S:115 var
-R5848:5849 SetTheory <> po:117 var
-R5841:5846 SetTheory <> ord_le:116 var
-R5839:5839 SetTheory <> S:115 var
-R5888:5898 SetTheory <> set_maximum def
-prf 6047:6066 <> set_maximum_included
-R6083:6090 Coq.Sets.Ensembles <> Ensemble def
-R6092:6092 SetTheory <> Generic.T var
-binder 6078:6078 <> A:119
-binder 6080:6080 <> B:120
-R6104:6111 Coq.Relations.Relation_Definitions <> relation def
-R6113:6113 SetTheory <> Generic.T var
-binder 6096:6101 <> ord_le:121
-R6121:6125 Coq.Relations.Relation_Definitions <> order rec
-R6129:6134 SetTheory <> ord_le:121 var
-R6127:6127 SetTheory <> Generic.T var
-binder 6117:6118 <> po:122
-R6143:6156 SetTheory <> set_ex_maximum def
-R6167:6168 SetTheory <> po:122 var
-R6160:6165 SetTheory <> ord_le:121 var
-R6158:6158 SetTheory <> A:119 var
-binder 6138:6140 <> exA:123
-R6177:6190 SetTheory <> set_ex_maximum def
-R6201:6202 SetTheory <> po:122 var
-R6194:6199 SetTheory <> ord_le:121 var
-R6192:6192 SetTheory <> B:120 var
-binder 6172:6174 <> exB:124
-R6220:6223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6224:6229 SetTheory <> ord_le:121 var
-R6262:6272 SetTheory <> set_maximum def
-R6286:6288 SetTheory <> exB:124 var
-R6283:6284 SetTheory <> po:122 var
-R6276:6281 SetTheory <> ord_le:121 var
-R6274:6274 SetTheory <> B:120 var
-R6232:6242 SetTheory <> set_maximum def
-R6256:6258 SetTheory <> exA:123 var
-R6253:6254 SetTheory <> po:122 var
-R6246:6251 SetTheory <> ord_le:121 var
-R6244:6244 SetTheory <> A:119 var
-R6206:6213 Coq.Sets.Ensembles <> Included def
-R6219:6219 SetTheory <> B:120 var
-R6217:6217 SetTheory <> A:119 var
-R6215:6215 SetTheory <> Generic.T var
-binder 6315:6316 <> n0:125
-binder 6318:6319 <> n1:126
-R6351:6354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6384:6387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6398:6399 SetTheory <> n1:126 var
-R6395:6396 SetTheory <> n0:125 var
-R6355:6368 SetTheory <> set_is_maximum def
-R6382:6383 SetTheory <> n1:126 var
-R6322:6335 SetTheory <> set_is_maximum def
-R6349:6350 SetTheory <> n0:125 var
-binder 6315:6316 <> n0:127
-binder 6318:6319 <> n1:128
-R6351:6354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6384:6387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6398:6399 SetTheory <> n1:128 var
-R6395:6396 SetTheory <> n0:127 var
-R6355:6368 SetTheory <> set_is_maximum def
-R6382:6383 SetTheory <> n1:128 var
-R6322:6335 SetTheory <> set_is_maximum def
-R6349:6350 SetTheory <> n0:127 var
-R6410:6423 SetTheory <> set_is_maximum def
-R6467:6474 Coq.Sets.Ensembles <> Included def
-R6505:6506 Coq.Sets.Ensembles <> In def
-R6537:6558 SetTheory <> set_maximum_is_maximum thm
-R6537:6558 SetTheory <> set_maximum_is_maximum thm
-R6584:6605 SetTheory <> set_maximum_is_maximum thm
-R6584:6605 SetTheory <> set_maximum_is_maximum thm
-R6666:6676 SetTheory <> set_maximum def
-R6636:6646 SetTheory <> set_maximum def
-R6666:6676 SetTheory <> set_maximum def
-R6636:6646 SetTheory <> set_maximum def
-prf 6837:6850 <> set_ge_maximum
-R6865:6865 SetTheory <> Generic.T var
-binder 6862:6862 <> b:129
-R6872:6879 Coq.Sets.Ensembles <> Ensemble def
-R6881:6881 SetTheory <> Generic.T var
-binder 6869:6869 <> S:130
-R6893:6900 Coq.Relations.Relation_Definitions <> relation def
-R6902:6902 SetTheory <> Generic.T var
-binder 6885:6890 <> ord_le:131
-R6910:6914 Coq.Relations.Relation_Definitions <> order rec
-R6918:6923 SetTheory <> ord_le:131 var
-R6916:6916 SetTheory <> Generic.T var
-binder 6906:6907 <> po:132
-R6931:6944 SetTheory <> set_ex_maximum def
-R6955:6956 SetTheory <> po:132 var
-R6948:6953 SetTheory <> ord_le:131 var
-R6946:6946 SetTheory <> S:130 var
-binder 6927:6928 <> ex:133
-R6961:6961 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R6993:6998 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R6973:6973 SetTheory <> Generic.T var
-binder 6969:6969 <> s:134
-R6979:6982 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R6983:6988 SetTheory <> ord_le:131 var
-R6992:6992 SetTheory <> b:129 var
-R6990:6990 SetTheory <> s:134 var
-R6976:6976 SetTheory <> S:130 var
-R6978:6978 SetTheory <> s:134 var
-R6999:7004 SetTheory <> ord_le:131 var
-R7035:7035 SetTheory <> b:129 var
-R7007:7017 SetTheory <> set_maximum def
-R7031:7032 SetTheory <> ex:133 var
-R7028:7029 SetTheory <> po:132 var
-R7021:7026 SetTheory <> ord_le:131 var
-R7019:7019 SetTheory <> S:130 var
-binder 7061:7061 <> m:135
-R7092:7096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7141:7141 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7097:7097 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R7125:7130 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-binder 7105:7105 <> s:136
-R7111:7114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7122:7122 SetTheory <> s:136 var
-R7110:7110 SetTheory <> s:136 var
-R7138:7138 SetTheory <> m:135 var
-R7064:7077 SetTheory <> set_is_maximum def
-R7091:7091 SetTheory <> m:135 var
-binder 7061:7061 <> m:137
-R7092:7096 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7141:7141 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7097:7097 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R7125:7130 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-binder 7105:7105 <> s:138
-R7111:7114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R7122:7122 SetTheory <> s:138 var
-R7110:7110 SetTheory <> s:138 var
-R7138:7138 SetTheory <> m:137 var
-R7064:7077 SetTheory <> set_is_maximum def
-R7091:7091 SetTheory <> m:137 var
-R7160:7173 SetTheory <> set_is_maximum def
-R7268:7277 Coq.Relations.Relation_Definitions <> transitive def
-R7362:7383 SetTheory <> set_maximum_is_maximum thm
-R7333:7343 SetTheory <> set_maximum def
-R7362:7383 SetTheory <> set_maximum_is_maximum thm
-R7333:7343 SetTheory <> set_maximum def
-prf 7459:7472 <> set_maximum_in
-R7487:7494 Coq.Sets.Ensembles <> Ensemble def
-R7496:7496 SetTheory <> Generic.T var
-binder 7484:7484 <> S:139
-R7508:7515 Coq.Relations.Relation_Definitions <> relation def
-R7517:7517 SetTheory <> Generic.T var
-binder 7500:7505 <> ord_le:140
-R7525:7529 Coq.Relations.Relation_Definitions <> order rec
-R7533:7538 SetTheory <> ord_le:140 var
-R7531:7531 SetTheory <> Generic.T var
-binder 7521:7522 <> po:141
-R7546:7559 SetTheory <> set_ex_maximum def
-R7570:7571 SetTheory <> po:141 var
-R7563:7568 SetTheory <> ord_le:140 var
-R7561:7561 SetTheory <> S:139 var
-binder 7542:7543 <> ex:142
-R7575:7575 SetTheory <> S:139 var
-R7578:7588 SetTheory <> set_maximum def
-R7602:7603 SetTheory <> ex:142 var
-R7599:7600 SetTheory <> po:141 var
-R7592:7597 SetTheory <> ord_le:140 var
-R7590:7590 SetTheory <> S:139 var
-R7621:7642 SetTheory <> set_maximum_is_maximum thm
-R7621:7642 SetTheory <> set_maximum_is_maximum thm
-R7668:7681 SetTheory <> set_is_maximum def
-R7718:7724 SetTheory Generic <> sec
-sec 7761:7765 <> NSets
-prf 7823:7830 <> le_order
-R7834:7838 Coq.Relations.Relation_Definitions <> order rec
-R7844:7845 Coq.Init.Peano <> le ind
-R7840:7842 Coq.Init.Datatypes <> nat ind
-R7862:7870 Coq.Relations.Relation_Definitions <> reflexive def
-R7879:7885 Coq.Arith.Le <> le_refl syndef
-R7879:7885 Coq.Arith.Le <> le_refl syndef
-R7895:7904 Coq.Relations.Relation_Definitions <> transitive def
-R7913:7920 Coq.Arith.Le <> le_trans syndef
-R7913:7920 Coq.Arith.Le <> le_trans syndef
-R7930:7942 Coq.Relations.Relation_Definitions <> antisymmetric def
-R7951:7960 Coq.Arith.Le <> le_antisym syndef
-R7951:7960 Coq.Arith.Le <> le_antisym syndef
-ax 8004:8006 <> wop
-R8021:8028 Coq.Sets.Ensembles <> Ensemble def
-R8030:8032 Coq.Init.Datatypes <> nat ind
-binder 8018:8018 <> N:143
-R8054:8057 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8058:8071 SetTheory <> set_ex_minimum def
-R8078:8085 SetTheory <> le_order thm
-R8075:8076 Coq.Init.Peano <> le ind
-R8073:8073 SetTheory <> N:143 var
-R8037:8040 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R8036:8036 SetTheory <> N:143 var
-R8041:8049 Coq.Sets.Ensembles <> Empty_set ind
-R8051:8053 Coq.Init.Datatypes <> nat ind
-def 8129:8135 <> nat_min
-R8141:8148 Coq.Sets.Ensembles <> Ensemble def
-R8150:8152 Coq.Init.Datatypes <> nat ind
-binder 8138:8138 <> N:145
-R8161:8164 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R8160:8160 SetTheory <> N:145 var
-R8165:8173 Coq.Sets.Ensembles <> Empty_set ind
-R8175:8177 Coq.Init.Datatypes <> nat ind
-binder 8156:8157 <> ne:146
-R8183:8193 SetTheory <> set_minimum def
-R8210:8212 SetTheory <> wop prfax
-R8216:8217 SetTheory <> ne:146 var
-R8214:8214 SetTheory <> N:145 var
-R8200:8207 SetTheory <> le_order thm
-R8197:8198 Coq.Init.Peano <> le ind
-R8195:8195 SetTheory <> N:145 var
-def 8233:8243 <> nat_bounded
-R8249:8256 Coq.Sets.Ensembles <> Ensemble def
-R8258:8260 Coq.Init.Datatypes <> nat ind
-binder 8246:8246 <> N:147
-R8272:8288 SetTheory <> set_bounded_above def
-R8295:8302 SetTheory <> le_order thm
-R8292:8293 Coq.Init.Peano <> le ind
-R8290:8290 SetTheory <> N:147 var
-prf 8365:8374 <> ex_nat_max
-binder 8385:8385 <> N:148
-R8401:8404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8423:8426 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R8427:8440 SetTheory <> set_ex_maximum def
-R8447:8454 SetTheory <> le_order thm
-R8444:8445 Coq.Init.Peano <> le ind
-R8442:8442 SetTheory <> N:148 var
-R8406:8409 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R8405:8405 SetTheory <> N:148 var
-R8410:8418 Coq.Sets.Ensembles <> Empty_set ind
-R8420:8422 Coq.Init.Datatypes <> nat ind
-R8388:8398 SetTheory <> nat_bounded def
-R8400:8400 SetTheory <> N:148 var
-R8472:8478 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8480:8481 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 8479:8479 <> x:149
-R8482:8495 SetTheory <> set_is_maximum def
-R8511:8511 SetTheory <> x:149 var
-R8502:8509 SetTheory <> le_order thm
-R8499:8500 Coq.Init.Peano <> le ind
-R8472:8478 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8480:8481 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 8479:8479 <> x:150
-R8482:8495 SetTheory <> set_is_maximum def
-R8511:8511 SetTheory <> x:150 var
-R8502:8509 SetTheory <> le_order thm
-R8499:8500 Coq.Init.Peano <> le ind
-R8521:8527 Coq.Logic.Decidable <> not_not thm
-R8521:8527 Coq.Logic.Decidable <> not_not thm
-R8537:8545 Coq.Logic.Decidable <> decidable def
-R8570:8583 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R8585:8587 Coq.Init.Datatypes <> nat ind
-R8570:8583 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
-R8585:8587 Coq.Init.Datatypes <> nat ind
-R8602:8615 SetTheory <> set_is_maximum def
-R8642:8644 Coq.Init.Datatypes <> nat ind
-binder 8638:8638 <> n:151
-R8651:8655 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
-R8693:8693 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
-R8647:8647 Coq.Init.Logic <> ::type_scope:'~'_x not
-R8650:8650 SetTheory <> n:151 var
-R8656:8662 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8671:8672 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8668:8670 Coq.Init.Datatypes <> nat ind
-binder 8663:8664 <> s':152
-R8677:8680 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R8675:8676 SetTheory <> s':152 var
-R8683:8685 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R8682:8682 SetTheory <> n:151 var
-R8686:8687 SetTheory <> s':152 var
-R8642:8644 Coq.Init.Datatypes <> nat ind
-binder 8638:8638 <> n:153
-R8651:8655 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
-R8693:8693 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
-R8647:8647 Coq.Init.Logic <> ::type_scope:'~'_x not
-R8650:8650 SetTheory <> n:153 var
-R8656:8662 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8671:8672 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R8668:8670 Coq.Init.Datatypes <> nat ind
-binder 8663:8664 <> s':154
-R8677:8680 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R8675:8676 SetTheory <> s':154 var
-R8683:8685 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R8682:8682 SetTheory <> n:153 var
-R8686:8687 SetTheory <> s':154 var
-R8724:8730 Coq.Logic.Decidable <> not_and thm
-R8724:8730 Coq.Logic.Decidable <> not_and thm
-R8777:8790 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R8777:8790 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
-R8818:8824 Coq.Logic.Decidable <> not_imp thm
-R8818:8824 Coq.Logic.Decidable <> not_imp thm
-R8852:8857 Coq.Arith.Compare_dec <> not_le thm
-R8852:8857 Coq.Arith.Compare_dec <> not_le thm
-R8873:8874 Coq.Init.Peano <> gt def
-R8889:8892 Coq.Init.Logic <> conj constr
-R8889:8892 Coq.Init.Logic <> conj constr
-R8908:8915 Coq.Init.Logic <> ex_intro constr
-binder 8922:8922 <> n:155
-R8930:8933 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R8929:8929 SetTheory <> n:155 var
-R8937:8939 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R8940:8940 SetTheory <> n:155 var
-R8908:8915 Coq.Init.Logic <> ex_intro constr
-binder 8922:8922 <> n:156
-R8930:8933 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R8929:8929 SetTheory <> n:156 var
-R8937:8939 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
-R8940:8940 SetTheory <> n:156 var
-R8968:8976 Coq.Logic.Decidable <> decidable def
-R8993:9001 Coq.Logic.Decidable <> decidable def
-def 9067:9073 <> nat_max
-R9079:9086 Coq.Sets.Ensembles <> Ensemble def
-R9088:9090 Coq.Init.Datatypes <> nat ind
-binder 9076:9076 <> N:157
-R9097:9107 SetTheory <> nat_bounded def
-R9109:9109 SetTheory <> N:157 var
-binder 9094:9094 <> b:158
-R9118:9121 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R9117:9117 SetTheory <> N:157 var
-R9122:9130 Coq.Sets.Ensembles <> Empty_set ind
-R9132:9134 Coq.Init.Datatypes <> nat ind
-binder 9113:9114 <> ne:159
-R9139:9141 Coq.Init.Datatypes <> nat ind
-R9146:9156 SetTheory <> set_maximum def
-R9173:9182 SetTheory <> ex_nat_max prfax
-R9188:9189 SetTheory <> ne:159 var
-R9186:9186 SetTheory <> b:158 var
-R9184:9184 SetTheory <> N:157 var
-R9163:9170 SetTheory <> le_order thm
-R9160:9161 Coq.Init.Peano <> le ind
-R9158:9158 SetTheory <> N:157 var
-prf 9221:9231 <> n_non_empty
-R9243:9246 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R9235:9242 SetTheory <> universe def
-R9247:9255 Coq.Sets.Ensembles <> Empty_set ind
-R9257:9259 Coq.Init.Datatypes <> nat ind
-R9268:9276 SetTheory <> non_empty thm
-R9268:9276 SetTheory <> non_empty thm
-R9286:9286 Coq.Init.Datatypes <> O constr
-R9286:9286 Coq.Init.Datatypes <> O constr
-R9296:9303 SetTheory <> universe def
-R9312:9312 Coq.Init.Logic <> I constr
-R9312:9312 Coq.Init.Logic <> I constr
-R9325:9329 SetTheory NSets <> sec
-sec 9364:9368 <> RSets
-prf 9422:9430 <> Rle_order
-R9433:9437 Coq.Relations.Relation_Definitions <> order rec
-R9441:9443 Coq.Reals.Rdefinitions <> Rle def
-R9439:9439 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-R9460:9468 Coq.Relations.Relation_Definitions <> reflexive def
-R9477:9484 Coq.Reals.RIneq <> Rle_refl thm
-R9477:9484 Coq.Reals.RIneq <> Rle_refl thm
-R9494:9503 Coq.Relations.Relation_Definitions <> transitive def
-R9512:9520 Coq.Reals.RIneq <> Rle_trans thm
-R9512:9520 Coq.Reals.RIneq <> Rle_trans thm
-R9530:9542 Coq.Relations.Relation_Definitions <> antisymmetric def
-R9551:9561 Coq.Reals.RIneq <> Rle_antisym thm
-R9551:9561 Coq.Reals.RIneq <> Rle_antisym thm
-prf 9612:9624 <> Rbar_le_order
-R9627:9631 Coq.Relations.Relation_Definitions <> order rec
-R9638:9644 Coquelicot.Rbar <> Rbar_le def
-R9633:9636 Coquelicot.Rbar <> Rbar ind
-R9661:9669 Coq.Relations.Relation_Definitions <> reflexive def
-R9678:9689 Coquelicot.Rbar <> Rbar_le_refl thm
-R9678:9689 Coquelicot.Rbar <> Rbar_le_refl thm
-R9699:9708 Coq.Relations.Relation_Definitions <> transitive def
-R9717:9729 Coquelicot.Rbar <> Rbar_le_trans thm
-R9717:9729 Coquelicot.Rbar <> Rbar_le_trans thm
-R9739:9751 Coq.Relations.Relation_Definitions <> antisymmetric def
-R9760:9774 Coquelicot.Rbar <> Rbar_le_antisym thm
-R9760:9774 Coquelicot.Rbar <> Rbar_le_antisym thm
-def 9794:9802 <> R_bounded
-R9808:9815 Coq.Sets.Ensembles <> Ensemble def
-R9817:9817 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 9805:9805 <> S:160
-R9829:9845 SetTheory <> set_bounded_above def
-R9853:9861 SetTheory <> Rle_order thm
-R9849:9851 Coq.Reals.Rdefinitions <> Rle def
-R9847:9847 SetTheory <> S:160 var
-prf 9985:9992 <> ex_R_max
-binder 10002:10002 <> S:161
-R10016:10019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10036:10039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10040:10053 SetTheory <> set_ex_maximum def
-R10061:10069 SetTheory <> Rle_order thm
-R10057:10059 Coq.Reals.Rdefinitions <> Rle def
-R10055:10055 SetTheory <> S:161 var
-R10021:10024 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R10020:10020 SetTheory <> S:161 var
-R10025:10033 Coq.Sets.Ensembles <> Empty_set ind
-R10035:10035 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-R10005:10013 SetTheory <> R_bounded def
-R10015:10015 SetTheory <> S:161 var
-def 10094:10098 <> R_max
-R10104:10111 Coq.Sets.Ensembles <> Ensemble def
-R10113:10113 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 10101:10101 <> S:162
-R10120:10128 SetTheory <> R_bounded def
-R10130:10130 SetTheory <> S:162 var
-binder 10117:10117 <> b:163
-R10139:10142 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R10138:10138 SetTheory <> S:162 var
-R10143:10151 Coq.Sets.Ensembles <> Empty_set ind
-R10153:10153 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 10134:10135 <> ne:164
-R10158:10158 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-R10163:10173 SetTheory <> set_maximum def
-R10192:10199 SetTheory <> ex_R_max prfax
-R10205:10206 SetTheory <> ne:164 var
-R10203:10203 SetTheory <> b:163 var
-R10201:10201 SetTheory <> S:162 var
-R10181:10189 SetTheory <> Rle_order thm
-R10177:10179 Coq.Reals.Rdefinitions <> Rle def
-R10175:10175 SetTheory <> S:162 var
-prf 10266:10279 <> set_f_t_plus_f
-R10300:10300 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 10290:10293 <> from:165
-binder 10295:10296 <> to:166
-R10317:10320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R10373:10376 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R10414:10414 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R10321:10323 Coq.Sets.Ensembles <> Add def
-R10369:10372 SetTheory <> from:165 var
-R10335:10335 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 10332:10332 <> x:167
-R10352:10355 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R10342:10344 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
-R10341:10341 SetTheory <> x:167 var
-R10345:10348 SetTheory <> from:165 var
-R10358:10361 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
-R10357:10357 SetTheory <> x:167 var
-R10362:10363 SetTheory <> to:166 var
-R10325:10325 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 10381:10381 <> x:168
-R10399:10402 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R10388:10391 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
-R10387:10387 SetTheory <> x:168 var
-R10392:10395 SetTheory <> from:165 var
-R10405:10408 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
-R10404:10404 SetTheory <> x:168 var
-R10409:10410 SetTheory <> to:166 var
-R10308:10311 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
-R10304:10307 SetTheory <> from:165 var
-R10312:10313 SetTheory <> to:166 var
-R10435:10458 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
-R10435:10458 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
-R10470:10472 Coq.Sets.Ensembles <> Add def
-R10484:10491 Coq.Sets.Ensembles <> Same_set def
-R10503:10510 Coq.Sets.Ensembles <> Included def
-R10540:10551 Coq.Sets.Ensembles <> Union_intror constr
-R10562:10570 Coq.Sets.Constructive_sets <> Union_inv thm
-R10562:10570 Coq.Sets.Constructive_sets <> Union_inv thm
-R10599:10600 Coq.Sets.Ensembles <> In def
-R10644:10656 Coq.Sets.Constructive_sets <> Singleton_inv thm
-R10644:10656 Coq.Sets.Constructive_sets <> Singleton_inv thm
-R10691:10692 Coq.Sets.Ensembles <> In def
-R10726:10732 Coq.Reals.RIneq <> Req_dec thm
-R10726:10732 Coq.Reals.RIneq <> Req_dec thm
-R10771:10782 Coq.Sets.Ensembles <> Union_intror constr
-R10771:10782 Coq.Sets.Ensembles <> Union_intror constr
-R10793:10807 Coq.Sets.Constructive_sets <> Singleton_intro thm
-R10793:10807 Coq.Sets.Constructive_sets <> Singleton_intro thm
-R10836:10847 Coq.Sets.Ensembles <> Union_introl constr
-R10836:10847 Coq.Sets.Ensembles <> Union_introl constr
-R10859:10860 Coq.Sets.Ensembles <> In def
-R10878:10879 Coq.Sets.Ensembles <> In def
-R10914:10923 Coq.Reals.RIneq <> Rnot_ge_gt thm
-R10914:10923 Coq.Reals.RIneq <> Rnot_ge_gt thm
-R10935:10937 Coq.Init.Logic <> not def
-R10958:10961 Coq.Init.Logic <> conj constr
-R10958:10961 Coq.Init.Logic <> conj constr
-R10979:10987 Coq.Reals.RIneq <> Rge_ge_eq thm
-R10979:10987 Coq.Reals.RIneq <> Rge_ge_eq thm
-prf 11067:11080 <> set_f_t_plus_t
-R11100:11100 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 11091:11094 <> from:169
-binder 11096:11097 <> to:170
-R11117:11120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
-R11171:11174 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R11212:11212 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R11121:11123 Coq.Sets.Ensembles <> Add def
-R11169:11170 SetTheory <> to:170 var
-R11135:11135 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 11132:11132 <> x:171
-R11153:11156 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R11142:11145 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
-R11141:11141 SetTheory <> x:171 var
-R11146:11149 SetTheory <> from:169 var
-R11159:11161 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
-R11158:11158 SetTheory <> x:171 var
-R11162:11163 SetTheory <> to:170 var
-R11125:11125 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 11179:11179 <> x:172
-R11197:11200 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R11186:11189 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
-R11185:11185 SetTheory <> x:172 var
-R11190:11193 SetTheory <> from:169 var
-R11203:11206 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
-R11202:11202 SetTheory <> x:172 var
-R11207:11208 SetTheory <> to:170 var
-R11108:11111 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
-R11104:11107 SetTheory <> from:169 var
-R11112:11113 SetTheory <> to:170 var
-R11233:11256 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
-R11233:11256 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
-R11268:11270 Coq.Sets.Ensembles <> Add def
-R11282:11289 Coq.Sets.Ensembles <> Same_set def
-R11301:11308 Coq.Sets.Ensembles <> Included def
-R11338:11349 Coq.Sets.Ensembles <> Union_intror constr
-R11360:11368 Coq.Sets.Constructive_sets <> Union_inv thm
-R11360:11368 Coq.Sets.Constructive_sets <> Union_inv thm
-R11397:11398 Coq.Sets.Ensembles <> In def
-R11442:11454 Coq.Sets.Constructive_sets <> Singleton_inv thm
-R11442:11454 Coq.Sets.Constructive_sets <> Singleton_inv thm
-R11489:11490 Coq.Sets.Ensembles <> In def
-R11524:11530 Coq.Reals.RIneq <> Req_dec thm
-R11524:11530 Coq.Reals.RIneq <> Req_dec thm
-R11567:11578 Coq.Sets.Ensembles <> Union_intror constr
-R11567:11578 Coq.Sets.Ensembles <> Union_intror constr
-R11589:11603 Coq.Sets.Constructive_sets <> Singleton_intro thm
-R11589:11603 Coq.Sets.Constructive_sets <> Singleton_intro thm
-R11632:11643 Coq.Sets.Ensembles <> Union_introl constr
-R11632:11643 Coq.Sets.Ensembles <> Union_introl constr
-R11655:11656 Coq.Sets.Ensembles <> In def
-R11674:11675 Coq.Sets.Ensembles <> In def
-R11699:11708 Coq.Reals.RIneq <> Rnot_le_gt thm
-R11699:11708 Coq.Reals.RIneq <> Rnot_le_gt thm
-R11720:11722 Coq.Init.Logic <> not def
-R11743:11746 Coq.Init.Logic <> conj constr
-R11743:11746 Coq.Init.Logic <> conj constr
-R11764:11772 Coq.Reals.RIneq <> Rle_le_eq thm
-R11764:11772 Coq.Reals.RIneq <> Rle_le_eq thm
-R11802:11806 SetTheory RSets <> sec
-def 11909:11915 <> set_opp
-R11921:11928 Coq.Sets.Ensembles <> Ensemble def
-R11930:11930 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 11918:11918 <> S:173
-R11934:11941 Coq.Sets.Ensembles <> Ensemble def
-R11943:11943 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 11953:11953 <> x:174
-R11958:11958 SetTheory <> S:173 var
-R11961:11961 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
-R11962:11962 SetTheory <> x:174 var
-prf 12040:12057 <> set_opp_involutive
-binder 12067:12067 <> S:175
-R12089:12091 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R12070:12076 SetTheory <> set_opp def
-R12079:12085 SetTheory <> set_opp def
-R12087:12087 SetTheory <> S:175 var
-R12092:12092 SetTheory <> S:175 var
-R12110:12116 SetTheory <> set_opp def
-R12125:12148 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
-R12125:12148 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
-R12158:12165 Coq.Sets.Ensembles <> Same_set def
-R12175:12182 Coq.Sets.Ensembles <> Included def
-R12192:12193 Coq.Sets.Ensembles <> In def
-R12219:12233 Coq.Reals.RIneq <> Ropp_involutive thm
-R12219:12233 Coq.Reals.RIneq <> Ropp_involutive thm
-R12219:12233 Coq.Reals.RIneq <> Ropp_involutive thm
-R12264:12278 Coq.Reals.RIneq <> Ropp_involutive thm
-R12264:12278 Coq.Reals.RIneq <> Ropp_involutive thm
-R12264:12278 Coq.Reals.RIneq <> Ropp_involutive thm
-prf 12368:12384 <> set_opp_non_empty
-binder 12394:12394 <> S:176
-R12413:12417 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R12398:12401 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R12397:12397 SetTheory <> S:176 var
-R12402:12410 Coq.Sets.Ensembles <> Empty_set ind
-R12412:12412 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-R12427:12430 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R12418:12424 SetTheory <> set_opp def
-R12426:12426 SetTheory <> S:176 var
-R12431:12439 Coq.Sets.Ensembles <> Empty_set ind
-R12441:12441 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-R12459:12465 SetTheory <> set_opp def
-R12489:12497 SetTheory <> non_empty thm
-R12489:12497 SetTheory <> non_empty thm
-R12511:12519 SetTheory <> non_empty thm
-R12511:12519 SetTheory <> non_empty thm
-R12543:12543 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
-R12543:12543 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
-R12559:12573 Coq.Reals.RIneq <> Ropp_involutive thm
-R12559:12573 Coq.Reals.RIneq <> Ropp_involutive thm
-R12559:12573 Coq.Reals.RIneq <> Ropp_involutive thm
-R12597:12605 SetTheory <> non_empty thm
-R12597:12605 SetTheory <> non_empty thm
-R12614:12622 SetTheory <> non_empty thm
-R12614:12622 SetTheory <> non_empty thm
-R12651:12651 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
-R12651:12651 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
-def 12717:12728 <> set_opp_Rbar
-R12734:12741 Coq.Sets.Ensembles <> Ensemble def
-R12743:12746 Coquelicot.Rbar <> Rbar ind
-binder 12731:12731 <> S:177
-R12750:12757 Coq.Sets.Ensembles <> Ensemble def
-R12759:12762 Coquelicot.Rbar <> Rbar ind
-binder 12772:12772 <> x:178
-R12777:12777 SetTheory <> S:177 var
-R12780:12787 Coquelicot.Rbar <> Rbar_opp def
-R12789:12789 SetTheory <> x:178 var
-prf 12865:12887 <> set_opp_Rbar_involutive
-binder 12897:12897 <> S:179
-R12929:12931 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R12900:12911 SetTheory <> set_opp_Rbar def
-R12914:12925 SetTheory <> set_opp_Rbar def
-R12927:12927 SetTheory <> S:179 var
-R12932:12932 SetTheory <> S:179 var
-R12950:12961 SetTheory <> set_opp_Rbar def
-R12970:12993 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
-R12970:12993 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
-R13003:13010 Coq.Sets.Ensembles <> Same_set def
-R13020:13027 Coq.Sets.Ensembles <> Included def
-R13037:13038 Coq.Sets.Ensembles <> In def
-R13064:13082 Coquelicot.Rbar <> Rbar_opp_involutive thm
-R13064:13082 Coquelicot.Rbar <> Rbar_opp_involutive thm
-R13064:13082 Coquelicot.Rbar <> Rbar_opp_involutive thm
-R13113:13131 Coquelicot.Rbar <> Rbar_opp_involutive thm
-R13113:13131 Coquelicot.Rbar <> Rbar_opp_involutive thm
-R13113:13131 Coquelicot.Rbar <> Rbar_opp_involutive thm
-prf 13221:13242 <> set_opp_Rbar_non_empty
-binder 13252:13252 <> S:180
-R13274:13278 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R13256:13259 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R13255:13255 SetTheory <> S:180 var
-R13260:13268 Coq.Sets.Ensembles <> Empty_set ind
-R13270:13273 Coquelicot.Rbar <> Rbar ind
-R13293:13296 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
-R13279:13290 SetTheory <> set_opp_Rbar def
-R13292:13292 SetTheory <> S:180 var
-R13297:13305 Coq.Sets.Ensembles <> Empty_set ind
-R13307:13310 Coquelicot.Rbar <> Rbar ind
-R13328:13339 SetTheory <> set_opp_Rbar def
-R13363:13371 SetTheory <> non_empty thm
-R13363:13371 SetTheory <> non_empty thm
-R13385:13393 SetTheory <> non_empty thm
-R13385:13393 SetTheory <> non_empty thm
-R13416:13423 Coquelicot.Rbar <> Rbar_opp def
-R13416:13423 Coquelicot.Rbar <> Rbar_opp def
-R13437:13455 Coquelicot.Rbar <> Rbar_opp_involutive thm
-R13437:13455 Coquelicot.Rbar <> Rbar_opp_involutive thm
-R13437:13455 Coquelicot.Rbar <> Rbar_opp_involutive thm
-R13479:13487 SetTheory <> non_empty thm
-R13479:13487 SetTheory <> non_empty thm
-R13496:13504 SetTheory <> non_empty thm
-R13496:13504 SetTheory <> non_empty thm
-R13532:13539 Coquelicot.Rbar <> Rbar_opp def
-R13532:13539 Coquelicot.Rbar <> Rbar_opp def
-sec 13582:13589 <> NtoRSets
-def 13648:13659 <> set_nat_to_r
-R13665:13672 Coq.Sets.Ensembles <> Ensemble def
-R13674:13676 Coq.Init.Datatypes <> nat ind
-binder 13662:13662 <> N:181
-binder 13686:13686 <> r:182
-R13691:13697 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-R13699:13700 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
-binder 13698:13698 <> n:183
-R13704:13707 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R13701:13701 SetTheory <> N:181 var
-R13703:13703 SetTheory <> n:183 var
-R13709:13711 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R13708:13708 SetTheory <> r:182 var
-R13712:13714 Coq.Reals.Raxioms <> INR def
-R13716:13716 SetTheory <> n:183 var
-R13724:13731 SetTheory NtoRSets <> sec
-sec 13763:13769 <> RToRbar
-def 13836:13848 <> set_R_to_Rbar
-R13854:13861 Coq.Sets.Ensembles <> Ensemble def
-R13863:13863 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 13851:13851 <> S:184
-R13867:13874 Coq.Sets.Ensembles <> Ensemble def
-R13876:13879 Coquelicot.Rbar <> Rbar ind
-R13892:13895 Coquelicot.Rbar <> Rbar ind
-binder 13889:13889 <> x:185
-R13912:13915 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
-R13900:13908 Coquelicot.Rbar <> is_finite def
-R13910:13910 SetTheory <> x:185 var
-R13916:13916 SetTheory <> S:184 var
-R13918:13918 SetTheory <> x:185 var
-prf 14022:14035 <> set_opp_R_Rbar
-R14049:14056 Coq.Sets.Ensembles <> Ensemble def
-R14058:14058 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-binder 14046:14046 <> S:186
-R14091:14093 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R14061:14072 SetTheory <> set_opp_Rbar def
-R14075:14087 SetTheory <> set_R_to_Rbar def
-R14089:14089 SetTheory <> S:186 var
-R14094:14106 SetTheory <> set_R_to_Rbar def
-R14109:14115 SetTheory <> set_opp def
-R14117:14117 SetTheory <> S:186 var
-R14136:14142 SetTheory <> set_opp def
-R14145:14156 SetTheory <> set_opp_Rbar def
-R14159:14171 SetTheory <> set_R_to_Rbar def
-R14180:14203 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
-R14180:14203 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
-R14213:14220 Coq.Sets.Ensembles <> Same_set def
-R14230:14237 Coq.Sets.Ensembles <> Included def
-R14247:14248 Coq.Sets.Ensembles <> In def
-R14292:14300 Coquelicot.Rbar <> is_finite def
-R14314:14324 Coquelicot.Rbar <> Rbar_opp_eq thm
-R14314:14324 Coquelicot.Rbar <> Rbar_opp_eq thm
-R14340:14358 Coquelicot.Rbar <> Rbar_opp_involutive thm
-R14340:14358 Coquelicot.Rbar <> Rbar_opp_involutive thm
-R14340:14358 Coquelicot.Rbar <> Rbar_opp_involutive thm
-R14374:14386 Coquelicot.Rbar <> Rbar_opp_real thm
-R14374:14386 Coquelicot.Rbar <> Rbar_opp_real thm
-R14374:14386 Coquelicot.Rbar <> Rbar_opp_real thm
-R14414:14428 Coq.Reals.RIneq <> Ropp_involutive thm
-R14414:14428 Coq.Reals.RIneq <> Ropp_involutive thm
-R14414:14428 Coq.Reals.RIneq <> Ropp_involutive thm
-R14443:14451 Coquelicot.Rbar <> is_finite def
-R14468:14476 Coquelicot.Rbar <> is_finite def
-R14512:14524 Coquelicot.Rbar <> Rbar_opp_real thm
-R14512:14524 Coquelicot.Rbar <> Rbar_opp_real thm
-R14512:14524 Coquelicot.Rbar <> Rbar_opp_real thm
-R14574:14582 Coquelicot.Rbar <> is_finite def
-R14592:14600 Coquelicot.Rbar <> is_finite def
-R14636:14644 Coquelicot.Rbar <> is_finite def
-prf 14749:14767 <> set_R_to_Rbar_empty
-binder 14778:14778 <> S:187
-R14796:14800 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
-R14782:14784 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R14781:14781 SetTheory <> S:187 var
-R14785:14793 Coq.Sets.Ensembles <> Empty_set ind
-R14795:14795 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
-R14816:14818 Coq.Init.Logic <> ::type_scope:x_'='_x not
-R14801:14813 SetTheory <> set_R_to_Rbar def
-R14815:14815 SetTheory <> S:187 var
-R14819:14827 Coq.Sets.Ensembles <> Empty_set ind
-R14829:14832 Coquelicot.Rbar <> Rbar ind
-R14877:14884 SetTheory <> is_empty thm
-R14877:14884 SetTheory <> is_empty thm
-R14901:14908 SetTheory <> is_empty thm
-R14901:14908 SetTheory <> is_empty thm
-R14918:14930 SetTheory <> set_R_to_Rbar def
-R14986:14993 SetTheory <> is_empty thm
-R14986:14993 SetTheory <> is_empty thm
-R15015:15022 SetTheory <> is_empty thm
-R15015:15022 SetTheory <> is_empty thm
-R15050:15062 SetTheory <> set_R_to_Rbar def
-R15078:15086 Coquelicot.Rbar <> is_finite def
-R15078:15086 Coquelicot.Rbar <> is_finite def
-R15099:15107 Coquelicot.Rbar <> is_finite def
-R15128:15131 Coq.Init.Logic <> conj constr
-R15128:15131 Coq.Init.Logic <> conj constr
-R15151:15157 SetTheory RToRbar <> sec
+sec 355:359 <> Empty
+prf 759:766 <> is_empty
+binder 769:769 <> U:1
+binder 788:788 <> S:2
+R794:794 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R810:815 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+binder 802:802 <> x:3
+R805:806 Coq.Init.Logic <> ::type_scope:'~'_x not
+R807:807 SetTheory <> S:2 var
+R809:809 SetTheory <> x:3 var
+R817:819 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R816:816 SetTheory <> S:2 var
+R820:828 Coq.Sets.Ensembles <> Empty_set ind
+R830:830 SetTheory <> U:1 var
+R859:872 Coq.Sets.Constructive_sets <> Noone_in_empty thm
+R859:872 Coq.Sets.Constructive_sets <> Noone_in_empty thm
+R909:932 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R909:932 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R946:953 Coq.Sets.Ensembles <> Same_set def
+R967:974 Coq.Sets.Ensembles <> Included def
+prf 1180:1188 <> non_empty
+binder 1191:1191 <> U:4
+binder 1210:1210 <> S:5
+R1215:1215 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1230:1235 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1216:1222 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1224:1226 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 1223:1223 <> n:6
+R1227:1227 SetTheory <> S:5 var
+R1229:1229 SetTheory <> n:6 var
+R1237:1240 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1236:1236 SetTheory <> S:5 var
+R1241:1249 Coq.Sets.Ensembles <> Empty_set ind
+R1251:1251 SetTheory <> U:4 var
+R1280:1287 SetTheory <> is_empty thm
+R1280:1287 SetTheory <> is_empty thm
+R1343:1356 Coq.Logic.Classical_Pred_Type <> all_not_not_ex thm
+R1343:1356 Coq.Logic.Classical_Pred_Type <> all_not_not_ex thm
+R1398:1399 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1418:1418 Coq.Init.Logic <> ::type_scope:'~'_x not
+binder 1407:1407 <> x:7
+R1413:1414 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1417:1417 SetTheory <> x:7 var
+R1398:1399 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1418:1418 Coq.Init.Logic <> ::type_scope:'~'_x not
+binder 1407:1407 <> x:8
+R1413:1414 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1417:1417 SetTheory <> x:8 var
+R1466:1479 Coq.Logic.Classical_Pred_Type <> not_all_not_ex thm
+R1466:1479 Coq.Logic.Classical_Pred_Type <> not_all_not_ex thm
+R1511:1515 SetTheory Empty <> sec
+sec 1551:1557 <> Generic
+binder 1570:1570 <> T:9
+def 1631:1638 <> universe
+R1642:1649 Coq.Sets.Ensembles <> Ensemble def
+R1651:1651 SetTheory <> Generic.T var
+R1665:1665 SetTheory <> Generic.T var
+binder 1661:1661 <> e:10
+R1670:1673 Coq.Init.Logic <> True ind
+prf 1738:1743 <> set_eq
+binder 1746:1746 <> U:11
+R1769:1776 Coq.Sets.Ensembles <> Ensemble def
+R1778:1778 SetTheory <> U:11 var
+binder 1765:1765 <> S:12
+R1782:1782 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1798:1801 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1790:1790 SetTheory <> U:11 var
+binder 1787:1787 <> x:13
+R1795:1795 SetTheory <> S:12 var
+R1797:1797 SetTheory <> x:13 var
+R1802:1802 SetTheory <> S:12 var
+def 1910:1927 <> set_is_bound_above
+R1933:1940 Coq.Sets.Ensembles <> Ensemble def
+R1942:1942 SetTheory <> Generic.T var
+binder 1930:1930 <> S:14
+R1954:1961 Coq.Relations.Relation_Definitions <> relation def
+R1963:1963 SetTheory <> Generic.T var
+binder 1946:1951 <> ord_le:15
+R1971:1975 Coq.Relations.Relation_Definitions <> order rec
+R1979:1984 SetTheory <> ord_le:15 var
+R1977:1977 SetTheory <> Generic.T var
+binder 1967:1968 <> po:16
+R1991:1991 SetTheory <> Generic.T var
+binder 1988:1988 <> b:17
+binder 2006:2006 <> s:18
+R2012:2015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2009:2009 SetTheory <> S:14 var
+R2011:2011 SetTheory <> s:18 var
+R2016:2021 SetTheory <> ord_le:15 var
+R2023:2023 SetTheory <> s:18 var
+R2025:2025 SetTheory <> b:17 var
+def 2080:2096 <> set_bounded_above
+R2102:2109 Coq.Sets.Ensembles <> Ensemble def
+R2111:2111 SetTheory <> Generic.T var
+binder 2099:2099 <> S:19
+R2123:2130 Coq.Relations.Relation_Definitions <> relation def
+R2132:2132 SetTheory <> Generic.T var
+binder 2115:2120 <> ord_le:20
+R2140:2144 Coq.Relations.Relation_Definitions <> order rec
+R2148:2153 SetTheory <> ord_le:20 var
+R2146:2146 SetTheory <> Generic.T var
+binder 2136:2137 <> po:21
+R2161:2167 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2169:2170 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2168:2168 <> b:22
+R2171:2188 SetTheory <> set_is_bound_above def
+R2190:2190 SetTheory <> S:19 var
+R2192:2197 SetTheory <> ord_le:20 var
+R2199:2200 SetTheory <> po:21 var
+R2202:2202 SetTheory <> b:22 var
+def 2251:2268 <> set_is_bound_below
+R2274:2281 Coq.Sets.Ensembles <> Ensemble def
+R2283:2283 SetTheory <> Generic.T var
+binder 2271:2271 <> S:23
+R2295:2302 Coq.Relations.Relation_Definitions <> relation def
+R2304:2304 SetTheory <> Generic.T var
+binder 2287:2292 <> ord_le:24
+R2312:2316 Coq.Relations.Relation_Definitions <> order rec
+R2320:2325 SetTheory <> ord_le:24 var
+R2318:2318 SetTheory <> Generic.T var
+binder 2308:2309 <> po:25
+R2332:2332 SetTheory <> Generic.T var
+binder 2329:2329 <> b:26
+binder 2347:2347 <> s:27
+R2353:2356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2350:2350 SetTheory <> S:23 var
+R2352:2352 SetTheory <> s:27 var
+R2357:2362 SetTheory <> ord_le:24 var
+R2364:2364 SetTheory <> b:26 var
+R2366:2366 SetTheory <> s:27 var
+def 2421:2437 <> set_bounded_below
+R2443:2450 Coq.Sets.Ensembles <> Ensemble def
+R2452:2452 SetTheory <> Generic.T var
+binder 2440:2440 <> S:28
+R2464:2471 Coq.Relations.Relation_Definitions <> relation def
+R2473:2473 SetTheory <> Generic.T var
+binder 2456:2461 <> ord_le:29
+R2481:2485 Coq.Relations.Relation_Definitions <> order rec
+R2489:2494 SetTheory <> ord_le:29 var
+R2487:2487 SetTheory <> Generic.T var
+binder 2477:2478 <> po:30
+R2502:2508 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2510:2511 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 2509:2509 <> b:31
+R2512:2529 SetTheory <> set_is_bound_below def
+R2531:2531 SetTheory <> S:28 var
+R2533:2538 SetTheory <> ord_le:29 var
+R2540:2541 SetTheory <> po:30 var
+R2543:2543 SetTheory <> b:31 var
+def 2590:2603 <> set_is_minimum
+R2609:2616 Coq.Sets.Ensembles <> Ensemble def
+R2618:2618 SetTheory <> Generic.T var
+binder 2606:2606 <> S:32
+R2630:2637 Coq.Relations.Relation_Definitions <> relation def
+R2639:2639 SetTheory <> Generic.T var
+binder 2622:2627 <> ord_le:33
+R2647:2651 Coq.Relations.Relation_Definitions <> order rec
+R2655:2660 SetTheory <> ord_le:33 var
+R2653:2653 SetTheory <> Generic.T var
+binder 2643:2644 <> po:34
+R2667:2667 SetTheory <> Generic.T var
+binder 2664:2664 <> s:35
+R2676:2679 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2673:2673 SetTheory <> S:32 var
+R2675:2675 SetTheory <> s:35 var
+R2691:2691 SetTheory <> Generic.T var
+binder 2687:2688 <> s':36
+R2698:2701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2694:2694 SetTheory <> S:32 var
+R2696:2697 SetTheory <> s':36 var
+R2702:2707 SetTheory <> ord_le:33 var
+R2709:2709 SetTheory <> s:35 var
+R2711:2712 SetTheory <> s':36 var
+def 2820:2833 <> set_ex_minimum
+R2839:2846 Coq.Sets.Ensembles <> Ensemble def
+R2848:2848 SetTheory <> Generic.T var
+binder 2836:2836 <> S:37
+R2860:2867 Coq.Relations.Relation_Definitions <> relation def
+R2869:2869 SetTheory <> Generic.T var
+binder 2852:2857 <> ord_le:38
+R2877:2881 Coq.Relations.Relation_Definitions <> order rec
+R2885:2890 SetTheory <> ord_le:38 var
+R2883:2883 SetTheory <> Generic.T var
+binder 2873:2874 <> po:39
+R2898:2898 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2900:2902 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2904:2906 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2935:2935 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R2903:2903 SetTheory <> Generic.T var
+binder 2899:2899 <> m:40
+R2907:2920 SetTheory <> set_is_minimum def
+R2922:2922 SetTheory <> S:37 var
+R2924:2929 SetTheory <> ord_le:38 var
+R2931:2932 SetTheory <> po:39 var
+R2934:2934 SetTheory <> m:40 var
+prf 3019:3035 <> set_is_minimum_ex
+R3041:3048 Coq.Sets.Ensembles <> Ensemble def
+R3050:3050 SetTheory <> Generic.T var
+binder 3038:3038 <> S:41
+R3062:3069 Coq.Relations.Relation_Definitions <> relation def
+R3071:3071 SetTheory <> Generic.T var
+binder 3054:3059 <> ord_le:42
+R3079:3083 Coq.Relations.Relation_Definitions <> order rec
+R3087:3092 SetTheory <> ord_le:42 var
+R3085:3085 SetTheory <> Generic.T var
+binder 3075:3076 <> po:43
+R3099:3099 SetTheory <> Generic.T var
+binder 3096:3096 <> s:44
+R3133:3136 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3105:3118 SetTheory <> set_is_minimum def
+R3120:3120 SetTheory <> S:41 var
+R3122:3127 SetTheory <> ord_le:42 var
+R3129:3130 SetTheory <> po:43 var
+R3132:3132 SetTheory <> s:44 var
+R3137:3150 SetTheory <> set_ex_minimum def
+R3152:3152 SetTheory <> S:41 var
+R3154:3159 SetTheory <> ord_le:42 var
+R3161:3162 SetTheory <> po:43 var
+def 3256:3266 <> set_minimum
+R3272:3279 Coq.Sets.Ensembles <> Ensemble def
+R3281:3281 SetTheory <> Generic.T var
+binder 3269:3269 <> S:45
+R3293:3300 Coq.Relations.Relation_Definitions <> relation def
+R3302:3302 SetTheory <> Generic.T var
+binder 3285:3290 <> ord_le:46
+R3310:3314 Coq.Relations.Relation_Definitions <> order rec
+R3318:3323 SetTheory <> ord_le:46 var
+R3316:3316 SetTheory <> Generic.T var
+binder 3306:3307 <> po:47
+R3331:3344 SetTheory <> set_ex_minimum def
+R3346:3346 SetTheory <> S:45 var
+R3348:3353 SetTheory <> ord_le:46 var
+R3355:3356 SetTheory <> po:47 var
+binder 3327:3328 <> ex:48
+R3364:3372 Coq.Init.Specif <> proj1_sig def
+R3374:3375 SetTheory <> ex:48 var
+prf 3425:3442 <> set_minimum_unique
+R3448:3455 Coq.Sets.Ensembles <> Ensemble def
+R3457:3457 SetTheory <> Generic.T var
+binder 3445:3445 <> S:49
+R3469:3476 Coq.Relations.Relation_Definitions <> relation def
+R3478:3478 SetTheory <> Generic.T var
+binder 3461:3466 <> ord_le:50
+R3486:3490 Coq.Relations.Relation_Definitions <> order rec
+R3494:3499 SetTheory <> ord_le:50 var
+R3492:3492 SetTheory <> Generic.T var
+binder 3482:3483 <> po:51
+R3506:3506 SetTheory <> Generic.T var
+binder 3503:3503 <> s:52
+R3525:3538 SetTheory <> set_is_minimum def
+R3540:3540 SetTheory <> S:49 var
+R3542:3547 SetTheory <> ord_le:50 var
+R3549:3550 SetTheory <> po:51 var
+R3552:3552 SetTheory <> s:52 var
+binder 3521:3521 <> p:53
+R3615:3617 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3556:3566 SetTheory <> set_minimum def
+R3568:3568 SetTheory <> S:49 var
+R3570:3575 SetTheory <> ord_le:50 var
+R3577:3578 SetTheory <> po:51 var
+R3581:3597 SetTheory <> set_is_minimum_ex thm
+R3599:3599 SetTheory <> S:49 var
+R3601:3606 SetTheory <> ord_le:50 var
+R3608:3609 SetTheory <> po:51 var
+R3611:3611 SetTheory <> s:52 var
+R3613:3613 SetTheory <> p:53 var
+R3618:3618 SetTheory <> s:52 var
+R3648:3658 SetTheory <> set_minimum def
+R3674:3690 SetTheory <> set_is_minimum_ex thm
+R3674:3690 SetTheory <> set_is_minimum_ex thm
+R3728:3741 SetTheory <> set_is_minimum def
+R3758:3771 SetTheory <> set_is_minimum def
+R3868:3880 Coq.Relations.Relation_Definitions <> antisymmetric def
+prf 4007:4028 <> set_minimum_is_minimum
+R4034:4041 Coq.Sets.Ensembles <> Ensemble def
+R4043:4043 SetTheory <> Generic.T var
+binder 4031:4031 <> S:54
+R4055:4062 Coq.Relations.Relation_Definitions <> relation def
+R4064:4064 SetTheory <> Generic.T var
+binder 4047:4052 <> ord_le:55
+R4072:4076 Coq.Relations.Relation_Definitions <> order rec
+R4080:4085 SetTheory <> ord_le:55 var
+R4078:4078 SetTheory <> Generic.T var
+binder 4068:4069 <> po:56
+R4093:4106 SetTheory <> set_ex_minimum def
+R4108:4108 SetTheory <> S:54 var
+R4110:4115 SetTheory <> ord_le:55 var
+R4117:4118 SetTheory <> po:56 var
+binder 4089:4090 <> ex:57
+R4125:4138 SetTheory <> set_is_minimum def
+R4140:4140 SetTheory <> S:54 var
+R4142:4147 SetTheory <> ord_le:55 var
+R4149:4150 SetTheory <> po:56 var
+R4153:4163 SetTheory <> set_minimum def
+R4165:4165 SetTheory <> S:54 var
+R4167:4172 SetTheory <> ord_le:55 var
+R4174:4175 SetTheory <> po:56 var
+R4177:4178 SetTheory <> ex:57 var
+R4199:4209 SetTheory <> set_minimum def
+prf 4355:4374 <> set_minimum_included
+R4391:4398 Coq.Sets.Ensembles <> Ensemble def
+R4400:4400 SetTheory <> Generic.T var
+binder 4386:4386 <> A:58
+binder 4388:4388 <> B:59
+R4412:4419 Coq.Relations.Relation_Definitions <> relation def
+R4421:4421 SetTheory <> Generic.T var
+binder 4404:4409 <> ord_le:60
+R4429:4433 Coq.Relations.Relation_Definitions <> order rec
+R4437:4442 SetTheory <> ord_le:60 var
+R4435:4435 SetTheory <> Generic.T var
+binder 4425:4426 <> po:61
+R4451:4464 SetTheory <> set_ex_minimum def
+R4466:4466 SetTheory <> A:58 var
+R4468:4473 SetTheory <> ord_le:60 var
+R4475:4476 SetTheory <> po:61 var
+binder 4446:4448 <> exA:62
+R4485:4498 SetTheory <> set_ex_minimum def
+R4500:4500 SetTheory <> B:59 var
+R4502:4507 SetTheory <> ord_le:60 var
+R4509:4510 SetTheory <> po:61 var
+binder 4480:4482 <> exB:63
+R4530:4533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4516:4523 Coq.Sets.Ensembles <> Included def
+R4527:4527 SetTheory <> A:58 var
+R4529:4529 SetTheory <> B:59 var
+R4525:4525 SetTheory <> Generic.T var
+R4534:4539 SetTheory <> ord_le:60 var
+R4542:4552 SetTheory <> set_minimum def
+R4554:4554 SetTheory <> B:59 var
+R4556:4561 SetTheory <> ord_le:60 var
+R4563:4564 SetTheory <> po:61 var
+R4566:4568 SetTheory <> exB:63 var
+R4572:4582 SetTheory <> set_minimum def
+R4584:4584 SetTheory <> A:58 var
+R4586:4591 SetTheory <> ord_le:60 var
+R4593:4594 SetTheory <> po:61 var
+R4596:4598 SetTheory <> exA:62 var
+binder 4637:4638 <> n0:64
+binder 4640:4641 <> n1:65
+R4673:4676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4644:4657 SetTheory <> set_is_minimum def
+R4671:4672 SetTheory <> n0:64 var
+R4706:4709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4677:4690 SetTheory <> set_is_minimum def
+R4704:4705 SetTheory <> n1:65 var
+R4717:4718 SetTheory <> n0:64 var
+R4720:4721 SetTheory <> n1:65 var
+binder 4637:4638 <> n0:66
+binder 4640:4641 <> n1:67
+R4673:4676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4644:4657 SetTheory <> set_is_minimum def
+R4671:4672 SetTheory <> n0:66 var
+R4706:4709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4677:4690 SetTheory <> set_is_minimum def
+R4704:4705 SetTheory <> n1:67 var
+R4717:4718 SetTheory <> n0:66 var
+R4720:4721 SetTheory <> n1:67 var
+R4736:4749 SetTheory <> set_is_minimum def
+R4809:4816 Coq.Sets.Ensembles <> Included def
+R4855:4856 Coq.Sets.Ensembles <> In def
+R4895:4916 SetTheory <> set_minimum_is_minimum thm
+R4895:4916 SetTheory <> set_minimum_is_minimum thm
+R4946:4967 SetTheory <> set_minimum_is_minimum thm
+R4946:4967 SetTheory <> set_minimum_is_minimum thm
+R5002:5012 SetTheory <> set_minimum def
+R5032:5042 SetTheory <> set_minimum def
+R5002:5012 SetTheory <> set_minimum def
+R5032:5042 SetTheory <> set_minimum def
+def 5119:5132 <> set_is_maximum
+R5138:5145 Coq.Sets.Ensembles <> Ensemble def
+R5147:5147 SetTheory <> Generic.T var
+binder 5135:5135 <> S:68
+R5159:5166 Coq.Relations.Relation_Definitions <> relation def
+R5168:5168 SetTheory <> Generic.T var
+binder 5151:5156 <> ord_le:69
+R5176:5180 Coq.Relations.Relation_Definitions <> order rec
+R5184:5189 SetTheory <> ord_le:69 var
+R5182:5182 SetTheory <> Generic.T var
+binder 5172:5173 <> po:70
+R5196:5196 SetTheory <> Generic.T var
+binder 5193:5193 <> s:71
+R5207:5210 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5204:5204 SetTheory <> S:68 var
+R5206:5206 SetTheory <> s:71 var
+R5222:5222 SetTheory <> Generic.T var
+binder 5218:5219 <> s':72
+R5229:5232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5225:5225 SetTheory <> S:68 var
+R5227:5228 SetTheory <> s':72 var
+R5233:5238 SetTheory <> ord_le:69 var
+R5240:5241 SetTheory <> s':72 var
+R5243:5243 SetTheory <> s:71 var
+def 5307:5320 <> set_ex_maximum
+R5326:5333 Coq.Sets.Ensembles <> Ensemble def
+R5335:5335 SetTheory <> Generic.T var
+binder 5323:5323 <> S:73
+R5347:5354 Coq.Relations.Relation_Definitions <> relation def
+R5356:5356 SetTheory <> Generic.T var
+binder 5339:5344 <> ord_le:74
+R5364:5368 Coq.Relations.Relation_Definitions <> order rec
+R5372:5377 SetTheory <> ord_le:74 var
+R5370:5370 SetTheory <> Generic.T var
+binder 5360:5361 <> po:75
+R5385:5385 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5387:5389 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5391:5393 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5422:5422 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R5390:5390 SetTheory <> Generic.T var
+binder 5386:5386 <> m:76
+R5394:5407 SetTheory <> set_is_maximum def
+R5409:5409 SetTheory <> S:73 var
+R5411:5416 SetTheory <> ord_le:74 var
+R5418:5419 SetTheory <> po:75 var
+R5421:5421 SetTheory <> m:76 var
+prf 5506:5522 <> set_is_maximum_ex
+R5528:5535 Coq.Sets.Ensembles <> Ensemble def
+R5537:5537 SetTheory <> Generic.T var
+binder 5525:5525 <> S:77
+R5549:5556 Coq.Relations.Relation_Definitions <> relation def
+R5558:5558 SetTheory <> Generic.T var
+binder 5541:5546 <> ord_le:78
+R5566:5570 Coq.Relations.Relation_Definitions <> order rec
+R5574:5579 SetTheory <> ord_le:78 var
+R5572:5572 SetTheory <> Generic.T var
+binder 5562:5563 <> po:79
+R5586:5586 SetTheory <> Generic.T var
+binder 5583:5583 <> s:80
+R5621:5624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5593:5606 SetTheory <> set_is_maximum def
+R5608:5608 SetTheory <> S:77 var
+R5610:5615 SetTheory <> ord_le:78 var
+R5617:5618 SetTheory <> po:79 var
+R5620:5620 SetTheory <> s:80 var
+R5625:5638 SetTheory <> set_ex_maximum def
+R5640:5640 SetTheory <> S:77 var
+R5642:5647 SetTheory <> ord_le:78 var
+R5649:5650 SetTheory <> po:79 var
+def 5746:5756 <> set_maximum
+R5762:5769 Coq.Sets.Ensembles <> Ensemble def
+R5771:5771 SetTheory <> Generic.T var
+binder 5759:5759 <> S:81
+R5783:5790 Coq.Relations.Relation_Definitions <> relation def
+R5792:5792 SetTheory <> Generic.T var
+binder 5775:5780 <> ord_le:82
+R5800:5804 Coq.Relations.Relation_Definitions <> order rec
+R5808:5813 SetTheory <> ord_le:82 var
+R5806:5806 SetTheory <> Generic.T var
+binder 5796:5797 <> po:83
+R5821:5834 SetTheory <> set_ex_maximum def
+R5836:5836 SetTheory <> S:81 var
+R5838:5843 SetTheory <> ord_le:82 var
+R5845:5846 SetTheory <> po:83 var
+binder 5817:5818 <> ex:84
+R5854:5862 Coq.Init.Specif <> proj1_sig def
+R5864:5865 SetTheory <> ex:84 var
+prf 5915:5932 <> set_maximum_unique
+R5938:5945 Coq.Sets.Ensembles <> Ensemble def
+R5947:5947 SetTheory <> Generic.T var
+binder 5935:5935 <> S:85
+R5959:5966 Coq.Relations.Relation_Definitions <> relation def
+R5968:5968 SetTheory <> Generic.T var
+binder 5951:5956 <> ord_le:86
+R5976:5980 Coq.Relations.Relation_Definitions <> order rec
+R5984:5989 SetTheory <> ord_le:86 var
+R5982:5982 SetTheory <> Generic.T var
+binder 5972:5973 <> po:87
+R5996:6009 SetTheory <> set_ex_maximum def
+R6011:6011 SetTheory <> S:85 var
+R6013:6018 SetTheory <> ord_le:86 var
+R6020:6021 SetTheory <> po:87 var
+binder 5993:5993 <> p:88
+R6028:6028 SetTheory <> Generic.T var
+binder 6025:6025 <> s:89
+R6063:6066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6035:6048 SetTheory <> set_is_maximum def
+R6050:6050 SetTheory <> S:85 var
+R6052:6057 SetTheory <> ord_le:86 var
+R6059:6060 SetTheory <> po:87 var
+R6062:6062 SetTheory <> s:89 var
+R6092:6094 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6067:6077 SetTheory <> set_maximum def
+R6079:6079 SetTheory <> S:85 var
+R6081:6086 SetTheory <> ord_le:86 var
+R6088:6089 SetTheory <> po:87 var
+R6091:6091 SetTheory <> p:88 var
+R6095:6095 SetTheory <> s:89 var
+R6140:6153 SetTheory <> set_ex_maximum def
+R6184:6197 SetTheory <> set_is_maximum def
+R6285:6297 Coq.Relations.Relation_Definitions <> antisymmetric def
+R6369:6379 SetTheory <> set_maximum def
+prf 6468:6489 <> set_maximum_is_maximum
+R6495:6502 Coq.Sets.Ensembles <> Ensemble def
+R6504:6504 SetTheory <> Generic.T var
+binder 6492:6492 <> S:90
+R6516:6523 Coq.Relations.Relation_Definitions <> relation def
+R6525:6525 SetTheory <> Generic.T var
+binder 6508:6513 <> ord_le:91
+R6533:6537 Coq.Relations.Relation_Definitions <> order rec
+R6541:6546 SetTheory <> ord_le:91 var
+R6539:6539 SetTheory <> Generic.T var
+binder 6529:6530 <> po:92
+R6554:6567 SetTheory <> set_ex_maximum def
+R6569:6569 SetTheory <> S:90 var
+R6571:6576 SetTheory <> ord_le:91 var
+R6578:6579 SetTheory <> po:92 var
+binder 6550:6551 <> ex:93
+R6586:6599 SetTheory <> set_is_maximum def
+R6601:6601 SetTheory <> S:90 var
+R6603:6608 SetTheory <> ord_le:91 var
+R6610:6611 SetTheory <> po:92 var
+R6614:6624 SetTheory <> set_maximum def
+R6626:6626 SetTheory <> S:90 var
+R6628:6633 SetTheory <> ord_le:91 var
+R6635:6636 SetTheory <> po:92 var
+R6638:6639 SetTheory <> ex:93 var
+R6660:6670 SetTheory <> set_maximum def
+prf 6828:6847 <> set_maximum_included
+R6864:6871 Coq.Sets.Ensembles <> Ensemble def
+R6873:6873 SetTheory <> Generic.T var
+binder 6859:6859 <> A:94
+binder 6861:6861 <> B:95
+R6885:6892 Coq.Relations.Relation_Definitions <> relation def
+R6894:6894 SetTheory <> Generic.T var
+binder 6877:6882 <> ord_le:96
+R6902:6906 Coq.Relations.Relation_Definitions <> order rec
+R6910:6915 SetTheory <> ord_le:96 var
+R6908:6908 SetTheory <> Generic.T var
+binder 6898:6899 <> po:97
+R6924:6937 SetTheory <> set_ex_maximum def
+R6939:6939 SetTheory <> A:94 var
+R6941:6946 SetTheory <> ord_le:96 var
+R6948:6949 SetTheory <> po:97 var
+binder 6919:6921 <> exA:98
+R6958:6971 SetTheory <> set_ex_maximum def
+R6973:6973 SetTheory <> B:95 var
+R6975:6980 SetTheory <> ord_le:96 var
+R6982:6983 SetTheory <> po:97 var
+binder 6953:6955 <> exB:99
+R7003:7006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6989:6996 Coq.Sets.Ensembles <> Included def
+R7000:7000 SetTheory <> A:94 var
+R7002:7002 SetTheory <> B:95 var
+R6998:6998 SetTheory <> Generic.T var
+R7007:7012 SetTheory <> ord_le:96 var
+R7015:7025 SetTheory <> set_maximum def
+R7027:7027 SetTheory <> A:94 var
+R7029:7034 SetTheory <> ord_le:96 var
+R7036:7037 SetTheory <> po:97 var
+R7039:7041 SetTheory <> exA:98 var
+R7045:7055 SetTheory <> set_maximum def
+R7057:7057 SetTheory <> B:95 var
+R7059:7064 SetTheory <> ord_le:96 var
+R7066:7067 SetTheory <> po:97 var
+R7069:7071 SetTheory <> exB:99 var
+binder 7110:7111 <> n0:100
+binder 7113:7114 <> n1:101
+R7146:7149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7117:7130 SetTheory <> set_is_maximum def
+R7144:7145 SetTheory <> n0:100 var
+R7179:7182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7150:7163 SetTheory <> set_is_maximum def
+R7177:7178 SetTheory <> n1:101 var
+R7190:7191 SetTheory <> n0:100 var
+R7193:7194 SetTheory <> n1:101 var
+binder 7110:7111 <> n0:102
+binder 7113:7114 <> n1:103
+R7146:7149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7117:7130 SetTheory <> set_is_maximum def
+R7144:7145 SetTheory <> n0:102 var
+R7179:7182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7150:7163 SetTheory <> set_is_maximum def
+R7177:7178 SetTheory <> n1:103 var
+R7190:7191 SetTheory <> n0:102 var
+R7193:7194 SetTheory <> n1:103 var
+R7209:7222 SetTheory <> set_is_maximum def
+R7282:7289 Coq.Sets.Ensembles <> Included def
+R7328:7329 Coq.Sets.Ensembles <> In def
+R7368:7389 SetTheory <> set_maximum_is_maximum thm
+R7368:7389 SetTheory <> set_maximum_is_maximum thm
+R7419:7440 SetTheory <> set_maximum_is_maximum thm
+R7419:7440 SetTheory <> set_maximum_is_maximum thm
+R7475:7485 SetTheory <> set_maximum def
+R7505:7515 SetTheory <> set_maximum def
+R7475:7485 SetTheory <> set_maximum def
+R7505:7515 SetTheory <> set_maximum def
+prf 7679:7692 <> set_ge_maximum
+R7707:7707 SetTheory <> Generic.T var
+binder 7704:7704 <> b:104
+R7714:7721 Coq.Sets.Ensembles <> Ensemble def
+R7723:7723 SetTheory <> Generic.T var
+binder 7711:7711 <> S:105
+R7735:7742 Coq.Relations.Relation_Definitions <> relation def
+R7744:7744 SetTheory <> Generic.T var
+binder 7727:7732 <> ord_le:106
+R7752:7756 Coq.Relations.Relation_Definitions <> order rec
+R7760:7765 SetTheory <> ord_le:106 var
+R7758:7758 SetTheory <> Generic.T var
+binder 7748:7749 <> po:107
+R7773:7786 SetTheory <> set_ex_maximum def
+R7788:7788 SetTheory <> S:105 var
+R7790:7795 SetTheory <> ord_le:106 var
+R7797:7798 SetTheory <> po:107 var
+binder 7769:7770 <> ex:108
+R7805:7805 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7837:7842 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7817:7817 SetTheory <> Generic.T var
+binder 7813:7813 <> s:109
+R7823:7826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7820:7820 SetTheory <> S:105 var
+R7822:7822 SetTheory <> s:109 var
+R7827:7832 SetTheory <> ord_le:106 var
+R7834:7834 SetTheory <> s:109 var
+R7836:7836 SetTheory <> b:104 var
+R7843:7848 SetTheory <> ord_le:106 var
+R7851:7861 SetTheory <> set_maximum def
+R7863:7863 SetTheory <> S:105 var
+R7865:7870 SetTheory <> ord_le:106 var
+R7872:7873 SetTheory <> po:107 var
+R7875:7876 SetTheory <> ex:108 var
+R7879:7879 SetTheory <> b:104 var
+binder 7917:7917 <> m:110
+R7948:7952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7997:7997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7920:7933 SetTheory <> set_is_maximum def
+R7947:7947 SetTheory <> m:110 var
+R7953:7953 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7981:7986 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+binder 7961:7961 <> s:111
+R7967:7970 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7966:7966 SetTheory <> s:111 var
+R7978:7978 SetTheory <> s:111 var
+R7994:7994 SetTheory <> m:110 var
+binder 7917:7917 <> m:112
+R7948:7952 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7997:7997 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7920:7933 SetTheory <> set_is_maximum def
+R7947:7947 SetTheory <> m:112 var
+R7953:7953 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R7981:7986 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+binder 7961:7961 <> s:113
+R7967:7970 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7966:7966 SetTheory <> s:113 var
+R7978:7978 SetTheory <> s:113 var
+R7994:7994 SetTheory <> m:112 var
+R8024:8037 SetTheory <> set_is_maximum def
+R8176:8185 Coq.Relations.Relation_Definitions <> transitive def
+R8251:8261 SetTheory <> set_maximum def
+R8280:8301 SetTheory <> set_maximum_is_maximum thm
+R8251:8261 SetTheory <> set_maximum def
+R8280:8301 SetTheory <> set_maximum_is_maximum thm
+prf 8381:8394 <> set_maximum_in
+R8409:8416 Coq.Sets.Ensembles <> Ensemble def
+R8418:8418 SetTheory <> Generic.T var
+binder 8406:8406 <> S:114
+R8430:8437 Coq.Relations.Relation_Definitions <> relation def
+R8439:8439 SetTheory <> Generic.T var
+binder 8422:8427 <> ord_le:115
+R8447:8451 Coq.Relations.Relation_Definitions <> order rec
+R8455:8460 SetTheory <> ord_le:115 var
+R8453:8453 SetTheory <> Generic.T var
+binder 8443:8444 <> po:116
+R8468:8481 SetTheory <> set_ex_maximum def
+R8483:8483 SetTheory <> S:114 var
+R8485:8490 SetTheory <> ord_le:115 var
+R8492:8493 SetTheory <> po:116 var
+binder 8464:8465 <> ex:117
+R8499:8499 SetTheory <> S:114 var
+R8502:8512 SetTheory <> set_maximum def
+R8514:8514 SetTheory <> S:114 var
+R8516:8521 SetTheory <> ord_le:115 var
+R8523:8524 SetTheory <> po:116 var
+R8526:8527 SetTheory <> ex:117 var
+R8557:8578 SetTheory <> set_maximum_is_maximum thm
+R8557:8578 SetTheory <> set_maximum_is_maximum thm
+R8606:8619 SetTheory <> set_is_maximum def
+R8662:8668 SetTheory Generic <> sec
+sec 8707:8711 <> NSets
+prf 8769:8776 <> le_order
+R8780:8784 Coq.Relations.Relation_Definitions <> order rec
+R8790:8791 Coq.Init.Peano <> le ind
+R8786:8788 Coq.Init.Datatypes <> nat ind
+R8822:8830 Coq.Relations.Relation_Definitions <> reflexive def
+R8843:8849 Coq.Arith.Le <> le_refl syndef
+R8843:8849 Coq.Arith.Le <> le_refl syndef
+R8863:8872 Coq.Relations.Relation_Definitions <> transitive def
+R8885:8892 Coq.Arith.Le <> le_trans syndef
+R8885:8892 Coq.Arith.Le <> le_trans syndef
+R8906:8918 Coq.Relations.Relation_Definitions <> antisymmetric def
+R8931:8940 Coq.Arith.Le <> le_antisym syndef
+R8931:8940 Coq.Arith.Le <> le_antisym syndef
+ax 8987:8989 <> wop
+R9004:9011 Coq.Sets.Ensembles <> Ensemble def
+R9013:9015 Coq.Init.Datatypes <> nat ind
+binder 9001:9001 <> N:118
+R9040:9043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9023:9026 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9022:9022 SetTheory <> N:118 var
+R9027:9035 Coq.Sets.Ensembles <> Empty_set ind
+R9037:9039 Coq.Init.Datatypes <> nat ind
+R9044:9057 SetTheory <> set_ex_minimum def
+R9059:9059 SetTheory <> N:118 var
+R9061:9062 Coq.Init.Peano <> le ind
+R9064:9071 SetTheory <> le_order thm
+def 9117:9123 <> nat_min
+R9129:9136 Coq.Sets.Ensembles <> Ensemble def
+R9138:9140 Coq.Init.Datatypes <> nat ind
+binder 9126:9126 <> N:120
+R9149:9152 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9148:9148 SetTheory <> N:120 var
+R9153:9161 Coq.Sets.Ensembles <> Empty_set ind
+R9163:9165 Coq.Init.Datatypes <> nat ind
+binder 9144:9145 <> ne:121
+R9174:9184 SetTheory <> set_minimum def
+R9186:9186 SetTheory <> N:120 var
+R9188:9189 Coq.Init.Peano <> le ind
+R9191:9198 SetTheory <> le_order thm
+R9201:9203 SetTheory <> wop prfax
+R9205:9205 SetTheory <> N:120 var
+R9207:9208 SetTheory <> ne:121 var
+def 9285:9295 <> nat_bounded
+R9301:9308 Coq.Sets.Ensembles <> Ensemble def
+R9310:9312 Coq.Init.Datatypes <> nat ind
+binder 9298:9298 <> N:122
+R9327:9343 SetTheory <> set_bounded_above def
+R9345:9345 SetTheory <> N:122 var
+R9347:9348 Coq.Init.Peano <> le ind
+R9350:9357 SetTheory <> le_order thm
+prf 9420:9429 <> ex_nat_max
+binder 9440:9440 <> N:123
+R9458:9461 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9445:9455 SetTheory <> nat_bounded def
+R9457:9457 SetTheory <> N:123 var
+R9480:9483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9463:9466 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9462:9462 SetTheory <> N:123 var
+R9467:9475 Coq.Sets.Ensembles <> Empty_set ind
+R9477:9479 Coq.Init.Datatypes <> nat ind
+R9484:9497 SetTheory <> set_ex_maximum def
+R9499:9499 SetTheory <> N:123 var
+R9501:9502 Coq.Init.Peano <> le ind
+R9504:9511 SetTheory <> le_order thm
+R9541:9547 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9549:9550 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9548:9548 <> x:124
+R9551:9564 SetTheory <> set_is_maximum def
+R9568:9569 Coq.Init.Peano <> le ind
+R9571:9578 SetTheory <> le_order thm
+R9580:9580 SetTheory <> x:124 var
+R9541:9547 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9549:9550 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 9548:9548 <> x:125
+R9551:9564 SetTheory <> set_is_maximum def
+R9568:9569 Coq.Init.Peano <> le ind
+R9571:9578 SetTheory <> le_order thm
+R9580:9580 SetTheory <> x:125 var
+R9592:9598 Coq.Logic.Decidable <> not_not thm
+R9592:9598 Coq.Logic.Decidable <> not_not thm
+R9610:9618 Coq.Logic.Decidable <> decidable def
+R9649:9662 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R9664:9666 Coq.Init.Datatypes <> nat ind
+R9649:9662 Coq.Logic.Classical_Pred_Type <> not_ex_all_not thm
+R9664:9666 Coq.Init.Datatypes <> nat ind
+R9683:9696 SetTheory <> set_is_maximum def
+R9725:9727 Coq.Init.Datatypes <> nat ind
+binder 9721:9721 <> n:126
+R9734:9738 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9776:9776 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9730:9730 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9733:9733 SetTheory <> n:126 var
+R9739:9745 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9754:9755 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9751:9753 Coq.Init.Datatypes <> nat ind
+binder 9746:9747 <> s':127
+R9760:9763 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9758:9759 SetTheory <> s':127 var
+R9766:9768 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9765:9765 SetTheory <> n:126 var
+R9769:9770 SetTheory <> s':127 var
+R9725:9727 Coq.Init.Datatypes <> nat ind
+binder 9721:9721 <> n:128
+R9734:9738 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9776:9776 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R9730:9730 Coq.Init.Logic <> ::type_scope:'~'_x not
+R9733:9733 SetTheory <> n:128 var
+R9739:9745 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9754:9755 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9751:9753 Coq.Init.Datatypes <> nat ind
+binder 9746:9747 <> s':129
+R9760:9763 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9758:9759 SetTheory <> s':129 var
+R9766:9768 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R9765:9765 SetTheory <> n:128 var
+R9769:9770 SetTheory <> s':129 var
+R9813:9819 Coq.Logic.Decidable <> not_and thm
+R9813:9819 Coq.Logic.Decidable <> not_and thm
+R9876:9889 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R9876:9889 Coq.Logic.Classical_Pred_Type <> not_all_ex_not thm
+R9921:9927 Coq.Logic.Decidable <> not_imp thm
+R9921:9927 Coq.Logic.Decidable <> not_imp thm
+R9959:9964 Coq.Arith.Compare_dec <> not_le thm
+R9959:9964 Coq.Arith.Compare_dec <> not_le thm
+R9982:9983 Coq.Init.Peano <> gt def
+R10000:10003 Coq.Init.Logic <> conj constr
+R10000:10003 Coq.Init.Logic <> conj constr
+R10021:10028 Coq.Init.Logic <> ex_intro constr
+binder 10035:10035 <> n:130
+R10043:10046 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10042:10042 SetTheory <> n:130 var
+R10050:10052 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R10053:10053 SetTheory <> n:130 var
+R10021:10028 Coq.Init.Logic <> ex_intro constr
+binder 10035:10035 <> n:131
+R10043:10046 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10042:10042 SetTheory <> n:131 var
+R10050:10052 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R10053:10053 SetTheory <> n:131 var
+R10085:10093 Coq.Logic.Decidable <> decidable def
+R10114:10122 Coq.Logic.Decidable <> decidable def
+def 10191:10197 <> nat_max
+R10203:10210 Coq.Sets.Ensembles <> Ensemble def
+R10212:10214 Coq.Init.Datatypes <> nat ind
+binder 10200:10200 <> N:132
+R10221:10231 SetTheory <> nat_bounded def
+R10233:10233 SetTheory <> N:132 var
+binder 10218:10218 <> b:133
+R10242:10245 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10241:10241 SetTheory <> N:132 var
+R10246:10254 Coq.Sets.Ensembles <> Empty_set ind
+R10256:10258 Coq.Init.Datatypes <> nat ind
+binder 10237:10238 <> ne:134
+R10263:10265 Coq.Init.Datatypes <> nat ind
+R10272:10282 SetTheory <> set_maximum def
+R10284:10284 SetTheory <> N:132 var
+R10286:10287 Coq.Init.Peano <> le ind
+R10289:10296 SetTheory <> le_order thm
+R10299:10308 SetTheory <> ex_nat_max prfax
+R10310:10310 SetTheory <> N:132 var
+R10312:10312 SetTheory <> b:133 var
+R10314:10315 SetTheory <> ne:134 var
+prf 10349:10359 <> n_non_empty
+R10374:10377 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10366:10373 SetTheory <> universe def
+R10378:10386 Coq.Sets.Ensembles <> Empty_set ind
+R10388:10390 Coq.Init.Datatypes <> nat ind
+R10409:10417 SetTheory <> non_empty thm
+R10409:10417 SetTheory <> non_empty thm
+R10429:10429 Coq.Init.Datatypes <> O constr
+R10429:10429 Coq.Init.Datatypes <> O constr
+R10441:10448 SetTheory <> universe def
+R10459:10459 Coq.Init.Logic <> I constr
+R10459:10459 Coq.Init.Logic <> I constr
+R10474:10478 SetTheory NSets <> sec
+sec 10514:10518 <> RSets
+prf 10572:10580 <> Rle_order
+R10583:10587 Coq.Relations.Relation_Definitions <> order rec
+R10591:10593 Coq.Reals.Rdefinitions <> Rle def
+R10589:10589 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R10624:10632 Coq.Relations.Relation_Definitions <> reflexive def
+R10645:10652 Coq.Reals.RIneq <> Rle_refl thm
+R10645:10652 Coq.Reals.RIneq <> Rle_refl thm
+R10666:10675 Coq.Relations.Relation_Definitions <> transitive def
+R10688:10696 Coq.Reals.RIneq <> Rle_trans thm
+R10688:10696 Coq.Reals.RIneq <> Rle_trans thm
+R10710:10722 Coq.Relations.Relation_Definitions <> antisymmetric def
+R10735:10745 Coq.Reals.RIneq <> Rle_antisym thm
+R10735:10745 Coq.Reals.RIneq <> Rle_antisym thm
+prf 10798:10810 <> Rbar_le_order
+R10813:10817 Coq.Relations.Relation_Definitions <> order rec
+R10824:10830 Coquelicot.Rbar <> Rbar_le def
+R10819:10822 Coquelicot.Rbar <> Rbar ind
+R10861:10869 Coq.Relations.Relation_Definitions <> reflexive def
+R10882:10893 Coquelicot.Rbar <> Rbar_le_refl thm
+R10882:10893 Coquelicot.Rbar <> Rbar_le_refl thm
+R10907:10916 Coq.Relations.Relation_Definitions <> transitive def
+R10929:10941 Coquelicot.Rbar <> Rbar_le_trans thm
+R10929:10941 Coquelicot.Rbar <> Rbar_le_trans thm
+R10955:10967 Coq.Relations.Relation_Definitions <> antisymmetric def
+R10980:10994 Coquelicot.Rbar <> Rbar_le_antisym thm
+R10980:10994 Coquelicot.Rbar <> Rbar_le_antisym thm
+def 11016:11024 <> R_bounded
+R11030:11037 Coq.Sets.Ensembles <> Ensemble def
+R11039:11039 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 11027:11027 <> S:135
+R11054:11070 SetTheory <> set_bounded_above def
+R11072:11072 SetTheory <> S:135 var
+R11074:11076 Coq.Reals.Rdefinitions <> Rle def
+R11078:11086 SetTheory <> Rle_order thm
+prf 11502:11515 <> set_f_t_plus_f
+R11536:11536 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 11526:11529 <> from:136
+binder 11531:11532 <> to:137
+R11556:11559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11547:11550 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11543:11546 SetTheory <> from:136 var
+R11551:11552 SetTheory <> to:137 var
+R11612:11615 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11653:11653 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11560:11562 Coq.Sets.Ensembles <> Add def
+R11574:11574 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 11571:11571 <> x:138
+R11591:11594 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11581:11583 Coq.Reals.Rdefinitions <> ::R_scope:x_'>'_x not
+R11580:11580 SetTheory <> x:138 var
+R11584:11587 SetTheory <> from:136 var
+R11597:11600 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11596:11596 SetTheory <> x:138 var
+R11601:11602 SetTheory <> to:137 var
+R11608:11611 SetTheory <> from:136 var
+R11564:11564 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 11620:11620 <> x:139
+R11638:11641 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R11627:11630 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R11626:11626 SetTheory <> x:139 var
+R11631:11634 SetTheory <> from:136 var
+R11644:11647 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R11643:11643 SetTheory <> x:139 var
+R11648:11649 SetTheory <> to:137 var
+R11684:11707 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R11684:11707 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R11719:11721 Coq.Sets.Ensembles <> Add def
+R11733:11740 Coq.Sets.Ensembles <> Same_set def
+R11752:11759 Coq.Sets.Ensembles <> Included def
+R11793:11801 Coq.Sets.Constructive_sets <> Union_inv thm
+R11793:11801 Coq.Sets.Constructive_sets <> Union_inv thm
+R11836:11837 Coq.Sets.Ensembles <> In def
+R11897:11909 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R11897:11909 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R11952:11953 Coq.Sets.Ensembles <> In def
+R11995:12001 Coq.Reals.RIneq <> Req_dec thm
+R11995:12001 Coq.Reals.RIneq <> Req_dec thm
+R12050:12061 Coq.Sets.Ensembles <> Union_intror constr
+R12050:12061 Coq.Sets.Ensembles <> Union_intror constr
+R12076:12090 Coq.Sets.Constructive_sets <> Singleton_intro thm
+R12076:12090 Coq.Sets.Constructive_sets <> Singleton_intro thm
+R12131:12142 Coq.Sets.Ensembles <> Union_introl constr
+R12131:12142 Coq.Sets.Ensembles <> Union_introl constr
+R12158:12159 Coq.Sets.Ensembles <> In def
+R12181:12182 Coq.Sets.Ensembles <> In def
+R12233:12242 Coq.Reals.RIneq <> Rnot_ge_gt thm
+R12233:12242 Coq.Reals.RIneq <> Rnot_ge_gt thm
+R12260:12262 Coq.Init.Logic <> not def
+R12295:12298 Coq.Init.Logic <> conj constr
+R12295:12298 Coq.Init.Logic <> conj constr
+R12322:12330 Coq.Reals.RIneq <> Rge_ge_eq thm
+R12322:12330 Coq.Reals.RIneq <> Rge_ge_eq thm
+prf 12421:12434 <> set_f_t_plus_t
+R12454:12454 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12445:12448 <> from:140
+binder 12450:12451 <> to:141
+R12474:12477 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12465:12468 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12461:12464 SetTheory <> from:140 var
+R12469:12470 SetTheory <> to:141 var
+R12528:12531 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12569:12569 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12478:12480 Coq.Sets.Ensembles <> Add def
+R12492:12492 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12489:12489 <> x:142
+R12510:12513 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12499:12502 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R12498:12498 SetTheory <> x:142 var
+R12503:12506 SetTheory <> from:140 var
+R12516:12518 Coq.Reals.Rdefinitions <> ::R_scope:x_'<'_x not
+R12515:12515 SetTheory <> x:142 var
+R12519:12520 SetTheory <> to:141 var
+R12526:12527 SetTheory <> to:141 var
+R12482:12482 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 12536:12536 <> x:143
+R12554:12557 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R12543:12546 Coq.Reals.Rdefinitions <> ::R_scope:x_'>='_x not
+R12542:12542 SetTheory <> x:143 var
+R12547:12550 SetTheory <> from:140 var
+R12560:12563 Coq.Reals.Rdefinitions <> ::R_scope:x_'<='_x not
+R12559:12559 SetTheory <> x:143 var
+R12564:12565 SetTheory <> to:141 var
+R12600:12623 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R12600:12623 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R12635:12637 Coq.Sets.Ensembles <> Add def
+R12649:12656 Coq.Sets.Ensembles <> Same_set def
+R12668:12675 Coq.Sets.Ensembles <> Included def
+R12709:12717 Coq.Sets.Constructive_sets <> Union_inv thm
+R12709:12717 Coq.Sets.Constructive_sets <> Union_inv thm
+R12752:12753 Coq.Sets.Ensembles <> In def
+R12813:12825 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R12813:12825 Coq.Sets.Constructive_sets <> Singleton_inv thm
+R12868:12869 Coq.Sets.Ensembles <> In def
+R12911:12917 Coq.Reals.RIneq <> Req_dec thm
+R12911:12917 Coq.Reals.RIneq <> Req_dec thm
+R12964:12975 Coq.Sets.Ensembles <> Union_intror constr
+R12964:12975 Coq.Sets.Ensembles <> Union_intror constr
+R12990:13004 Coq.Sets.Constructive_sets <> Singleton_intro thm
+R12990:13004 Coq.Sets.Constructive_sets <> Singleton_intro thm
+R13045:13056 Coq.Sets.Ensembles <> Union_introl constr
+R13045:13056 Coq.Sets.Ensembles <> Union_introl constr
+R13072:13073 Coq.Sets.Ensembles <> In def
+R13095:13096 Coq.Sets.Ensembles <> In def
+R13128:13137 Coq.Reals.RIneq <> Rnot_le_gt thm
+R13128:13137 Coq.Reals.RIneq <> Rnot_le_gt thm
+R13153:13155 Coq.Init.Logic <> not def
+R13184:13187 Coq.Init.Logic <> conj constr
+R13184:13187 Coq.Init.Logic <> conj constr
+R13209:13217 Coq.Reals.RIneq <> Rle_le_eq thm
+R13209:13217 Coq.Reals.RIneq <> Rle_le_eq thm
+R13251:13255 SetTheory RSets <> sec
+def 13319:13325 <> set_opp
+R13331:13338 Coq.Sets.Ensembles <> Ensemble def
+R13340:13340 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13328:13328 <> S:144
+R13344:13351 Coq.Sets.Ensembles <> Ensemble def
+R13353:13353 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 13366:13366 <> x:145
+R13371:13371 SetTheory <> S:144 var
+R13374:13374 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R13375:13375 SetTheory <> x:145 var
+prf 13455:13472 <> set_opp_involutive
+binder 13482:13482 <> S:146
+R13507:13509 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13488:13494 SetTheory <> set_opp def
+R13497:13503 SetTheory <> set_opp def
+R13505:13505 SetTheory <> S:146 var
+R13510:13510 SetTheory <> S:146 var
+R13540:13546 SetTheory <> set_opp def
+R13557:13580 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R13557:13580 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R13592:13599 Coq.Sets.Ensembles <> Same_set def
+R13611:13618 Coq.Sets.Ensembles <> Included def
+R13630:13631 Coq.Sets.Ensembles <> In def
+R13667:13681 Coq.Reals.RIneq <> Ropp_involutive thm
+R13667:13681 Coq.Reals.RIneq <> Ropp_involutive thm
+R13667:13681 Coq.Reals.RIneq <> Ropp_involutive thm
+R13724:13738 Coq.Reals.RIneq <> Ropp_involutive thm
+R13724:13738 Coq.Reals.RIneq <> Ropp_involutive thm
+R13724:13738 Coq.Reals.RIneq <> Ropp_involutive thm
+prf 13836:13852 <> set_opp_non_empty
+binder 13862:13862 <> S:147
+R13884:13888 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R13869:13872 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R13868:13868 SetTheory <> S:147 var
+R13873:13881 Coq.Sets.Ensembles <> Empty_set ind
+R13883:13883 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R13898:13901 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R13889:13895 SetTheory <> set_opp def
+R13897:13897 SetTheory <> S:147 var
+R13902:13910 Coq.Sets.Ensembles <> Empty_set ind
+R13912:13912 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R13942:13948 SetTheory <> set_opp def
+R13982:13990 SetTheory <> non_empty thm
+R13982:13990 SetTheory <> non_empty thm
+R14008:14016 SetTheory <> non_empty thm
+R14008:14016 SetTheory <> non_empty thm
+R14048:14048 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R14048:14048 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R14068:14082 Coq.Reals.RIneq <> Ropp_involutive thm
+R14068:14082 Coq.Reals.RIneq <> Ropp_involutive thm
+R14068:14082 Coq.Reals.RIneq <> Ropp_involutive thm
+R14118:14126 SetTheory <> non_empty thm
+R14118:14126 SetTheory <> non_empty thm
+R14139:14147 SetTheory <> non_empty thm
+R14139:14147 SetTheory <> non_empty thm
+R14184:14184 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+R14184:14184 Coq.Reals.Rdefinitions <> ::R_scope:'-'_x not
+def 14257:14268 <> set_opp_Rbar
+R14274:14281 Coq.Sets.Ensembles <> Ensemble def
+R14283:14286 Coquelicot.Rbar <> Rbar ind
+binder 14271:14271 <> S:148
+R14290:14297 Coq.Sets.Ensembles <> Ensemble def
+R14299:14302 Coquelicot.Rbar <> Rbar ind
+binder 14315:14315 <> x:149
+R14320:14320 SetTheory <> S:148 var
+R14323:14330 Coquelicot.Rbar <> Rbar_opp def
+R14332:14332 SetTheory <> x:149 var
+prf 14410:14432 <> set_opp_Rbar_involutive
+binder 14442:14442 <> S:150
+R14477:14479 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14448:14459 SetTheory <> set_opp_Rbar def
+R14462:14473 SetTheory <> set_opp_Rbar def
+R14475:14475 SetTheory <> S:150 var
+R14480:14480 SetTheory <> S:150 var
+R14510:14521 SetTheory <> set_opp_Rbar def
+R14532:14555 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R14532:14555 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R14567:14574 Coq.Sets.Ensembles <> Same_set def
+R14586:14593 Coq.Sets.Ensembles <> Included def
+R14605:14606 Coq.Sets.Ensembles <> In def
+R14642:14660 Coquelicot.Rbar <> Rbar_opp_involutive thm
+R14642:14660 Coquelicot.Rbar <> Rbar_opp_involutive thm
+R14642:14660 Coquelicot.Rbar <> Rbar_opp_involutive thm
+R14703:14721 Coquelicot.Rbar <> Rbar_opp_involutive thm
+R14703:14721 Coquelicot.Rbar <> Rbar_opp_involutive thm
+R14703:14721 Coquelicot.Rbar <> Rbar_opp_involutive thm
+prf 14819:14840 <> set_opp_Rbar_non_empty
+binder 14850:14850 <> S:151
+R14875:14879 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R14857:14860 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R14856:14856 SetTheory <> S:151 var
+R14861:14869 Coq.Sets.Ensembles <> Empty_set ind
+R14871:14874 Coquelicot.Rbar <> Rbar ind
+R14894:14897 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R14880:14891 SetTheory <> set_opp_Rbar def
+R14893:14893 SetTheory <> S:151 var
+R14898:14906 Coq.Sets.Ensembles <> Empty_set ind
+R14908:14911 Coquelicot.Rbar <> Rbar ind
+R14941:14952 SetTheory <> set_opp_Rbar def
+R14986:14994 SetTheory <> non_empty thm
+R14986:14994 SetTheory <> non_empty thm
+R15012:15020 SetTheory <> non_empty thm
+R15012:15020 SetTheory <> non_empty thm
+R15051:15058 Coquelicot.Rbar <> Rbar_opp def
+R15051:15058 Coquelicot.Rbar <> Rbar_opp def
+R15076:15094 Coquelicot.Rbar <> Rbar_opp_involutive thm
+R15076:15094 Coquelicot.Rbar <> Rbar_opp_involutive thm
+R15076:15094 Coquelicot.Rbar <> Rbar_opp_involutive thm
+R15130:15138 SetTheory <> non_empty thm
+R15130:15138 SetTheory <> non_empty thm
+R15151:15159 SetTheory <> non_empty thm
+R15151:15159 SetTheory <> non_empty thm
+R15195:15202 Coquelicot.Rbar <> Rbar_opp def
+R15195:15202 Coquelicot.Rbar <> Rbar_opp def
+sec 15252:15259 <> NtoRSets
+def 15318:15329 <> set_nat_to_r
+R15335:15342 Coq.Sets.Ensembles <> Ensemble def
+R15344:15346 Coq.Init.Datatypes <> nat ind
+binder 15332:15332 <> N:152
+binder 15359:15359 <> r:153
+R15364:15370 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15372:15373 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+binder 15371:15371 <> n:154
+R15377:15380 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15374:15374 SetTheory <> N:152 var
+R15376:15376 SetTheory <> n:154 var
+R15382:15384 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15381:15381 SetTheory <> r:153 var
+R15385:15387 Coq.Reals.Raxioms <> INR def
+R15389:15389 SetTheory <> n:154 var
+R15397:15404 SetTheory NtoRSets <> sec
+sec 15437:15443 <> RToRbar
+def 15510:15522 <> set_R_to_Rbar
+R15528:15535 Coq.Sets.Ensembles <> Ensemble def
+R15537:15537 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 15525:15525 <> S:155
+R15541:15548 Coq.Sets.Ensembles <> Ensemble def
+R15550:15553 Coquelicot.Rbar <> Rbar ind
+R15566:15569 Coquelicot.Rbar <> Rbar ind
+binder 15563:15563 <> x:156
+R15586:15589 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R15574:15582 Coquelicot.Rbar <> is_finite def
+R15584:15584 SetTheory <> x:156 var
+R15590:15590 SetTheory <> S:155 var
+R15592:15592 SetTheory <> x:156 var
+prf 15697:15710 <> set_opp_R_Rbar
+R15724:15731 Coq.Sets.Ensembles <> Ensemble def
+R15733:15733 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+binder 15721:15721 <> S:157
+R15769:15771 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15739:15750 SetTheory <> set_opp_Rbar def
+R15753:15765 SetTheory <> set_R_to_Rbar def
+R15767:15767 SetTheory <> S:157 var
+R15772:15784 SetTheory <> set_R_to_Rbar def
+R15787:15793 SetTheory <> set_opp def
+R15795:15795 SetTheory <> S:157 var
+R15826:15832 SetTheory <> set_opp def
+R15835:15846 SetTheory <> set_opp_Rbar def
+R15849:15861 SetTheory <> set_R_to_Rbar def
+R15872:15895 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R15872:15895 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R15907:15914 Coq.Sets.Ensembles <> Same_set def
+R15926:15933 Coq.Sets.Ensembles <> Included def
+R15945:15946 Coq.Sets.Ensembles <> In def
+R16010:16018 Coquelicot.Rbar <> is_finite def
+R16038:16048 Coquelicot.Rbar <> Rbar_opp_eq thm
+R16038:16048 Coquelicot.Rbar <> Rbar_opp_eq thm
+R16070:16088 Coquelicot.Rbar <> Rbar_opp_involutive thm
+R16070:16088 Coquelicot.Rbar <> Rbar_opp_involutive thm
+R16070:16088 Coquelicot.Rbar <> Rbar_opp_involutive thm
+R16110:16122 Coquelicot.Rbar <> Rbar_opp_real thm
+R16110:16122 Coquelicot.Rbar <> Rbar_opp_real thm
+R16110:16122 Coquelicot.Rbar <> Rbar_opp_real thm
+R16162:16176 Coq.Reals.RIneq <> Ropp_involutive thm
+R16162:16176 Coq.Reals.RIneq <> Ropp_involutive thm
+R16162:16176 Coq.Reals.RIneq <> Ropp_involutive thm
+R16197:16205 Coquelicot.Rbar <> is_finite def
+R16234:16242 Coquelicot.Rbar <> is_finite def
+R16290:16302 Coquelicot.Rbar <> Rbar_opp_real thm
+R16290:16302 Coquelicot.Rbar <> Rbar_opp_real thm
+R16290:16302 Coquelicot.Rbar <> Rbar_opp_real thm
+R16376:16384 Coquelicot.Rbar <> is_finite def
+R16400:16408 Coquelicot.Rbar <> is_finite def
+R16462:16470 Coquelicot.Rbar <> is_finite def
+prf 16591:16609 <> set_R_to_Rbar_empty
+binder 16620:16620 <> S:158
+R16641:16645 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R16627:16629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16626:16626 SetTheory <> S:158 var
+R16630:16638 Coq.Sets.Ensembles <> Empty_set ind
+R16640:16640 Coq.Reals.Rdefinitions RbaseSymbolsImpl R defax
+R16661:16663 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16646:16658 SetTheory <> set_R_to_Rbar def
+R16660:16660 SetTheory <> S:158 var
+R16664:16672 Coq.Sets.Ensembles <> Empty_set ind
+R16674:16677 Coquelicot.Rbar <> Rbar ind
+R16742:16749 SetTheory <> is_empty thm
+R16742:16749 SetTheory <> is_empty thm
+R16770:16777 SetTheory <> is_empty thm
+R16770:16777 SetTheory <> is_empty thm
+R16791:16803 SetTheory <> set_R_to_Rbar def
+R16879:16886 SetTheory <> is_empty thm
+R16879:16886 SetTheory <> is_empty thm
+R16912:16919 SetTheory <> is_empty thm
+R16912:16919 SetTheory <> is_empty thm
+R16955:16967 SetTheory <> set_R_to_Rbar def
+R16987:16995 Coquelicot.Rbar <> is_finite def
+R16987:16995 Coquelicot.Rbar <> is_finite def
+R17012:17020 Coquelicot.Rbar <> is_finite def
+R17049:17052 Coq.Init.Logic <> conj constr
+R17049:17052 Coq.Init.Logic <> conj constr
+R17074:17080 SetTheory RToRbar <> sec

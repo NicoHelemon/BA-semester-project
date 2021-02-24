@@ -1,21 +1,19 @@
-(** This section covers theorems about functions image*)
+(** This section covers theorems about functions image *)
 
 From Coq Require Import Reals ssreflect FunctionalExtensionality Setoid Image Decidable.
-From Coquelicot Require Import Rbar.
-From Coquelicot Require Import Rcomplements.
-From Coquelicot Require Import Compactness Lim_seq Rcomplements Hierarchy Lub.
+From Coquelicot Require Import Rbar Rcomplements Compactness Lim_seq Rcomplements Hierarchy Lub.
 From mathcomp Require Import ssrnat.
 Require Import SetTheory.
 
-
-
-(** * Generic function images*)
+(** * Generic function images *)
 
 Section Image.
 
-(* Two functions that are equal have the same image*)
-Theorem image_eq_fun {U: Set}{V: Set} : forall (X: Ensemble U) (f g: U -> V), (forall x, f(x) = g(x)) -> Im U V X f = Im U V X g.
-  Proof.
+(* Two functions that are equal have the same image *)
+Theorem image_eq_fun {U: Set}{V: Set} : forall (X: Ensemble U) (f g: U -> V), 
+  (forall x, f(x) = g(x)) -> Im U V X f = Im U V X g.
+
+Proof.
   intros.
   apply Extensionality_Ensembles.
   unfold Same_set.
@@ -509,8 +507,6 @@ Theorem image_f_t_shifted : forall f from to s, Im R Rbar (fun x0: R => x0 >= fr
   tauto.
   Qed.
   
-
-
 End RbarImages.
   
 
